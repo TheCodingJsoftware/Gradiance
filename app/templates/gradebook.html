@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jared Gross">
+    <meta name="description" content="A platform for educational content.">
+    <meta name="keywords" content="gradiance, education, grading, content, platform">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="/static/icons/favicon.png">
+    <title>Gradiance</title>
+</head>
+
+
+<header class="fixed no-padding">
+    <nav class="primary left-padding right-padding">
+        <button class="circle transparent">
+            <img class="responsive" fetchpriority="low" loading="lazy" src="/static/icons/favicon.png" alt="" width="32"
+                height="32">
+        </button>
+        <h5 class="max small">Gradebook</h5>
+    </nav>
+</header>
+
+<body class="light">
+    <main class="responsive">
+        <div id="tabs-container">
+            <nav class="tabbed small" id="tabs">
+                <a class="active" data-ui="#gradebook">
+                    <i>grade</i>
+                    <span>Gradebook</span>
+                </a>
+                <a data-ui="#attendance">
+                    <i>event_available</i>
+                    <span>Attendance</span>
+                </a>
+                <a data-ui="#students">
+                    <i>groups</i>
+                    <span>Students</span>
+                </a>
+                <a data-ui="#courses">
+                    <i>school</i>
+                    <span>Courses</span>
+                </a>
+            </nav>
+            <div class="page padding active" id="gradebook">
+                <h5>Overview</h5>
+            </div>
+            <div class="page padding" id="attendance">
+                <h5>Specs</h5>
+            </div>
+            <div class="page padding" id="students">
+                <h5>Guidelines</h5>
+            </div>
+            <div class="page padding" id="courses">
+                <h5>Acessibility</h5>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

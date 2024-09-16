@@ -7,6 +7,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const entries = {
     login: './app/src/login.ts',
     policy: './app/src/policy.ts',
+    gradebook: './app/src/gradebook.ts',
 };
 
 const htmlPlugins = Object.keys(entries).map(entryName => {
@@ -24,6 +25,9 @@ const htmlPlugins = Object.keys(entries).map(entryName => {
 }).filter(Boolean);
 
 module.exports = {
+    resolve: {
+      extensions: ['.ts', '.tsx', '.js', '.jsx', '.json'],
+    },
     entry: entries,
     output: {
         filename: 'js/[name].bundle.js',

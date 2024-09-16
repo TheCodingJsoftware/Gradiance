@@ -29,9 +29,15 @@
                 <h2 class="s12">Login</h2>
                 <form class="s12" action="/login" method="post">
                     <div class="field label border">
-                        <input type="text" name="username" data-has-listeners="true">
+                        <input type="text" name="username" data-has-listeners="true" value="{{username}}" required>
                         <label>Username</label>
                     </div>
+                    {% if show_password %}
+                    <div class="field label border">
+                        <input type="password" name="password" data-has-listeners="true" required>
+                        <label>Password</label>
+                    </div>
+                    {% endif %}
                     <div class="row">
                         <button class="small-round responsive" type="submit">Login</button>
                     </div>
@@ -39,6 +45,17 @@
             </div>
         </article>
     </main>
+
+    {% if show_incorrect_password_or_username %}
+    <div id="error-snackbar" class="snackbar top error">
+        Incorrect username or password
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            ui("#error-snackbar", 3000).snackbar();
+        });
+    </script>
+    {% endif %}
 </body>
 
 </html>
