@@ -3,10 +3,8 @@ import 'material-dynamic-colors';
 import 'remixicon/fonts/remixicon.css';
 import '../static/css/style.css';
 import '../static/css/theme.css';
-import { createClient } from '@supabase/supabase-js'
 import CookieManager from "./utils/cookieManager"
 
-const supabase = createClient('https://xkdozxeodahnzrkmcjze.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhrZG96eGVvZGFobnpya21janplIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjY0NDE2NDMsImV4cCI6MjA0MjAxNzY0M30.fdgIZAXEKg7mRs-n1XrhUAyrgkbF3lqyaSrMUyqesZ0')
 
 let tabManager: TabManager;
 let gradeBook: GradeBook;
@@ -43,7 +41,7 @@ class TabManager {
         if (selectedTab && selectedPage) {
             selectedTab.classList.add('active');
             selectedPage.classList.add('active');
-            CookieManager.setCookie('lastSelectedTab', tabId, '/gradebook');
+            CookieManager.setCookie('lastSelectedTab', tabId, '/ungradebook');
         }
     }
 

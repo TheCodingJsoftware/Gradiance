@@ -7,7 +7,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const entries = {
     login: './app/src/login.ts',
     policy: './app/src/policy.ts',
-    gradebook: './app/src/gradebook.ts',
+    ungradebook: './app/src/ungradebook.ts',
 };
 
 const htmlPlugins = Object.keys(entries).map(entryName => {

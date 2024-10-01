@@ -89,7 +89,7 @@ class LoginHandler(tornado.web.RequestHandler):
             connected_clients[session_id] = {"username": username, "admin": True}
             self.set_secure_cookie("user", username)
             self.set_secure_cookie("session_id", session_id)
-            self.redirect("/gradebook")
+            self.redirect("/ungradebook")
 
 class LogoutHandler(BaseHandler):
     def get(self):
@@ -100,7 +100,7 @@ class LogoutHandler(BaseHandler):
         self.clear_cookie("session_id")
         self.redirect("/login")
 
-class GradebookHandler(BaseHandler):
+class UnGradebookHandler(BaseHandler):
     def get(self):
         if not self.current_user:
             self.redirect("/login")
@@ -110,7 +110,7 @@ class GradebookHandler(BaseHandler):
         if session_id and session_id.decode() in connected_clients:
             client = connected_clients[session_id.decode()]
             if client.get("admin", False):
-                template = env.get_template("gradebook.html")
+                template = env.get_template("ungradebook.html")
                 rendered_template = template.render()
                 self.write(rendered_template)
             else:
@@ -137,7 +137,7 @@ def make_app():
             (r"/", MainHandler),
             (r"/login", LoginHandler),
             (r"/logout", LogoutHandler),
-            (r"/gradebook", GradebookHandler),
+            (r"/ungradebook", UnGradebookHandler),
             (r"/privacy_policy", PrivacyPolicyHandler),
             (r"/version", VersionHandler),
             (r"/dist/(.*)", tornado.web.StaticFileHandler, {"path": "dist"}),
