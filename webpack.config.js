@@ -8,6 +8,7 @@ const entries = {
     login: './app/src/login.ts',
     policy: './app/src/policy.ts',
     ungradebook: './app/src/ungradebook.ts',
+    games: './app/src/games.ts',
 };
 
 const htmlPlugins = Object.keys(entries).map(entryName => {

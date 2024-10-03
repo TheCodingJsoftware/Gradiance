@@ -1,0 +1,226 @@
+[
+    {
+        "id": 1,
+        "body": "I work effectively with others to achieve common goals.",
+        "strengths": {
+            "Collaboration": 4,
+            "Communication": 4
+        }
+    },
+    {
+        "id": 2,
+        "body": "I guide a team through challenges, ensuring everyone is heard.",
+        "strengths": {
+            "Collaboration": 3,
+            "Leadership": 4
+        }
+    },
+    {
+        "id": 3,
+        "body": "I contribute my ideas regularly during group discussions.",
+        "strengths": {
+            "Communication": 4,
+            "Creativity": 3
+        }
+    },
+    {
+        "id": 4,
+        "body": "I manage my time effectively to meet deadlines.",
+        "strengths": {
+            "Time Management": 4,
+            "Responsibility": 4
+        }
+    },
+    {
+        "id": 5,
+        "body": "I struggle to keep track of my assignments and often miss deadlines.",
+        "strengths": {
+            "Time Management": 1,
+            "Responsibility": 1
+        }
+    },
+    {
+        "id": 6,
+        "body": "I ask questions when I don't understand something.",
+        "strengths": {
+            "Curiosity": 3,
+            "Communication": 3
+        }
+    },
+    {
+        "id": 7,
+        "body": "I seek out new learning opportunities and apply them in my work.",
+        "strengths": {
+            "Curiosity": 4,
+            "Problem Solving": 4
+        }
+    },
+    {
+        "id": 8,
+        "body": "I give clear and constructive feedback to my peers.",
+        "strengths": {
+            "Communication": 4,
+            "Collaboration": 3
+        }
+    },
+    {
+        "id": 9,
+        "body": "I actively listen when others are speaking and build on their ideas.",
+        "strengths": {
+            "Listening": 4,
+            "Collaboration": 3
+        }
+    },
+    {
+        "id": 10,
+        "body": "I can identify and break down complex problems.",
+        "strengths": {
+            "Problem Solving": 4,
+            "Critical Thinking": 4
+        }
+    },
+    {
+        "id": 11,
+        "body": "I struggle to find solutions to problems without guidance.",
+        "strengths": {
+            "Problem Solving": 2,
+            "Critical Thinking": 2
+        }
+    },
+    {
+        "id": 12,
+        "body": "I bring innovative ideas to the table that help us think outside the box.",
+        "strengths": {
+            "Creativity": 4,
+            "Collaboration": 3
+        }
+    },
+    {
+        "id": 13,
+        "body": "I can effectively plan and execute a project from start to finish.",
+        "strengths": {
+            "Project Management": 4,
+            "Responsibility": 4
+        }
+    },
+    {
+        "id": 14,
+        "body": "I delegate tasks effectively within my team.",
+        "strengths": {
+            "Leadership": 4,
+            "Collaboration": 3
+        }
+    },
+    {
+        "id": 15,
+        "body": "I struggle with delegating tasks and often take on too much myself.",
+        "strengths": {
+            "Leadership": 2,
+            "Collaboration": 2
+        }
+    },
+    {
+        "id": 16,
+        "body": "I adapt quickly when priorities or conditions change.",
+        "strengths": {
+            "Adaptability": 4,
+            "Problem Solving": 3
+        }
+    },
+    {
+        "id": 17,
+        "body": "I can’t adjust easily when circumstances change and need more support to pivot.",
+        "strengths": {
+            "Adaptability": 2,
+            "Problem Solving": 2
+        }
+    },
+    {
+        "id": 18,
+        "body": "I build strong, positive relationships with my peers and instructors.",
+        "strengths": {
+            "Relationship Building": 4,
+            "Empathy": 4
+        }
+    },
+    {
+        "id": 19,
+        "body": "I sometimes struggle to connect with my peers and build relationships.",
+        "strengths": {
+            "Relationship Building": 2,
+            "Empathy": 2
+        }
+    },
+    {
+        "id": 20,
+        "body": "I pay attention to details, ensuring my work is accurate and complete.",
+        "strengths": {
+            "Attention to Detail": 4,
+            "Responsibility": 4
+        }
+    },
+    {
+        "id": 21,
+        "body": "I often overlook details in my work and need reminders to review it.",
+        "strengths": {
+            "Attention to Detail": 2,
+            "Responsibility": 2
+        }
+    },
+    {
+        "id": 22,
+        "body": "I am comfortable working independently without supervision.",
+        "strengths": {
+            "Self-Management": 4,
+            "Responsibility": 4
+        }
+    },
+    {
+        "id": 23,
+        "body": "I need supervision and reminders to stay on track with my work.",
+        "strengths": {
+            "Self-Management": 2,
+            "Responsibility": 2
+        }
+    },
+    {
+        "id": 24,
+        "body": "I motivate and encourage others to stay focused and work toward common goals.",
+        "strengths": {
+            "Leadership": 4,
+            "Collaboration": 4
+        }
+    },
+    {
+        "id": 25,
+        "body": "I can articulate my thoughts and ideas clearly in written work.",
+        "strengths": {
+            "Written Communication": 4,
+            "Creativity": 3
+        }
+    },
+    {
+        "id": 26,
+        "body": "I struggle to communicate my thoughts clearly in writing and often need revisions.",
+        "strengths": {
+            "Written Communication": 2,
+            "Attention to Detail": 2
+        }
+    },
+    {
+        "id": 27,
+        "body": "I am effective at resolving conflicts and mediating disputes within the team.",
+        "strengths": {
+            "Conflict Resolution": 4,
+            "Empathy": 4
+        }
+    },
+    {
+        "id": 28,
+        "body": "I avoid conflicts rather than addressing them, which sometimes causes tension.",
+        "strengths": {
+            "Conflict Resolution": 2,
+            "Empathy": 2
+        }
+    }
+]

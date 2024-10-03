@@ -3,6 +3,7 @@ import uuid
 import secrets
 from datetime import datetime, timedelta
 
+import msgspec
 from dotenv import load_dotenv
 import jinja2
 import psycopg2
@@ -58,12 +59,14 @@ class BaseHandler(tornado.web.RequestHandler):
     def get_current_user(self):
         return self.get_secure_cookie("user")
 
+
 class MainHandler(BaseHandler):
     def get(self):
         if not self.current_user:
             self.redirect("/login")
             return
         self.write(f"Hello, {self.current_user.decode()}")
+
 
 class LoginHandler(tornado.web.RequestHandler):
     def get(self):
@@ -91,6 +94,7 @@ class LoginHandler(tornado.web.RequestHandler):
             self.set_secure_cookie("session_id", session_id)
             self.redirect("/ungradebook")
 
+
 class LogoutHandler(BaseHandler):
     def get(self):
         session_id = self.get_secure_cookie("session_id")
@@ -99,6 +103,7 @@ class LogoutHandler(BaseHandler):
         self.clear_cookie("user")
         self.clear_cookie("session_id")
         self.redirect("/login")
+
 
 class UnGradebookHandler(BaseHandler):
     def get(self):
@@ -131,6 +136,21 @@ class VersionHandler(tornado.web.RequestHandler):
         self.write({"version": VERSION})
 
 
+class GetUngardsHandler(BaseHandler):
+    def get(self):
+        session_id = self.get_secure_cookie("session_id")
+        if session_id and session_id.decode() in connected_clients:
+            client = connected_clients[session_id.decode()]
+            if client.get("admin", False):
+                with open("app/static/data/ungards.json") as f:
+                    ungards = msgspec.json.decode(f.read())
+                response = msgspec.json.encode(ungards)
+                self.write(response)
+            else:
+                self.redirect("/login")
+        else:
+            self.redirect("/login")
+
 def make_app():
     return tornado.web.Application(
         [
@@ -140,6 +160,7 @@ def make_app():
             (r"/ungradebook", UnGradebookHandler),
             (r"/privacy_policy", PrivacyPolicyHandler),
             (r"/version", VersionHandler),
+            (r"/ungards.json", GetUngardsHandler),
             (r"/dist/(.*)", tornado.web.StaticFileHandler, {"path": "dist"}),
             (r"/static/(.*)", tornado.web.StaticFileHandler, {"path": "app/static"}),
         ],
