@@ -174,16 +174,13 @@ class CoursesPage {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    tabManager = new TabManager();
-    tabManager.init();
-
     function setTheme(theme: string) {
         document.body.classList.remove("light", "dark");
         document.body.classList.add(theme);
         localStorage.setItem("theme", theme);
 
         const themeIcon = document.getElementById("theme-icon") as HTMLElement;
-        themeIcon.innerText = theme === "dark" ? "dark_mode" : "light_mode";
+        themeIcon.innerText = theme === "light" ? "dark_mode" : "light_mode";
     }
 
     const themeToggle = document.getElementById("theme-toggle") as HTMLInputElement;
@@ -199,4 +196,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const savedTheme = localStorage.getItem("theme") || "light";
     setTheme(savedTheme);
+
+    tabManager = new TabManager();
+    tabManager.init();
 });

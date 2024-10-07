@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
         localStorage.setItem("theme", theme);
 
         const themeIcon = document.getElementById("theme-icon") as HTMLElement;
-        themeIcon.innerText = theme === "dark" ? "dark_mode" : "light_mode";
+        themeIcon.innerText = theme === "light" ? "dark_mode" : "light_mode";
     }
 
     const themeToggle = document.getElementById("theme-toggle") as HTMLInputElement;

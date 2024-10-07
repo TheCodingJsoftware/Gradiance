@@ -86,6 +86,8 @@ class LoginHandler(tornado.web.RequestHandler):
             template = env.get_template("login.html")
             rendered_template = template.render(username=username, show_password=True, show_incorrect_password_or_username=True)
             self.write(rendered_template)
+        else:
+            self.redirect("/games")
 
         if username == "admin" and password == "admin":
             session_id = str(uuid.uuid4())
