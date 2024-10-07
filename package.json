@@ -1,5 +1,8 @@
 {
     "dependencies": {
+        "@mdi/font": "^7.4.47",
+        "@mdi/svg": "^7.4.47",
+        "@mdi/util": "^0.3.2",
         "@supabase/supabase-js": "^2.45.4",
         "beercss": "^3.7.8",
         "remixicon": "^4.3.0",

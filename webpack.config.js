@@ -9,6 +9,7 @@ const entries = {
     policy: './app/src/policy.ts',
     ungradebook: './app/src/ungradebook.ts',
     games: './app/src/games.ts',
+    math_curriculum: './app/src/math_curriculum.ts',
 };
 
 const htmlPlugins = Object.keys(entries).map(entryName => {

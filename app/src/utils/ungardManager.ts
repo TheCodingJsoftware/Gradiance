@@ -9,7 +9,7 @@ export default class UngardManager {
 
     private async loadUngards() {
         try {
-            const response = await fetch('/ungards.json');
+            const response = await fetch('/static/data/ungards.json');
             if (response.ok) {
                 const data = await response.json();
                 this.ungards = data.map((ungard: { id: number, body: string, strengths: { [key: string]: number } }) =>

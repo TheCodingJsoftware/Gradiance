@@ -7,3 +7,29 @@
     background-color: var(--primary);
     color: var(--on-primary);
 }
+
+.highlight {
+    background-color: var(--primary);
+    color: var(--on-primary);
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.hidden{
+    display: none !important;
+}
+
+dialog p{
+    line-height: normal;
+}
+
+#content{
+    max-height: calc(100vh - 240px);
+}
+
+/* WHen movile use max heihgt */
+@media screen and (max-width: 600px) {
+    #content{
+        max-height: 500px;
+    }
+}

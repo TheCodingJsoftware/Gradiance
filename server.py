@@ -131,25 +131,17 @@ class PrivacyPolicyHandler(tornado.web.RequestHandler):
         self.write(rendered_template)
 
 
+class MathCurriculumHandler(tornado.web.RequestHandler):
+    def get(self):
+        template = env.get_template("math_curriculum.html")
+        rendered_template = template.render()
+        self.write(rendered_template)
+
+
 class VersionHandler(tornado.web.RequestHandler):
     def get(self):
         self.write({"version": VERSION})
 
-
-class GetUngardsHandler(BaseHandler):
-    def get(self):
-        session_id = self.get_secure_cookie("session_id")
-        if session_id and session_id.decode() in connected_clients:
-            client = connected_clients[session_id.decode()]
-            if client.get("admin", False):
-                with open("app/static/data/ungards.json") as f:
-                    ungards = msgspec.json.decode(f.read())
-                response = msgspec.json.encode(ungards)
-                self.write(response)
-            else:
-                self.redirect("/login")
-        else:
-            self.redirect("/login")
 
 def make_app():
     return tornado.web.Application(
@@ -159,8 +151,8 @@ def make_app():
             (r"/logout", LogoutHandler),
             (r"/ungradebook", UnGradebookHandler),
             (r"/privacy_policy", PrivacyPolicyHandler),
+            (r"/math_curriculum", MathCurriculumHandler),
             (r"/version", VersionHandler),
-            (r"/ungards.json", GetUngardsHandler),
             (r"/dist/(.*)", tornado.web.StaticFileHandler, {"path": "dist"}),
             (r"/static/(.*)", tornado.web.StaticFileHandler, {"path": "app/static"}),
         ],
