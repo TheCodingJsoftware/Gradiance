@@ -5,11 +5,12 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 const entries = {
+    home: './app/src/home.ts',
     login: './app/src/login.ts',
+    games: './app/src/games.ts',
     policy: './app/src/policy.ts',
     ungradebook: './app/src/ungradebook.ts',
-    games: './app/src/games.ts',
-    math_curriculum: './app/src/math_curriculum.ts',
+    mathCurriculum: './app/src/mathCurriculum.ts',
 };
 
 const htmlPlugins = Object.keys(entries).map(entryName => {
