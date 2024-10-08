@@ -1,6 +1,5 @@
 import 'beercss';
 import 'material-dynamic-colors';
-import 'remixicon/fonts/remixicon.css';
 import '../static/css/style.css';
 import '../static/css/math-theme.css';
 import '@mdi/font/css/materialdesignicons.min.css';

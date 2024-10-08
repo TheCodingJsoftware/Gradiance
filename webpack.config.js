@@ -10,7 +10,8 @@ const entries = {
     games: './app/src/games.ts',
     policy: './app/src/policy.ts',
     ungradebook: './app/src/ungradebook.ts',
-    mathCurriculum: './app/src/mathCurriculum.ts',
+    curriculums: './app/src/curriculums.ts',
+    manitobaMathematicsCurriculum: './app/src/manitobaMathematicsCurriculum.ts',
 };
 
 const htmlPlugins = Object.keys(entries).map(entryName => {

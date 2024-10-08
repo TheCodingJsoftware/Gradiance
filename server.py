@@ -146,9 +146,15 @@ class PrivacyPolicyHandler(tornado.web.RequestHandler):
         self.write(rendered_template)
 
 
-class MathCurriculumHandler(tornado.web.RequestHandler):
+class CurriculumsHandler(tornado.web.RequestHandler):
     def get(self):
-        template = env.get_template("mathCurriculum.html")
+        template = env.get_template("curriculums.html")
+        rendered_template = template.render()
+        self.write(rendered_template)
+
+class ManitobaMathematicsCurriculumHandler(tornado.web.RequestHandler):
+    def get(self):
+        template = env.get_template("manitobaMathematicsCurriculum.html")
         rendered_template = template.render()
         self.write(rendered_template)
 
@@ -168,7 +174,8 @@ def make_app():
             (r"/games", GamesHandler),
             (r"/ungradebook", UnGradebookHandler),
             (r"/privacy_policy", PrivacyPolicyHandler),
-            (r"/math_curriculum", MathCurriculumHandler),
+            (r"/curriculums", CurriculumsHandler),
+            (r"/manitoba_mathematics_curriculum", ManitobaMathematicsCurriculumHandler),
             (r"/version", VersionHandler),
             (r"/dist/(.*)", tornado.web.StaticFileHandler, {"path": "dist"}),
             (r"/static/(.*)", tornado.web.StaticFileHandler, {"path": "app/static"}),

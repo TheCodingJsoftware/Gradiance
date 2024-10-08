@@ -109,6 +109,10 @@ dialog p{
     max-height: calc(100vh - 290px);
 }
 
+article div{
+    height: 100%;
+}
+
 /* WHen movile use max heihgt */
 @media screen and (max-width: 600px) {
     #content{
