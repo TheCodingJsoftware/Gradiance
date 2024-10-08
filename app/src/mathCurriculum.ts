@@ -2,7 +2,7 @@ import 'beercss';
 import 'material-dynamic-colors';
 import 'remixicon/fonts/remixicon.css';
 import '../static/css/style.css';
-import '../static/css/theme.css';
+import '../static/css/math-theme.css';
 import '@mdi/font/css/materialdesignicons.min.css';
 import MathCurriculumManager from "./utils/mathCurriculumManager"
 import CookieManager from './utils/cookieManager';
@@ -471,25 +471,19 @@ class FilterManager {
 }
 document.addEventListener('DOMContentLoaded', function () {
     function setTheme(theme: string) {
-        document.body.classList.remove("light", "dark", "math-light", "math-dark");
-        if (theme === 'dark') {
-            document.body.classList.add("math-dark");
-        } else if (theme === 'light') {
-            document.body.classList.add("math-light");
-        } else {
-            document.body.classList.add(theme);
-        }
+        document.body.classList.remove("light", "dark");
+        document.body.classList.add(theme);
         localStorage.setItem("theme", theme);
 
         const themeIcon = document.getElementById("theme-icon") as HTMLElement;
         themeIcon.innerText = theme === "light" ? "dark_mode" : "light_mode";
 
         const icons = document.querySelectorAll('.icon') as NodeListOf<HTMLElement>;
-        if (theme === 'light' || theme === 'math-light') {
+        if (theme === 'light') {
             icons.forEach(icon => {
                 icon.style.filter = 'invert(1)';
             });
-        } else {
+        }else{
             icons.forEach(icon => {
                 icon.style.filter = 'invert(0)';
             });
@@ -498,7 +492,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const themeToggle = document.getElementById("theme-toggle") as HTMLInputElement;
     themeToggle.addEventListener("click", () => {
-        const currentTheme = document.body.classList.contains("dark") || document.body.classList.contains("math-dark") ?
+        const currentTheme = document.body.classList.contains("dark") ?
             "dark" :
             "light";
         const newTheme = currentTheme === "dark" ? "light" : "dark";
