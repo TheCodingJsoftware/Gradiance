@@ -331,7 +331,7 @@ class FilterManager {
     }
 
     setActiveTabFromCookie() {
-        const lastSelectedTab = CookieManager.getCookie('lastSelectedTab');
+        const lastSelectedTab = CookieManager.getCookie('lastSelectedTab') || '#grade_k';
         if (lastSelectedTab) {
             this.setActiveTab(lastSelectedTab);
         }
