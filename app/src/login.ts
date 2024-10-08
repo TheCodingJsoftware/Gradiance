@@ -12,6 +12,17 @@ document.addEventListener('DOMContentLoaded', function () {
 
         const themeIcon = document.getElementById("theme-icon") as HTMLElement;
         themeIcon.innerText = theme === "light" ? "dark_mode" : "light_mode";
+
+        const icons = document.querySelectorAll('.icon') as NodeListOf<HTMLElement>;
+        if (theme === 'light') {
+            icons.forEach(icon => {
+                icon.style.filter = 'invert(1)';
+            });
+        }else{
+            icons.forEach(icon => {
+                icon.style.filter = 'invert(0)';
+            });
+        }
     }
 
     const themeToggle = document.getElementById("theme-toggle") as HTMLInputElement;

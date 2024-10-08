@@ -15,11 +15,11 @@
 
 <header class="fixed no-padding">
     <nav class="primary left-padding right-padding">
-        <button class="circle transparent">
-            <img class="responsive" fetchpriority="low" loading="lazy" src="/static/icons/favicon.png" alt="" width="32"
+        <button class="circle transparent" onclick="ui('#about-dialog')">
+            <img class="icon responsive" fetchpriority="low" loading="lazy" src="/static/icons/favicon.png" alt="" width="32"
                 height="32">
         </button>
-        <h5 class="max small">Mathematics Curriculum</h5>
+        <h5 class="max small">K-12 Manitoba Mathematics Curriculum</h5>
         <button class="circle transparent" id="theme-toggle">
             <i id="theme-icon">dark_mode</i>
         </button>
@@ -57,7 +57,7 @@
                 <span>Grade 9</span>
             </a>
             <a data-ui="#grade_10E">
-                <span>Grade 10 Essentials</span>
+                <span>Grade 10 Essential Mathematics</span>
             </a>
             <a data-ui="#grade_10I">
                 <span>Grade 10 Introduction to Applied and Pre-Calculus Mathematics</span>
@@ -84,7 +84,7 @@
     </div>
 </header>
 
-<body class="light">
+<body class="math-light">
     <main class="responsive">
         <div class=grid>
             <div class="s12 m12 l8">
@@ -96,7 +96,8 @@
                         outcomes.</span>
                 </div>
                 <br>
-                <div class="grid tiny-padding scroll small-round border" id="content">
+                <h6>Learning outcomes</h6>
+                <div class="grid tiny-padding scroll small-round tiny-space" id="content">
 
                 </div>
             </div>
@@ -128,6 +129,33 @@
     </main>
 </body>
 
+
+<div class="overlay blur"></div>
+<dialog class="left" id="about-dialog">
+    <div class="row max center-align">
+        <img class="icon responsive circle border" style="max-width: 150px; height: auto;" fetchpriority="low" loading="lazy" src="/static/icons/icon.png" alt="" width="128" height="128">
+    </div>
+    <div class="padding">
+        <h5 class="small center-align">K-12 Manitoba Mathematics Curriculum</h5>
+        <p class="center-align  medium-width">
+            A comprehensive app for accessing the K-12 Manitoba Mathematics Curriculum.
+        <p class="center-align">Developed with <i>favorite</i> by <a class="link" href="https://thecodingjsoftware.github.io/">TheCodingJ's</a></p>
+    </div>
+    <article class="border" style="margin-top: auto;">
+        <p class="center-align medium-width">
+            For questions, comments, suggestions,
+            or concerns about this service please
+            email: <a class="link" href="mailto:jared@pinelandfarms.ca">jared@pinelandfarms.ca</a>.
+        </p>
+    </article>
+    <nav class="right-align no-space">
+        <button class="transparent link small-round" onclick="ui('#about-dialog')">
+            <span>Close</span>
+        </button>
+    </nav>
+</dialog>
+
+
 <!-- Skills Dialogs from Curriculum -->
 
 <dialog class="right medium-width" id="C-dialog">
@@ -158,7 +186,7 @@
         and share mathematical ideas.
     </p>
     <div class="right-align">
-        <button class="transparent link" onclick="ui('#C-dialog')">
+        <button class="transparent link small-round" onclick="ui('#C-dialog')">
             <span>Close</span>
         </button>
     </div>
@@ -190,7 +218,7 @@
         essential for meaningful learning and teaching” (Caine and Caine 5).
     </p>
     <div class="right-align">
-        <button class="transparent link" onclick="ui('#CN-dialog')">
+        <button class="transparent link small-round" onclick="ui('#CN-dialog')">
             <span>Close</span>
         </button>
     </div>
@@ -241,7 +269,7 @@
         memory.
     </p>
     <div class="right-align">
-        <button class="transparent link" onclick="ui('#ME-dialog')">
+        <button class="transparent link small-round" onclick="ui('#ME-dialog')">
             <span>Close</span>
         </button>
     </div>
@@ -304,7 +332,7 @@
         empowers students to explore alternatives and develops confident, cognitive mathematical risk-takers.
     </p>
     <div class="right-align">
-        <button class="transparent link" onclick="ui('#PS-dialog')">
+        <button class="transparent link small-round" onclick="ui('#PS-dialog')">
             <span>Close</span>
         </button>
     </div>
@@ -337,7 +365,7 @@
         and written representations of their mathematical ideas.
     </p>
     <div class="right-align">
-        <button class="transparent link" onclick="ui('#R-dialog')">
+        <button class="transparent link small-round" onclick="ui('#R-dialog')">
             <span>Close</span>
         </button>
     </div>
@@ -404,7 +432,7 @@
         understanding, procedural thinking, and problem solving.
     </p>
     <div class="right-align">
-        <button class="transparent link" onclick="ui('#T-dialog')">
+        <button class="transparent link small-round" onclick="ui('#T-dialog')">
             <span>Close</span>
         </button>
     </div>
@@ -445,7 +473,7 @@
         Visualization is a foundation to the development of abstract understanding, confidence, and fluency.
     </p>
     <div class="right-align">
-        <button class="transparent link" onclick="ui('#V-dialog')">
+        <button class="transparent link small-round" onclick="ui('#V-dialog')">
             <span>Close</span>
         </button>
     </div>

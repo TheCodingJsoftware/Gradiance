@@ -64,8 +64,8 @@ class MainHandler(BaseHandler):
     def get(self):
         if not self.current_user:
             self.redirect("/login")
-            return
-        self.write(f"Hello, {self.current_user.decode()}")
+        else:
+            self.redirect("/home")
 
 
 class LoginHandler(tornado.web.RequestHandler):
@@ -87,7 +87,7 @@ class LoginHandler(tornado.web.RequestHandler):
             rendered_template = template.render(username=username, show_password=True, show_incorrect_password_or_username=True)
             self.write(rendered_template)
         else:
-            self.redirect("/games")
+            self.redirect("/home")
 
         if username == "admin" and password == "admin":
             session_id = str(uuid.uuid4())
@@ -106,6 +106,19 @@ class LogoutHandler(BaseHandler):
         self.clear_cookie("session_id")
         self.redirect("/login")
 
+
+class HomeHandler(BaseHandler):
+    def get(self):
+            template = env.get_template("home.html")
+            rendered_template = template.render()
+            self.write(rendered_template)
+
+
+class GamesHandler(BaseHandler):
+    def get(self):
+        template = env.get_template("games.html")
+        rendered_template = template.render()
+        self.write(rendered_template)
 
 class UnGradebookHandler(BaseHandler):
     def get(self):
@@ -135,7 +148,7 @@ class PrivacyPolicyHandler(tornado.web.RequestHandler):
 
 class MathCurriculumHandler(tornado.web.RequestHandler):
     def get(self):
-        template = env.get_template("math_curriculum.html")
+        template = env.get_template("mathCurriculum.html")
         rendered_template = template.render()
         self.write(rendered_template)
 
@@ -151,6 +164,8 @@ def make_app():
             (r"/", MainHandler),
             (r"/login", LoginHandler),
             (r"/logout", LogoutHandler),
+            (r"/home", HomeHandler),
+            (r"/games", GamesHandler),
             (r"/ungradebook", UnGradebookHandler),
             (r"/privacy_policy", PrivacyPolicyHandler),
             (r"/math_curriculum", MathCurriculumHandler),

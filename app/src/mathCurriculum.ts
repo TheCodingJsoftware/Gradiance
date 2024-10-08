@@ -225,6 +225,7 @@ class FilterManager {
             this.skillsContainer.appendChild(button);
         });
     }
+
     toggleStrand(button: HTMLButtonElement, strand: string) {
         const icons = button.querySelectorAll('i');
         const icon = icons[1];
@@ -239,6 +240,7 @@ class FilterManager {
         }
         this.filterContent();
     }
+
     toggleSkill(button: HTMLButtonElement, skill: string) {
         const icons = button.querySelectorAll('i');
         const icon = icons[1]; // Get the second icon
@@ -360,13 +362,13 @@ class FilterManager {
             const alwaysOpenSLO = this.alwaysOpenSLOCheckbox.checked;
             const alwaysOpenGLO = this.alwaysOpenGLOCheckbox.checked;
 
-            learningOutcomes.forEach(learningOutcome => {
-                // Create article element
-                const article = document.createElement('article');
-                article.classList.add('s12', 'm12', 'l12');
+            let contentAdded = false;
 
-                // Create details element for the main outcome
+            learningOutcomes.forEach(learningOutcome => {
+                contentAdded = true;
                 const details = document.createElement('details');
+                details.classList.add('s12', 'm12', 'l12', 'learning-outcome');
+
                 if (alwaysOpenOutcome || (searchQuery && (learningOutcome.specificLearningOutcome.toLowerCase().includes(searchQuery.toLowerCase()) || alwaysOpenGLO || (searchQuery && learningOutcome.generalLearningOutcomes.some(glo => glo.toLowerCase().includes(searchQuery.toLowerCase())))))) {
                     details.setAttribute('open', '');
                 }
@@ -409,6 +411,8 @@ class FilterManager {
 
                 // Create details for Specific Learning Outcome (SLO)
                 const sloDetails = document.createElement('details');
+                sloDetails.classList.add('specific-learning-outcome');
+                sloDetails.id = `slo-${learningOutcome.getID()}`;
                 if (alwaysOpenSLO || (searchQuery && learningOutcome.specificLearningOutcome.toLowerCase().includes(searchQuery.toLowerCase()))) {
                     sloDetails.setAttribute('open', '');
                 }
@@ -422,6 +426,7 @@ class FilterManager {
                 sloDetails.appendChild(sloText);
 
                 const sloContent = document.createElement('span');
+                // sloContent.classList.add('underline');
                 sloContent.innerHTML = searchQuery ? learningOutcome.specificLearningOutcome.replace(new RegExp(searchQuery, 'gi'), (match) => `<span class="highlight">${match}</span>`) : learningOutcome.specificLearningOutcome;
                 sloDetails.appendChild(sloContent);
 
@@ -430,6 +435,8 @@ class FilterManager {
 
                 // Create details for General Learning Outcomes (GLO)
                 const gloDetails = document.createElement('details');
+                gloDetails.classList.add('general-learning-outcomes');
+                gloDetails.id = `glo-${learningOutcome.getID()}`;
                 if (alwaysOpenGLO || (searchQuery && learningOutcome.generalLearningOutcomes.some(glo => glo.toLowerCase().includes(searchQuery.toLowerCase())))) {
                     gloDetails.setAttribute('open', '');
                 }
@@ -451,26 +458,47 @@ class FilterManager {
 
                 gloDetails.appendChild(gloList);
                 details.appendChild(gloDetails);
-                article.appendChild(details);
-                contentDiv.appendChild(article);
+                contentDiv.appendChild(details);
             });
+            if (!contentAdded) {
+                const noResultsMessage = document.createElement('p');
+                noResultsMessage.classList.add('s12', 'm12', 'l12', 'center-align', 'medium-width');
+                noResultsMessage.textContent = 'No results found with the filter settings applied.';
+                contentDiv.appendChild(noResultsMessage);
+            }
         }
     }
 }
-
 document.addEventListener('DOMContentLoaded', function () {
     function setTheme(theme: string) {
-        document.body.classList.remove("light", "dark");
-        document.body.classList.add(theme);
+        document.body.classList.remove("light", "dark", "math-light", "math-dark");
+        if (theme === 'dark') {
+            document.body.classList.add("math-dark");
+        } else if (theme === 'light') {
+            document.body.classList.add("math-light");
+        } else {
+            document.body.classList.add(theme);
+        }
         localStorage.setItem("theme", theme);
 
         const themeIcon = document.getElementById("theme-icon") as HTMLElement;
         themeIcon.innerText = theme === "light" ? "dark_mode" : "light_mode";
+
+        const icons = document.querySelectorAll('.icon') as NodeListOf<HTMLElement>;
+        if (theme === 'light' || theme === 'math-light') {
+            icons.forEach(icon => {
+                icon.style.filter = 'invert(1)';
+            });
+        } else {
+            icons.forEach(icon => {
+                icon.style.filter = 'invert(0)';
+            });
+        }
     }
 
     const themeToggle = document.getElementById("theme-toggle") as HTMLInputElement;
     themeToggle.addEventListener("click", () => {
-        const currentTheme = document.body.classList.contains("dark") ?
+        const currentTheme = document.body.classList.contains("dark") || document.body.classList.contains("math-dark") ?
             "dark" :
             "light";
         const newTheme = currentTheme === "dark" ? "light" : "dark";
