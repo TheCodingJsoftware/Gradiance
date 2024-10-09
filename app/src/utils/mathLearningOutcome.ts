@@ -1,4 +1,4 @@
-export class LearningOutcome {
+export class MathLearningOutcome {
     specificLearningOutcome: string;
     generalLearningOutcomes: string[];
     skills: string[];
