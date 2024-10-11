@@ -27,7 +27,7 @@ body.light {
     --shadow:#000000;
     --scrim:#000000;
     --inverse-surface:#363636;
-    --inverse-on-surface:#fbeeee;
+    --inverse-on-surface:#f7f7f7;
     --inverse-primary:#ffb2be;
     --surface-dim:#e3d7d8;
     --surface-bright:#fff8f7;
@@ -66,7 +66,7 @@ body.dark {
     --shadow:#000000;
     --scrim:#000000;
     --inverse-surface:#e8e8e8;
-    --inverse-on-surface:#362f2f;
+    --inverse-on-surface:#363636;
     --inverse-primary:#bc004b;
     --surface-dim:#181213;
     --surface-bright:#3f3738;

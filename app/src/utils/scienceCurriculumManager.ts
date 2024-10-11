@@ -54,6 +54,10 @@ export default class MathCurriculumManager {
         return this.learningOutcomes.find(outcome => outcome.getID() === id) || undefined;
     }
 
+    public getGeneralOutcomeByCode(code: string): string {
+        return this.generalOutcomes[code];
+    }
+
     public getClusters(grade: string): string[] {
         grade = grade?.replace('grade_', '');
         grade = grade?.replace('#', '');

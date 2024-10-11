@@ -59,4 +59,13 @@ details {
         background-color: white !important;
         background: white !important;
     }
+    .delete-row-button{
+        display: none !important;
+    }
+    #add-row-button{
+        display: none !important;
+    }
+    #add-curricular-outcome{
+        display: none !important;
+    }
 }

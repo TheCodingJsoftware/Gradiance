@@ -7,17 +7,7 @@ import MathCurriculumManager from "./utils/mathCurriculumManager"
 import CookieManager from './utils/cookieManager';
 import { MathLearningOutcome } from "./utils/mathLearningOutcome";
 import { ScienceLearningOutcome } from './utils/scienceLearningOutcome';
-
-
-const iconDictionary: { [key: string]: string } = {
-    'C': 'chat',
-    'CN': 'link',
-    'ME': 'calculate',
-    'PS': 'lightbulb',
-    'R': 'psychology',
-    'T': 'devices',
-    'V': 'visibility',
-};
+import { skillsIconDictionary, strandIconDictionary } from './utils/icons';
 
 const skillsDictionary: { [key: string]: string } = {
     'C': 'Communication',
@@ -28,37 +18,6 @@ const skillsDictionary: { [key: string]: string } = {
     'T': 'Technology',
     'V': 'Visualization',
 };
-const strandIconDictionary: { [key: string]: string } = {
-    'N': 'plus_one',
-    'PR': 'timeline',
-    'SS': 'shapes',
-    'SP': 'bar_chart',
-    'PF': 'account_balance_wallet',
-    'M': 'straighten',
-    'G': 'category',
-    'AG': 'functions',
-    'TG': 'square_foot',
-    'CD': 'shopping_cart',
-    'T': 'transform',
-    'AC': 'geometry',
-    'A': 'calculate',
-    'R': 'scatter_plot',
-    'L': 'psychology',
-    'S': 'analytics',
-    'RP': 'science',
-    'I': 'credit_card',
-    'MM': 'attach_money',
-    'D': 'design_services',
-    'FM': 'request_quote',
-    'P': 'casino',
-    'V': 'directions_car',
-    'PM': 'speed',
-    'C': 'work',
-    'H': 'home',
-    'GT': 'rule',
-    'B': 'business_center',
-    'PCB': 'functions',
-}
 
 const strandDictionary: { [key: string]: string } = {
     'N': 'Number Sense',
@@ -219,7 +178,7 @@ class FilterManager {
     }
 
     handleSearch() {
-        CookieManager.setCookie('searchQuery', this.searchInput.value, '/manitoba_mathematics_curriculum');
+        CookieManager.setCookie('searchQuery', this.searchInput.value, '/manitobaMathematicsCurriculum.html');
         this.filterContent();
     }
 
@@ -279,7 +238,7 @@ class FilterManager {
             button.classList.add('tiny-margin', 'surface', 'border', 'round');
 
             const skillIcon = document.createElement('i');
-            skillIcon.innerHTML = iconDictionary[skill];
+            skillIcon.innerHTML = skillsIconDictionary[skill];
             button.appendChild(skillIcon);
 
             const span = document.createElement('span');
@@ -340,7 +299,7 @@ class FilterManager {
 
             button.addEventListener('click', () => {
                 this.searchInput.value = keyword;
-                CookieManager.setCookie('searchQuery', this.searchInput.value, '/manitoba_mathematics_curriculum');
+                CookieManager.setCookie('searchQuery', this.searchInput.value, '/manitobaMathematicsCurriculum.html');
                 this.filterContent();
             });
 
@@ -382,28 +341,28 @@ class FilterManager {
         const activeStrands = this.getActiveStrands();
         if (!activeStrands.includes(strand)) {
             activeStrands.push(strand);
-            CookieManager.setCookie('activeStrands', JSON.stringify(activeStrands), '/manitoba_mathematics_curriculum');
+            CookieManager.setCookie('activeStrands', JSON.stringify(activeStrands), '/manitobaMathematicsCurriculum.html');
         }
     }
 
     removeActiveStrand(strand: string) {
         const activeStrands = this.getActiveStrands();
         const updatedStrands = activeStrands.filter(s => s !== strand);
-        CookieManager.setCookie('activeStrands', JSON.stringify(updatedStrands), '/manitoba_mathematics_curriculum');
+        CookieManager.setCookie('activeStrands', JSON.stringify(updatedStrands), '/manitobaMathematicsCurriculum.html');
     }
 
     addActiveSkill(skill: string) {
         const activeSkills = this.getActiveSkills();
         if (!activeSkills.includes(skill)) {
             activeSkills.push(skill);
-            CookieManager.setCookie('activeSkills', JSON.stringify(activeSkills), '/manitoba_mathematics_curriculum');
+            CookieManager.setCookie('activeSkills', JSON.stringify(activeSkills), '/manitobaMathematicsCurriculum.html');
         }
     }
 
     removeActiveSkill(skill: string) {
         const activeSkills = this.getActiveSkills();
         const updatedSkills = activeSkills.filter(s => s !== skill);
-        CookieManager.setCookie('activeSkills', JSON.stringify(updatedSkills), '/manitoba_mathematics_curriculum');
+        CookieManager.setCookie('activeSkills', JSON.stringify(updatedSkills), '/manitobaMathematicsCurriculum.html');
     }
 
     getActiveStrands(): string[] {
@@ -417,9 +376,9 @@ class FilterManager {
     }
 
     saveCheckboxStates() {
-        CookieManager.setCookie('alwaysOpenOutcome', String(this.alwaysOpenOutcomeCheckbox.checked), '/manitoba_mathematics_curriculum');
-        CookieManager.setCookie('alwaysOpenSLO', String(this.alwaysOpenSLOCheckbox.checked), '/manitoba_mathematics_curriculum');
-        CookieManager.setCookie('alwaysOpenGLO', String(this.alwaysOpenGLOCheckbox.checked), '/manitoba_mathematics_curriculum');
+        CookieManager.setCookie('alwaysOpenOutcome', String(this.alwaysOpenOutcomeCheckbox.checked), '/manitobaMathematicsCurriculum.html');
+        CookieManager.setCookie('alwaysOpenSLO', String(this.alwaysOpenSLOCheckbox.checked), '/manitobaMathematicsCurriculum.html');
+        CookieManager.setCookie('alwaysOpenGLO', String(this.alwaysOpenGLOCheckbox.checked), '/manitobaMathematicsCurriculum.html');
     }
 
     loadSettingsFromCookies() {
@@ -446,7 +405,7 @@ class FilterManager {
         const selectedTab = this.tabsNav.querySelector(`a[data-ui="${tabId}"]`);
         if (selectedTab) {
             selectedTab.classList.add('active');
-            CookieManager.setCookie('lastSelectedTab', tabId, '/manitoba_mathematics_curriculum');
+            CookieManager.setCookie('lastSelectedTab', tabId, '/manitobaMathematicsCurriculum.html');
         }
         Promise.all([
             this.filterContent(),
@@ -541,7 +500,7 @@ class FilterManager {
 
                     const icon = document.createElement('i');
                     icon.classList.add('primary-text');
-                    icon.textContent = iconDictionary[skill];
+                    icon.textContent = skillsIconDictionary[skill];
 
                     const span = document.createElement('span');
                     span.textContent = skillsDictionary[skill];
@@ -604,7 +563,7 @@ class FilterManager {
                 createLessonPlanButton.classList.add('small-round');
                 createLessonPlanButton.textContent = 'Create Lesson Plan';
                 createLessonPlanButton.onclick = function () {
-                    window.open(`/lesson_plan?id=${learningOutcome.getID()}`, '_blank');
+                    window.open(`/lessonPlan.html?id=${learningOutcome.getID()}&curriculum=math`, '_blank');
                 }
                 details.appendChild(createLessonPlanButton);
                 contentDiv.appendChild(details);

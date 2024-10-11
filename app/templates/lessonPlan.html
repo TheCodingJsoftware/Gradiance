@@ -39,19 +39,29 @@
             </div>
             <div class="field border label s8 m8 l8">
                 <select id="grade-level">
-                    <option>K</option>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                    <option>9</option>
-                    <option>10</option>
-                    <option>11</option>
-                    <option>12</option>
+                    <option>Kindergarten</option>
+                    <option>Grade 1</option>
+                    <option>Grade 2</option>
+                    <option>Grade 3</option>
+                    <option>Grade 4</option>
+                    <option>Grade 5</option>
+                    <option>Grade 6</option>
+                    <option>Grade 7</option>
+                    <option>Grade 8</option>
+                    <option>Grade 9</option>
+                    <option>Grade 10</option>
+                    <option>Grade 11</option>
+                    <option>Grade 12</option>
+                    <option>S1</option>
+                    <option>S2</option>
+                    <option>10 Essential</option>
+                    <option>10 Introduction to Applied and Pre-Calculus</option>
+                    <option>11 Applied</option>
+                    <option>11 Essential</option>
+                    <option>11 Pre-Calculus</option>
+                    <option>12 Applied</option>
+                    <option>12 Essential</option>
+                    <option>12 Pre-Calculus</option>
                 </select>
                 <label>Grade/Class</label>
             </div>
@@ -88,58 +98,22 @@
                     </a>
                 </summary>
                 <div class="padding">
+
                     <p class="no-line">
                         The following set of indicators may be used to determine whether the students have met the
                         corresponding specific outcome.
                     </p>
-                    <div class="no-padding no-margin">
-                        <label class="checkbox">
-                            <input type="checkbox">
-                            <span>Read a four-digit numeral without using the word 'and'.</span>
-                        </label>
-                    </div>
-                    <div class="no-padding no-margin">
-                        <label class="checkbox">
-                            <input type="checkbox">
-                            <span>Write a numeral using proper spacing without commas.</span>
-                        </label>
-                    </div>
-                    <div class="no-padding no-margin">
-                        <label class="checkbox">
-                            <input type="checkbox">
-                            <span>Write a numeral 0 - 10 000 in words.</span>
-                        </label>
-                    </div>
-                    <div class="no-padding no-margin">
-                        <label class="checkbox">
-                            <input type="checkbox">
-                            <span>Represent a numeral using a place value chart or diagrams.</span>
-                        </label>
-                    </div>
-                    <div class="no-padding no-margin">
-                        <label class="checkbox">
-                            <input type="checkbox">
-                            <span>Describe the meaning of each digit in a numeral.</span>
-                        </label>
-                    </div>
-                    <div class="no-padding no-margin">
-                        <label class="checkbox">
-                            <input type="checkbox">
-                            <span>Express a numeral in expanded notation.</span>
-                        </label>
-                    </div>
-                    <div class="no-padding no-margin">
-                        <label class="checkbox">
-                            <input type="checkbox">
-                            <span>Write the numeral represented in expanded notation.</span>
-                        </label>
-                    </div>
-                    <div class="no-padding no-margin">
-                        <label class="checkbox">
-                            <input type="checkbox">
-                            <span>Explain the meaning of each digit in a 4-digit numeral with all digits the
-                                same.</span>
-                        </label>
+                    <div class="field border textarea extra">
+                        <textarea id="materials-considered" id="general-learning-outcomes">
+Read a four-digit numeral without using the word 'and'.
+Write a numeral using proper spacing without commas.
+Write a numeral 0 - 10 000 in words.
+Represent a numeral using a place value chart or diagrams.
+Describe the meaning of each digit in a numeral.
+Express a numeral in expanded notation.
+Write the numeral represented in expanded notation.
+Explain the meaning of each digit in a 4-digit numeral with all digits the same.
+                        </textarea>
                     </div>
                 </div>
             </details>
@@ -158,7 +132,7 @@
             <thead>
                 <tr>
                     <th>Description</th>
-                    <th>
+                    <th class="min">
                         <a class="link">
                             <span>FOR</span>
                             <div class="tooltip max left">
@@ -178,7 +152,7 @@
                             </div>
                         </a>
                     </th>
-                    <th>
+                    <th class="min">
                         <a class="link">
                             <span>AS</span>
                             <div class="tooltip max left">
@@ -199,7 +173,7 @@
                             </div>
                         </a>
                     </th>
-                    <th>
+                    <th class="min">
                         <a class="link">
                             <span>OF</span>
                             <div class="tooltip max left">
@@ -220,43 +194,24 @@
                             </div>
                         </a>
                     </th>
+                    <th class="min delete-row-button">
+                        Delete
+                    </th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>
-                        <div class="field border textarea extra">
-                            <textarea id="materials-considered"></textarea>
-                        </div>
-                    </td>
-                    <td>
-                        <label class="checkbox">
-                            <input type="checkbox">
-                            <span></span>
-                        </label>
-                    </td>
-                    <td>
-                        <label class="checkbox">
-                            <input type="checkbox">
-                            <span></span>
-                        </label>
-                    </td>
-                    <td>
-                        <label class="checkbox">
-                            <input type="checkbox">
-                            <span></span>
-                        </label>
-                    </td>
-                </tr>
             </tbody>
         </table>
+        <button id="add-row-button" class="small-round">
+            <i>add</i>
+            <span>Add Row</span>
+        </button>
         <hr class="margin">
         <div class="bottom-padding grid s12 m12 l12">
             <div class="field border label textarea extra s12 m6 l6">
                 <textarea id="materials-considered"></textarea>
                 <label>Materials and Resources</label>
                 <span class="helper no-line">Resources (referenced), handouts, ICT, equipment, etc. Include examplars/samples</span>
-
             </div>
             <div class="field border label textarea extra s12 m6 l6">
                 <textarea id="materials-considered"></textarea>
@@ -270,7 +225,7 @@
         <table class="page-break-inside border 12 m12 l12" id="learning-plan">
             <thead>
                 <tr>
-                    <th class="min">Hook</th>
+                    <th class="min"></th>
                     <th class="max">Description</th>
                     <th class="small-width">Time/Length</th>
                 </tr>

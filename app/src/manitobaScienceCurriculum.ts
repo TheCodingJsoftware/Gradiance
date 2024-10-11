@@ -6,63 +6,7 @@ import '@mdi/font/css/materialdesignicons.min.css';
 import ScienceCurriculumManager from "./utils/scienceCurriculumManager"
 import CookieManager from './utils/cookieManager';
 import { ScienceLearningOutcome } from "./utils/scienceLearningOutcome";
-
-const clusterIconDictionary: { [key: string]: string } = {
-    'Overall Skills and Attitudes': 'visibility', // 'eye' or 'visibility' can be used to represent skills
-    'Trees': 'nature', // Trees or plants
-    'Colors': 'palette', // Represents colors
-    'Paper': 'file_copy', // Represents documents or paper
-
-    'Characteristics and Needs of Living Things': 'pets', // Represents living organisms
-    'The Senses': 'emoji_people', // Represents human senses
-    'Characteristics of Objects and Materials': 'category', // Represents different objects or materials
-    'Daily and Seasonal Changes': 'wb_sunny', // Represents sun/weather changes
-
-    'Growth and Changes in Animals': 'pets', // Represents animals
-    'Properties of Solids, Liquids & Gases': 'bubble_chart', // Represents different states of matter
-    'Position and Motion': 'directions_run', // Represents movement
-    'Air & Water in the Environment': 'waves', // Represents water and air flow
-
-    'Growth and Changes in Plants': 'local_florist', // Represents plants
-    'Materials and Structures': 'build', // Represents building and structure
-    'Forces That Attract or Repel': 'compress', // Represents magnetic forces
-    'Soils in the Environment': 'terrain', // Represents soil or land
-
-    'Habitats and Communities': 'home_work', // Represents habitats/communities
-    'Light': 'highlight', // Represents light sources
-    'Sound': 'hearing', // Represents sound
-    'Rocks, Minerals and Erosion': 'terrain', // Represents geology
-
-    'Maintaining a Healthy Body': 'fitness_center', // Represents health and fitness
-    'Properties of and Changes in Substances': 'science', // Represents chemistry
-    'Forces and Simple Machines': 'settings', // Represents mechanical forces
-    'Weather': 'wb_cloudy', // Represents weather conditions
-
-    'Diversity of Living Things': 'eco', // Represents biodiversity
-    'Flight': 'flight', // Represents flight
-    'Electricity': 'bolt', // Represents electricity
-    'The Solar System': 'public', // Represents planets/solar system
-
-    'Interactions Within Ecosystems': 'nature_people', // Represents ecosystems
-    'Particle Theory of Matter': 'scatter_plot', // Represents particles and matter
-    'Forces and Structures': 'engineering', // Represents structures and mechanics
-    'Earth\'s Crust': 'layers', // Represents earth/geology
-
-    'Cells and Systems': 'biotech', // Represents cells/biology
-    'Optics': 'visibility', // Represents vision/light optics
-    'Fluids': 'water', // Represents fluids and liquid states
-    'Water Systems': 'waves', // Represents water and liquid systems
-
-    'Reproduction': 'pregnant_woman', // Represents reproduction/birth
-    'Atoms and Elements': 'science', // Represents atomic structure
-    'Nature of Electricity': 'bolt', // Represents electricity
-    'Exploration of the Universe': 'public', // Represents space and universe
-
-    'Dynamics of Ecosystems': 'nature_people', // Represents ecosystems
-    'Chemistry in Action': 'science', // Represents chemical reactions
-    'In Motion': 'directions_run', // Represents motion and movement
-    'Water Dynamics': 'waves', // Represents water flow and movement
-};
+import { clusterIconDictionary } from './utils/icons';
 
 class FilterManager {
     container: HTMLDivElement;
@@ -111,7 +55,7 @@ class FilterManager {
     }
 
     handleSearch() {
-        CookieManager.setCookie('searchQuery', this.searchInput.value, '/manitoba_science_curriculum');
+        CookieManager.setCookie('searchQuery', this.searchInput.value, '/manitobaScienceCurriculum.html');
         this.filterContent();
     }
 
@@ -121,9 +65,9 @@ class FilterManager {
     }
 
     saveCheckboxStates() {
-        CookieManager.setCookie('alwaysOpenOutcome', String(this.alwaysOpenOutcomeCheckbox.checked), '/manitoba_science_curriculum');
-        CookieManager.setCookie('alwaysOpenSLO', String(this.alwaysOpenSLOCheckbox.checked), '/manitoba_science_curriculum');
-        CookieManager.setCookie('alwaysOpenGLO', String(this.alwaysOpenGLOCheckbox.checked), '/manitoba_science_curriculum');
+        CookieManager.setCookie('alwaysOpenOutcome', String(this.alwaysOpenOutcomeCheckbox.checked), '/manitobaScienceCurriculum.html');
+        CookieManager.setCookie('alwaysOpenSLO', String(this.alwaysOpenSLOCheckbox.checked), '/manitobaScienceCurriculum.html');
+        CookieManager.setCookie('alwaysOpenGLO', String(this.alwaysOpenGLOCheckbox.checked), '/manitobaScienceCurriculum.html');
     }
 
     loadSettingsFromCookies() {
@@ -147,7 +91,7 @@ class FilterManager {
         const selectedTab = this.tabsNav.querySelector(`a[data-ui="${tabId}"]`);
         if (selectedTab) {
             selectedTab.classList.add('active');
-            CookieManager.setCookie('lastSelectedTab', tabId, '/manitoba_science_curriculum');
+            CookieManager.setCookie('lastSelectedTab', tabId, '/manitobaScienceCurriculum.html');
         }
         this.loadClusters(tabId);
         this.filterContent();
@@ -207,14 +151,14 @@ class FilterManager {
         const activeClusters = this.getActiveClusters();
         if (!activeClusters.includes(cluster)) {
             activeClusters.push(cluster);  // Add the cluster to the active clusters list
-            CookieManager.setCookie('activeClusters', JSON.stringify(activeClusters), '/manitoba_science_curriculum');
+            CookieManager.setCookie('activeClusters', JSON.stringify(activeClusters), '/manitobaScienceCurriculum.html');
         }
     }
 
     removeActiveCluster(cluster: string) {
         const activeClusters = this.getActiveClusters();
         const updatedClusters = activeClusters.filter(s => s !== cluster);  // Remove the cluster from the active clusters
-        CookieManager.setCookie('activeClusters', JSON.stringify(updatedClusters), '/manitoba_science_curriculum');
+        CookieManager.setCookie('activeClusters', JSON.stringify(updatedClusters), '/manitobaScienceCurriculum.html');
     }
 
     getActiveClusters(): string[] {
@@ -328,7 +272,7 @@ class FilterManager {
                 createLessonPlanButton.classList.add('small-round');
                 createLessonPlanButton.textContent = 'Create Lesson Plan';
                 createLessonPlanButton.onclick = function () {
-                    window.open(`/lesson_plan?id=${learningOutcome.getID()}`, '_blank');
+                    window.open(`/lessonPlan.html?id=${learningOutcome.getID()}&curriculum=science`, '_blank');
                 }
                 details.appendChild(createLessonPlanButton);
                 contentDiv.appendChild(details);
