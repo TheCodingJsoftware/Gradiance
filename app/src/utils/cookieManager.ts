@@ -7,6 +7,7 @@ export default class CookieManager {
 
     static setCookie(name: string, value: string, path: string = '/'): void {
         document.cookie = `${name}=${value}; path=${path}`;
+        console.log(document.cookie);
     }
 
     static deleteCookie(name: string, path: string = '/'): void {

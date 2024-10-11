@@ -1,11 +1,14 @@
-import { LearningOutcome } from "./learningOutcome";
+import { MathLearningOutcome } from './mathLearningOutcome';
 
 export default class MathCurriculumManager {
-    private learningOutcomes: LearningOutcome[] = [];
-    private strands: string[] = [];
-    private skills: string[] = [];
+    learningOutcomes: MathLearningOutcome[] = [];
+    strands: string[] = [];
+    skills: string[] = [];
 
     constructor() {
+        this.learningOutcomes = [];
+        this.strands = [];
+        this.skills = [];
         this.loadCurriculum();
     }
 
@@ -15,11 +18,10 @@ export default class MathCurriculumManager {
             if (response.ok) {
                 const data = await response.json();
                 this.learningOutcomes = data.map((learningOutcome: { specific_learning_outcome: string, general_learning_outcomes: string[], skills: string[], grade: string, id: number, strand: string }) =>
-                    new LearningOutcome(learningOutcome.specific_learning_outcome, learningOutcome.general_learning_outcomes, learningOutcome.skills, learningOutcome.grade, learningOutcome.id, learningOutcome.strand)
+                    new MathLearningOutcome(learningOutcome.specific_learning_outcome, learningOutcome.general_learning_outcomes, learningOutcome.skills, learningOutcome.grade, learningOutcome.id, learningOutcome.strand)
                 );
                 this.strands = this.learningOutcomes.map(learningOutcome => learningOutcome.strand);
                 this.skills = this.learningOutcomes.map(learningOutcome => learningOutcome.skills).flat();
-                console.log('Learning outcomes loaded:', this.learningOutcomes);
             } else {
                 console.error('Failed to load learning outcomes:', response.statusText);
             }
@@ -27,7 +29,8 @@ export default class MathCurriculumManager {
             console.error('Error loading learning outcomes:', error);
         }
     }
-    filterData({ grade, searchQuery, strands, skills }: { grade?: string, searchQuery?: string, strands?: string[], skills?: string[] }): LearningOutcome[] {
+
+    filterData({ grade, searchQuery, strands, skills }: { grade?: string, searchQuery?: string, strands?: string[], skills?: string[] }): MathLearningOutcome[] {
         return this.learningOutcomes.filter(outcome => {
             grade = grade?.replace('grade_', '');
             grade = grade?.replace('#', '');
@@ -44,6 +47,17 @@ export default class MathCurriculumManager {
 
             return matchesGrade && matchesSearch && matchesStrands && matchesSkills;
         });
+    }
+
+    public getOutcomesByGrade(grade: string): MathLearningOutcome[] {
+        grade = grade?.replace('grade_', '');
+        grade = grade?.replace('#', '');
+        grade = grade?.toUpperCase();
+        return this.learningOutcomes.filter(outcome => outcome.grade === grade);
+    }
+
+    public getLearningOutcomeByID(id: string): MathLearningOutcome | undefined {
+        return this.learningOutcomes.find(outcome => outcome.getID() === id) || undefined;
     }
 
     public getStrands(grade: string): string[] {
@@ -65,7 +79,7 @@ export default class MathCurriculumManager {
         await this.loadCurriculum();
     }
 
-    public getCurriculum(): LearningOutcome[] {
+    public getCurriculum(): MathLearningOutcome[] {
         return this.learningOutcomes;
     }
 

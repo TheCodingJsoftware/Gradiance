@@ -1,0 +1,1105 @@
+K-0-1A	Ask questions that demonstrate a curiousity about living things, objects, and events in the immediate environment.	GLO: A1, C2, C5
+K-0-1B	Make predictions as to what might happen during explorations.	GLO: A1, C2
+K-0-1C	Recognize a practical problem in a given context.	GLO: C3
+K-0-2A	Seek information from others. Examples: people at school, at home, in the community	GLO: C6
+K-0-2B	Compare gathered ideas and information to personal knowledge.	GLO: C6, C8
+K-0-3A	Brainstorm, with the class, possible solutions to a practical problem, and reach consensus on a solution to implement.	GLO: C3, C7
+K-0-3B	Develop, as a class, limited criteria to evaluate an object based on its function.	GLO: C3, C7
+K-0-3C	Select materials to be used.	GLO: C2, C3
+K-0-4A	Manipulate materials purposefully.	GLO: C1, C2
+K-0-4B	Construct an object to solve a problem or meet a need.	GLO: C3
+K-0-4C	Identify, with guidance, improvements to an object with respect to pre-determined criteria.	GLO: C3
+K-0-4D	Respond to the ideas and actions of others.	GLO: C5, C7
+K-0-4E	Participate in cooperative group learning experiences.	GLO: C7
+K-0-4F	Verbalize questions during classroom learning experiences.	GLO: C6
+K-0-4G	Follow given safety procedures and rules.	GLO: C1
+K-0-5A	Observe using one or a combination of senses.	GLO: C2
+K-0-5B	Describe the duration of events. Examples: long time, short time	GLO: C2, C3
+K-0-5C	Record observations using drawings.	GLO: C6
+K-0-6A	Construct, with guidance, concrete-object graphs using 1:1 correspondence.	GLO: C2, C6
+K-0-6B	Compare data using appropriate terms. Examples: more, less, same	GLO: A1, A2, C2, C5
+K-0-6C	Place materials and objects in a sequence or in groups using a single, self-determined attribute.	GLO: C2, C3, C5
+K-0-7A	Recognize connections between new experiences and prior knowledge.	GLO: A2
+K-0-7B	Describe, in a variety of ways, what was done and what was observed. Examples: concrete materials, drawings, oral language.	GLO: C6
+K-0-8A	Recognize that learning can come from careful observations and investigations.	GLO: A1, A2, C2
+K-0-9A	Be open minded while exploring.	GLO: C5
+K-0-9B	Willingly observe, question, and explore.	GLO: C5
+K-0-9C	Express enjoyment of science-related classroom experiences.	GLO: C5
+K-1-01	Use appropriate vocabulary related to their investigations of trees. Include: tree, trunk, crown, branch, leaf, needle, bark, root, seed, winter, spring, fall, summer	GLO: C5, D1, D5
+K-1-02	Identify ways in which humans and other animals use trees. Examples: humans eat apples and walnuts; birds make their home in trees; deer eat leaves, bark, and tender twigs	GLO: B1
+K-1-03	Identify and describe basic parts of a tree. Include: trunk, crown, branch, leaf, bark, root, seed	GLO: D1, E2
+K-1-04	Explore, sort, and classify leaves, using their own classification system. Examples: size, colour, pattern, length, shape	GLO: C2, D1, E1
+K-1-05	Name and describe each of the four seasons.	GLO: D6
+K-1-06	Recognize that some trees lose their leaves in the fall, while others do not.	GLO: D1
+K-1-07	Describe seasonal changes in the life of a tree. Examples: leaves of some trees change colour and drop off in the fall	GLO: D1
+K-1-08	Investigate to determine that many trees produce seeds which are dispersed and may grow into new trees.	GLO: C2, D1
+K-2-01	Use appropriate vocabulary related to their investigations of colours. Include: red, yellow, blue, orange, brown, black, white, purple, green, gray, pink, mix, light, dark, match, primary colour	GLO: C6, D3
+K-2-02	Sort and classify objects by colour.	GLO: C2, D3
+K-2-03	Compare and contrast colours using appropriate terms. Examples: lighter than, darker than, brighter than	GLO: C2, D3
+K-2-04	Order a group of objects based on a given colour criterion. Examples: order objects of the same colour range from lightest to darkest	GLO: C2, D3
+K-2-05	Predict and describe changes in colour that result from the mixing of primary colours and from mixing a primary colour with white or black.	GLO: C2, D3
+K-2-06	Create a colour to match a given sample by mixing the appropriate amounts of two primary colours.	GLO: C3, D3
+K-2-07	Explore to identify and describe colours found in their environment. Examples: rocks, flowers, shells, blocks, crayons	GLO: C2, D3
+K-3-01	Use appropriate vocabulary related to their investigations of paper. Include: characteristic, thick, thin, hard, soft, smooth, rough, absorbent, pliable	GLO: C6, D3
+K-3-02	Identify kinds of paper that can be found in the classroom. Examples: drawing paper, paper towels, paper plates, books, newspaper, cardboard, tissue paper	GLO: B1
+K-3-03	Recognize that paper is most often made from trees.	GLO: D3
+K-3-04	Observe and compare characteristics of different kinds of paper. Examples: compare colour, thickness, stiffness, texture	GLO: C2, D3
+K-3-05	Compare characteristics of different kinds of paper that make them easy or difficult to cut, tear, or fold. Examples:cardboard is thicker than newsprint and harder to fold	GLO: D3, E1
+K-3-06	Explore to determine an appropriate kind of paper for a particular task. Examples: paper towels are useful for soaking up spills	GLO: B1, C3
+K-3-07	Use the design process to construct a paper product for a particular use. Examples: paper cup, envelope, paper mat, box	GLO: C3
+1-0-1A	Ask questions that lead to explorations of living things, objects, and events in the immediate environment.	GLO: A1, C2, C5
+1-0-1B	Make predictions based on classroom experiences.	GLO: A1, C2
+1-0-1C	Recognize a practical problem in a given context.	GLO: C3
+1-0-2A	Access information using a variety of sources. Examples: picture and concept books, people, excursions, camps, CD-ROMs	GLO: C6
+1-0-2B	Recognize when information answers the questions asked.	GLO: C6, C8
+1-0-3A	Brainstorm, with the class, possible solutions to a practical problem, and reach consensus on a solution to implement.	GLO: C3, C7
+1-0-3B	Create, with the class, a plan to solve a problem or meet a need. Include: identify simple steps to follow	GLO: C3, C7
+1-0-3C	Develop, with the class, limited criteria to evaluate an object or device based on its function.	GLO: C3, C7
+1-0-3D	Identify materials to be used, and explain their choices.	GLO: C2, C3, C4
+1-0-4A	Follow simple directions while undertaking explorations.	GLO: C2
+1-0-4B	Construct an object or device to solve a problem or meet a need.	GLO: C3
+1-0-4C	Test, with guidance, an object or device with respect to pre-determined criteria.	GLO: C3, C5
+1-0-4D	Identify and make improvements to an object or device with respect to pre-determined criteria.	GLO: C3
+1-0-4E	Respond to the ideas and actions of others in building their own understandings.	GLO: C5, C7
+1-0-4F	Work in cooperative partnerships and groups.	GLO: C7
+1-0-4G	Verbalize questions and ideas during classroom learning experiences.	GLO: C6
+1-0-4H	Follow given safety procedures and rules.	GLO: C1
+1-0-4I	Recognize safety symbols in their surroundings.	GLO: C1
+1-0-5A	Observe using a combination of the senses.	GLO: C2
+1-0-5B	Use, with guidance, appropriate materials and tools to measure and construct. Examples: use paper clips to measure the width of a desk	GLO: C2, C3, C5
+1-0-5C	Estimate and measure the passage of time using non-standard units, and compare the duration of activities.	GLO: C2, C3, C5
+1-0-5D	Select an appropriate non-standard unit, and estimate and measure length.	GLO: C2, C3, C5
+1-0-5E	Record observations using drawings and tally charts.    GLO: C2, C6
+1-0-6A	Construct, with guidance, concrete-object graphs and pictographs using 1:1 correspondence.	GLO: C2, C6
+1-0-6B	Compare data using quantitative terms, and ask questions about the data gathered.	GLO: A1, A2, C2, C5
+1-0-6C	Place materials and objects in a sequence or in groups using a single, given attribute or a single, self-determined attribute.	GLO: C2, C3, C5
+1-0-7A	Propose an answer to the initial question based on their observations.	GLO: A1, A2, C2
+1-0-7B	Propose a solution to the initial problem.	GLO: C3
+1-0-7C	Identify new problems that arise.	GLO: C3
+1-0-7D	Connect new experiences and information with prior knowledge.	GLO: A2
+1-0-7E	Describe, in a variety of ways, what was done and what was observed. Examples: concrete materials, drawings, oral language.	GLO: C6
+1-0-8A	Recognize that learning can come from careful observations and investigations.	GLO: A1, A2, C2
+1-0-8B	Recognize that tools are developed in response to human needs.	GLO: A3
+1-0-9A	Willingly consider other people's views.	GLO: C5, C7
+1-0-9B	Willingly observe, question, and explore.	GLO: C5
+1-0-9C	Express enjoyment of science-related classroom activities.	GLO: C5
+1-0-9D	Take the time to measure with care.	GLO: C5
+1-1-01	Use appropriate vocabulary related to their investigations of characteristics and needs of living things. Include: characteristic, human, animal, plant, living things, needs, as well as descriptive words relating to life processes	GLO: C6, D1
+1-1-02	Identify major parts of the human body and describe their functions. Examples: arms and legs for movement	GLO: D1, E2
+1-1-03	Identify and describe common characteristics of humans and other animals they have observed. Examples: number of limbs, eyes, ears, skin	GLO: D1, E1
+1-1-04	Identify and appreciate variations that make each human unique. Examples: eye colour, hair colour, body type	GLO: C5, E1
+1-1-05	Recognize that plants, as living things, come in different forms. Examples: grass, trees, shrubs	GLO: D1, E1
+1-1-06	Observe and identify similarities in life processes between themselves and other living things. Examples: they eat, sleep, grow and breathe, and so do other living things	GLO: D1, E1
+1-1-07	Recognize that plants, animals, and humans, as living things, have particular needs. Examples: plants need sunlight and water	GLO: D1
+1-1-08	Describe what is needed to care for a pet, a farm animal, or an indoor plant. Examples: provide fresh water for their hamster daily, feed and bed calves regularly	GLO: B4, B5
+1-1-09	Compare ways in which humans and other animals meet their needs. Examples: senses, locomotion, tools	GLO: C2, D1, E1
+1-1-10	Describe how humans and other living things depend on their environment to meet their needs. Examples: the environment provides humans and other living things with food	GLO: D2, E2
+1-1-11	Design a representation of an environment that meets the needs of a Manitoba animal. Examples: a model, a diagram	GLO: C3, D1
+1-1-12	Identify hobbies and jobs that require knowledge of the needs of living things. Examples: gardeners, nurses, zookeepers	GLO: B4, B5
+1-1-13	Develop, implement, and evaluate personal and group action plans that contribute to a healthy environment for themselves and for other living things. Examples: wash hands before eating, reduce amount of waste produced by the class	GLO: B3, B5, C4, C7
+1-1-14	Show respect for living things in their immediate environment. Examples: handling the class gerbil with care	GLO: B5
+1-1-15	Recognize that some information they receive about living things is not scientific in nature. Examples: movie animals talking, Jack's beanstalk growing to the sky	GLO: A1, C5, C8
+1-2-01	Use appropriate vocabulary related to their investigations of the senses. Include: senses, sight, smell, hearing, taste, touch, eye, nose, ear, tongue, skin, eyelash, eyebrow, eyelid, nostril, cartilage, nose hair, as well as descriptive words related to shape, colour, lustre, wetness, temperature, taste, odour, size, texture, pitch	GLO: C6, D1, D3
+1-2-02	Identify the five senses and describe the main body parts with which they are associated. Include: sight and eyes; smell and nose; hearing and ears; taste and tongue; touch and skin	GLO: D1
+1-2-03	Use their senses to sort and classify objects. Examples: sort according to texture, sound, taste, or smell	GLO: C2, D1, E1
+1-2-04	Identify and describe parts of the eye that help to protect it. Include: eyelash, eyebrow, eyelid	GLO: D1
+1-2-05	Recognize that their fingertips are especially sensitive to touch.	GLO: D1
+1-2-06	Identify the external part of the ear, and explore to determine its function.	GLO: D1
+1-2-07	Use smell to identify familiar substances, following safe procedures. Examples: vinegar, cinnamon, lemon, shampoo	GLO: C1, C2, D3
+1-2-08	Identify parts of the nose and describe their functions. Include: nostril, cartilage, hairs	GLO: D1
+1-2-09	Identify parts of the body that are involved directly and indirectly in tasting. Include: the tongue is involved directly, the nose is involved indirectly	GLO: D1
+1-2-10	Identify objects and procedures that protect the body and preserve each of the senses in explorations and in daily life. Examples: sunglasses and safety goggles for eyes, gloves and tongs for hands, plugs for ears, washing hands regularly to avoid getting a cold or pinkeye	GLO: B3, C1
+1-2-11	Explore to determine ways that the appearance, texture, sound, smell, and taste of objects can be altered. Examples: sanding, cooking, painting, tuning instruments, shaping clay	GLO: D3, E3
+1-2-12	Describe ways in which the senses can both protect and mislead. Examples: seeing enables us to avoid obstacles, smell of smoke tells us something is burning, smell is not reliable when we have a cold, skin may not immediately tell us when we are getting sunburned or frostbitten	GLO: B3, C1, D1
+1-2-13	Recognize and appreciate that humans have different capabilities for sensing the environment and can use aids to assist them. Examples: glasses and guide dogs are used to assist people with visual impairment	GLO: B1, C5, E1
+1-2-14	Recognize and appreciate that humans may have different interpretations of similar sensory observations. Examples: one student likes the taste broccoli, another does not	GLO: C5, E1
+1-2-15	Give examples of how the senses are important in various activities, hobbies, and jobs. Examples: smell is important to a chef, sight is important to a baseball player	GLO: B4
+1-3-01	Use appropriate vocabulary related to their investigations of objects and materials. Include: characteristic, wood, metal, plastic, cloth, waterproof, absorbent, rigid, pliable, join, recycle	GLO: C6, D3
+1-3-02	Explore and describe characteristics of materials using their sensory observations. Examples: steel is hard, shiny, and cold, and makes a ringing noise when tapped	GLO: C2, D3
+1-3-03	Distinguish between an object and the materials used to construct it. Examples: chairs can be made of wood, metal, plastic, cloth, leather, wicker, or a combination of these materials	GLO: D3, E2
+1-3-04	Identify materials that make up familiar objects. Examples: a desk is made up of wood, metal, and plastic	GLO: D3, E2
+1-3-05	Explore to identify characteristics of common materials. Examples: waterproof/absorbent, rigid/pliable	GLO: D3
+1-3-06	Give examples that show how the same material can serve a similar function in different objects. Examples: in gloves and boots, rubber is used to keep out water	GLO: D3, E1
+1-3-07	Test and evaluate the suitability of materials for a particular function. Examples: test mitts made of different materials to evaluate their ability to keep hands warm and dry	GLO: C3, D3
+1-3-08	Evaluate and describe the usefulness of common objects for a specific task. Examples: compare usefulness of a toothbrush, hairbrush, toilet brush, or paintbrush for cleaning a sink	GLO: B1, C3, C4, D3
+1-3-09	Describe ways that materials can be joined. Examples: gluing, stapling, taping, interlocking, buttoning	GLO: C3, D3
+1-3-10	Use the design process to construct a useful object by selecting, combining, joining, and shaping materials. Examples: pencil holder, crayon box, desk organizer	GLO: C3, D3
+1-3-11	Demonstrate ways to reduce, reuse, and recycle materials during classroom learning experiences.	GLO: B5, D3
+1-4-01	Use appropriate vocabulary related to changes over time.    GLO: C6, D4, D6
+1-4-02	Recognize that the Sun is a source of light and heat. Include: Sun, light, heat, forms of energy, day, day time, night time, afternoon, days of the week, yesterday, today, tomorrow, seasons, shadow, characteristic, behaviour, living things, cycle	GLO: D4, E4
+1-4-03	Recognize that a day is divided into day time and night time based on the presence or absence of sunlight.	GLO: D6
+1-4-04	Sequence and record events and activities that occur over the course of a day, a week, or a year.	GLO: C2
+1-4-05	Recognize that shadows are caused by blocking light.	GLO: D4, D6
+1-4-06	Observe and describe how the Sun appears to change position over the course of a day. Examples: track the location of the Sun using shadows	GLO: C2, D6
+1-4-07	Record, describe, and compare changes in temperature at different times of the day.	GLO: C2, D4, E3
+1-4-08	Investigate and describe changes that occur in characteristics and behaviours of living things throughout a day. Examples: some flowers open in the morning, some animals are active at night	GLO: D1, E3
+1-4-09	Compare characteristics of the four seasons. Examples: length of day, type of precipitation, temperature	GLO: E1, E3
+1-4-10	Describe how humans prepare for seasonal changes. Examples: put up snow fences, take out winter clothes	GLO: B1, C1
+1-4-11	Identify people who help us prepare for and deal with seasonal changes. Examples: meteorologists, snow plough operators, reporters	GLO: B4
+1-4-12	Identify features of buildings that help keep humans sheltered and comfortable throughout daily and seasonal cycles. Examples: furnace, lights, air conditioners, fans, windows, blinds, walls, roof	GLO: B1
+1-4-13	Sort clothing to suit each season, and justify their decisions.	GLO: B1, B3, C3, C4
+1-4-14	Describe safety precautions related to daily weather, the changing of the seasons, and weather extremes. Examples: wearing a raincoat if rain is expected, staying indoors during a blizzard, staying off thin ice in the spring and fall	GLO: B3, C1
+1-4-15	Describe how humans are able to participate in non-seasonal activities. Examples: use indoor sport centres to swim in the winter and skate in the summer	GLO: B1, B3
+1-4-16	Identify physical and behavioural changes that occur seasonally among Manitoba plants and animals, and discuss possible reasons for these changes. Examples: thicker fur, migration, dormancy	GLO: D1, E3
+1-4-17	Use the design process to construct a device or structure that helps a Manitoba animal adjust to seasonal changes. Examples: winter birdfeeder, dog house, dog "booties" for winter	GLO: B5, C3
+2-0-1A	Ask questions that lead to investigations of living things, objects, and events in the immediate environment.	GLO: A1, C2, C5
+2-0-1B	Make predictions based on observed patterns or on collected data.	GLO: A1, C2
+2-0-1C	Identify practical problems to solve in the immediate environment.	GLO: C3
+2-0-2A	Access information using a variety of sources. Examples: elders, simple chapter books, concept books, CD-ROMs, Internet	GLO: C6
+2-0-2B	Match information to research needs.	GLO: C6, C8
+2-0-3A	Brainstorm, with the class, possible solutions to a practical problem; and in small groups, reach consensus on a solution to implement.	GLO: C3, C7
+2-0-3B	Create, with the class, a plan to solve a problem or meet a need. Examples: identify simple steps to follow, prepare a drawing of the object to be constructed.	GLO: C3, C7
+2-0-3C	Develop, as a class, limited criteria to evaluate an object or device based on its function and aesthetics.	GLO: C3, C7
+2-0-3D	Identify tools and materials to be used, and explain their choices.	GLO: C2, C3, C4
+2-0-4A	Follow simple directions, and describe the purpose of steps followed.	GLO: C2
+2-0-4B	Construct an object or device to solve a problem or meet a need.	GLO: C3
+2-0-4C	Test an object or device with respect to pre-determined criteria.	GLO: C3
+2-0-4E	Respond to the ideas and actions of others in building their own understandings.	GLO: C5, C7
+2-0-4F	Work in a variety of cooperative partnerships and groups.	GLO: C7
+2-0-4G	Verbalize questions, ideas, and intentions during classroom activities.	GLO: C6
+2-0-4H	Follow given safety procedures and rules.	GLO: C1
+2-0-4I	Recognize international symbols and the Canadian Standards Association signage, which provide information on the safety of substances. Include: flammable, explosive, corrosive, poisonous	GLO: C1
+2-0-5A	Make, with guidance, observations that are relevant to a specific question.	GLO: A1, A2, C2
+2-0-5B	Use, with guidance, tools to observe, measure, and construct. Examples: ruler, meter stick, pan balance, magnifying glass, bathroom scale, thermometer.	GLO: C2, C3, C5
+2-0-5C	Estimate and measure the passage of time related to minutes and hours.	GLO: C2, C3, C5
+2-0-5D	Estimate and measure length using standard units.	GLO: C2, C3, C5
+2-0-5E	Record observations using written language, drawings, and, with guidance, charts.	GLO: C2, C6
+2-0-6A	Construct and label concrete-object graphs, pictographs, and bar graphs using 1:1 correspondence.	GLO: C2, C6
+2-0-6B	Discuss data and generate new questions from displayed data.	GLO: A1, A2, C2, C5
+2-0-6C	Place materials and objects in a sequence or in groups using one or two attributes, and describe the system used.	GLO: C2, C3, C5
+2-0-7A	Propose an answer to the initial question based on their observations.	GLO: A1, A2, C2
+2-0-7B	Propose a solution to the initial problem.	GLO: C3
+2-0-7C	Identify new problems that arise.	GLO: C3
+2-0-7D	Connect new experiences, ideas, and information with prior knowledge and experiences.	GLO: A2
+2-0-7E	Describe, in a variety of ways, what was done and what was observed. Examples: concrete materials, captioned drawings, oral language.	GLO: C6
+2-0-8A	Recognize that learning can come from careful observations and investigations.	GLO: A1, A2, C2
+2-0-8B	Recognize that tools are developed in response to human needs.	GLO: A3, B2
+2-0-9A	Willingly consider other people's views.	GLO: C5, C7
+2-0-9B	Express enjoyment when sharing and discussing science-related experiences from daily life.	GLO: C5
+2-0-9C	Take the time to repeat a measurement or observation for greater precision or detail.	GLO: C5
+2-1-01	Use appropriate vocabulary related to their investigations of growth and changes in animals. Include: food groups, Canada's Food Guide to Healthy Eating, offspring, adult, behaviour, life cycle, stage, life processes, as well as terms relating to life cycles studied	GLO: B3, C6, D1
+2-1-02	Identify and describe constant and changing characteristics of humans as they grow and develop. Examples: eye colour remains constant, height changes	GLO: D1, E3
+2-1-03	Recognize that all humans do not grow and develop at the same rate.	GLO: B3, D1, E1, E3
+2-1-04	Recognize that food is a form of energy and that healthy eating is essential for growth and development.	GLO: B3, D1, D4, E4
+2-1-05	Identify the four food groups of Canada's Food Guide to Healthy Eating and give examples of foods from each group.	GLO: B3, E1
+2-1-06	Plan a menu for one day based on the four food groups outlined in Canada's Food Guide to Healthy Eating.	GLO: B3, C4, D1
+2-1-07	Recognize that foods humans eat come from plants and animals, and classify foods accordingly.	GLO: B1, B3
+2-1-08	Recognize that all animals can have offspring, and that offspring generally resemble their parents.	GLO: D1, E1
+2-1-09	Compare the appearance of young and mature animals of the same type.	GLO: D1, E1, E3
+2-1-10	Compare the length of time from birth to adulthood for humans and other animals.	GLO: D1, E1
+2-1-11	Identify and describe constant and changing characteristics of an animal as it grows and develops.	GLO: D1, E3
+2-1-12	Describe and classify a wide range of animals according to various characteristics and behaviours. Examples: skin covering, where they live, food they eat, day or night activity, how they move	GLO: C2, D1, E1
+2-1-13	Describe and compare ways in which different animals care for their offspring. Examples: Canada geese, bears, alligators, bees	GLO: D1, E1
+2-1-14	Describe changes in the appearance and activity of various animals as they go through a complete life cycle. Include: an insect, a bird, an amphibian	GLO: D1, E3
+2-1-15	Compare the life cycles of animals that have similar life cycles and those that have different life cycles. Examples: bee and butterfly, gerbil and butterfly	GLO: E1, E3
+2-1-16	Observe and describe an animal's life processes. Include: eating habits, movement, rest patterns, breathing	GLO: E3
+2-1-17	Identify and describe ways in which humans help other animals. Examples: protecting endangered animals, feeding birds	GLO: B1, B5
+2-2-01	Use appropriate vocabulary related to their investigations of solids, liquids, and gases. Include: solid, liquid, substance, property, mass/weight, dissolve, gas, changes of state, water vapour, freeze, melt, condense, evaporate, boil, float, sink, buoyancy	GLO: C6, D3, D4
+2-2-02	Identify substances, materials, and objects as solids or liquids.	GLO: D3
+2-2-03	Investigate and compare properties of familiar solids. Include: have mass/weight, take up space, maintain their shape	GLO: C2, D3, E1
+2-2-04	Investigate and compare properties of familiar liquids. Include: have mass/weight, take up space, have no definite shape	GLO: C2, D3
+2-2-05	Identify similarities and differences among properties of familiar solids and liquids.	GLO: D3, E1
+2-2-06	Distinguish between solids that dissolve in water and those that do not. Examples: sugar dissolves in water, whereas sand does not	GLO: D3, E1
+2-2-07	Explore interactions of familiar liquids with different surfaces, powdered solids, and other liquids, and describe how these interactions determine their uses.	GLO: A5, B1, C1, C2
+2-2-08	Identify liquids used in the home, and describe how they are used. Examples: milk for drinking and cooking, detergent for cleaning	GLO: B1
+2-2-09	Compare different materials with respect to their capacity to absorb liquids, and describe how this capacity determines their uses.	GLO: B1, C2, D3
+2-2-10	Describe useful materials that are made by combining solids and liquids. Examples: a drink made from crystals and water, a cake made from cake mix and water, glue made from flour and water	GLO: B1, D3
+2-2-11	Explore to determine that there is a substance around us called air.	GLO: A2, C2, D3, D5
+2-2-12	Recognize that air is composed of several gases. Examples: carbon dioxide, oxygen, nitrogen, water vapour	GLO: D3
+2-2-13	Identify properties of gases. Include: occupy the space not taken up by solids and liquids, have no definite shape	GLO: D3
+2-2-14	Explore to determine how water can be made to change from one state to another and back again. Include: addition or removal of heat	GLO: C2, D3, D4, E3
+2-2-15	Recognize that the states of solids and liquids remain constant in some circumstances, but may change in other circumstances. Examples: liquids may freeze when temperature drops, solids may melt when heated, solids remain solid when broken	GLO: D3, E3
+2-2-16	Describe ways humans dispose of solids and liquids to maintain a clean and healthy environment. Examples: take used car oil and old paints to collection sites, recycle newspapers	GLO: B5
+2-2-17	Predict and test to determine whether a variety of materials float or sink in water.	GLO: C2, D3
+2-2-18	Demonstrate ways to make sinking materials float and floating materials sink.	GLO: B1, C3
+2-2-19	Use the design process to construct an object that is buoyant and able to support a given mass/weight.	GLO: C3
+2-3-01	Use appropriate vocabulary related to their investigations of position and motion. Include: position, stationary, above, between, near, far from, next to, below, in front of, behind, to the right/left, perspective, motion, push, pull, friction, slope, inclined plane, wheel, axle, rotate, clockwise, counterclockwise	GLO: C6, D4
+2-3-02	Explore and describe the position of a stationary object with reference to themselves, to other objects, or to a specific area. Include: above, between, near, far from, next to, below, in front of, behind, to the right/left	GLO: D4
+2-3-03	Explore and describe changes in the position of an object in relation to its original position, themselves, or another object.	GLO: D4
+2-3-04	Explore and describe the position of an object viewed from a perspective different from one's own.	GLO: D4
+2-3-05	Explore and describe how changing the position of one's own body affects perspective with reference to a stationary object.	GLO: D4, E3
+2-3-06	Describe the motion of various objects and living things. Examples: spinning, swinging, bouncing, sliding, rolling, jumping	GLO: D1, D4
+2-3-07	Recognize that the position and motion of an object can be changed by a push or a pull and the size of the change is related to the strength of the push or pull.	GLO: D4
+2-3-08	Compare and describe the effects of friction on the motion of objects and humans when travelling across different surfaces. Examples: wheels of a toy on tile, sandpaper, or foam rubber; shoes on carpet, tile, or ice	GLO: C2, D4
+2-3-09	Explore and describe the effects of changing the slope of an inclined plane on the downward motion of an object and the effort needed to push or pull an object upward.	GLO: C2, D4
+2-3-10	Identify how humans use inclined planes to make motion easier. Examples: staircase, playground slide, wheelchair ramp, ramp on a moving van	GLO: B1, D4
+2-3-11	Explore toys to determine how wheels and axles interact and move.	GLO: C2, D4
+2-3-12	Recognize that the wheels of a vehicle rotate clockwise or counterclockwise depending on the direction of motion of the vehicle.	GLO: D4
+2-3-13	Identify how humans use the wheel and axle to make movement easier. Examples: moving dolly, wheel barrow, cart, wagon	GLO: B1, D4
+2-3-14	Use the design process to construct a vehicle with wheels and axles that meets given criteria.	GLO: C3, D4
+2-4-01	Use appropriate vocabulary related to their investigations of air and water. Include: wind, air current, temperature, changes of state, water cycle, freeze, melt, condense, evaporate, sources of drinking water, pollution	GLO: C6, D4, D5
+2-4-02	Recognize that air can move. Include: wind, air current	GLO: D5
+2-4-03	Observe and identify evidence of moving air in indoor and outdoor environments. Examples: leaves blowing, drapes moving	GLO: B1, C2, D5
+2-4-04	Identify positive and negative effects of changes in air temperature and movement in indoor and outdoor environments.	GLO: B1, E3
+2-4-05	Use the design process to construct and test a device that shows evidence of air movement. Examples: windsock, wind chime, pinwheel, sailboat, kite	GLO: C3
+2-4-06	Observe and identify examples of water in the environment. Examples: dew, frost, snow, rain, lakes, puddles, clouds, fog, perspiration	GLO: C2, D5
+2-4-07	Describe evidence of water changing state, and recognize that these changes are part of the water cycle. Examples: puddles evaporating after a rainstorm, snow melting	GLO: D4, D5, E2, E3
+2-4-08	Investigate to determine factors that cause things to dry quickly or slowly. Examples: air temperature, amount of moisture in the air, amount of wind	GLO: C2, D5, E3
+2-4-09	Identify sources of drinking water, and explain how this water is distributed in one's own and in other communities. Examples: wells, springs, lakes, rivers are sources; pumps, pipes, aqueducts and water trucks help distribute water	GLO: B1, D5, E2
+2-4-10	Describe different uses of water by humans. Examples: drinking, washing, cooking, canoeing, irrigating	GLO: B1
+2-4-11	Explain and appreciate the importance of clean air and water for humans, plants, and animals.	GLO: B5, D2
+2-4-12	Identify substances that pollute air and water, and describe ways of reducing such pollution. Examples: car exhaust, smoke, carbon monoxide, oil, house paints, and sewage	GLO: B3, B5, D3, D5
+2-4-13	Recognize that clean water is an increasingly scarce resource in many parts of the world, and describe consequences of a shortage of clean water.	GLO: B1, B3, B5
+2-4-14	Record personal use of water, and identify ways in which they can reduce water usage. Examples: rather than leaving water running while brushing teeth, turn off tap to reduce usage	GLO: B5, C2, C5
+3-0-1A	Ask questions that lead to investigations of living things, objects, and events in the local environment.	GLO: A1, C2, C5
+3-0-1B	Make predictions based on observed patterns, collected data, or data provided from other sources.	GLO: A1, C2
+3-0-1C	Identify practical problems to solve in the local environment.	GLO: C3
+3-0-2A	Access information using a variety of sources. Examples: children's magazines, local farmers, CD-ROMs, Internet	GLO: C6
+3-0-2B	Review information to determine its usefulness to research needs.	GLO: C6, C8
+3-0-3A	Brainstorm, with the class, one or more methods of finding the answer to a given question and reach consensus on which method to implement.	GLO: C2, C7
+3-0-3B	Identify, with the class, variables that have an impact on an investigation.	GLO: A1, A2, C2, C7
+3-0-3C	Create, with the class, a plan to answer a given question.	GLO: C2, C7
+3-0-3D	Brainstorm, in small groups, possible solutions to a practical problem, and reach consensus on which to implement.	GLO: C3, C7
+3-0-3E	Create, in small groups, a written plan to solve a problem or meet a need. Include: identify steps to follow, prepare a simple diagram.	GLO: C3, C7
+3-0-3F	Develop, in small groups, limited criteria to evaluate an object or device based on its function and aesthetics.	GLO: C3, C7
+3-0-4A	Carry out a plan, and describe the steps followed.	GLO: C2
+3-0-4B	Construct an object or device to solve a problem or meet a need.	GLO: C3
+3-0-4C	Test an object or device with respect to pre-determined criteria.	GLO: C3, C5
+3-0-4D	Identify and make improvements to an object or device, and explain the rationale for the changes.	GLO: C3
+3-0-4E	Respond respectfully to the ideas and actions of others, and recognize their ideas and contributions.	GLO: C5, C7
+3-0-4F	Assume roles and share responsibilities as group members.	GLO: C7
+3-0-4G	Verbalize questions, ideas, and intentions during classroom-learning experiences.	GLO: C6
+3-0-4H	Follow given safety procedures and rules, and explain why they are needed.	GLO: C1
+3-0-5A	Make observations that are relevant to a specific question.	GLO: A1, A2, C2
+3-0-5B	Use tools to observe, measure, and construct. Include: ruler, meter stick, pan balance, magnifying glass, bathroom scale, thermometer, magnet	GLO: C2, C3, C5
+3-0-5C	Estimate and measure mass/weight, length, volume, and temperature using standard units.	GLO: C2, C3, C5
+3-0-5D	Estimate and measure the passage of time using standard units. Include: seconds, minutes, hours	GLO: C2, C3, C5
+3-0-5E	Record observations in a variety of ways. Examples: point-form notes, sentences, simple diagrams, charts	GLO: C2, C6
+3-0-6A	Display data using more than one way to represent the same data.	GLO: C2, C6
+3-0-6B	Discuss data and generate new questions from displayed data.	GLO: A1, A2, C2, C5
+3-0-6C	Place materials and objects in a sequence or in groups using two or more attributes, and describe the system used.	GLO: C2, C3, C5
+3-0-7A	Draw a simple conclusion based on their observations.	GLO: A1, A2, C2
+3-0-7B	Explain why conclusions related to classroom experiments should be based on multiple trials or classroom data rather than on an individual result.	GLO: A1, A2, C2
+3-0-7C	Identify new problems that arise.	GLO: C3
+3-0-7D	Examine how new experiences, ideas, and information connect to prior knowledge and experiences, and record these connections.	GLO: A2, C6
+3-0-7E	Communicate results and conclusions in a variety of ways. Examples: point-form lists, sentences, simple diagrams, charts, demonstrations	GLO: C6
+3-0-8A	Recognize that valid experiments normally have reproducible results, which may vary slightly.	GLO: A1, A2, C2
+3-0-8B	Recognize that scientists develop explanations from observations and what they already know about the world, and that good explanations are based on evidence.	GLO: A1, A2, C2
+3-0-8C	Recognize that designing a solution to a simple problem may have constraints, such as cost, materials, time, and space.	GLO: B2, C3
+3-0-9A	Listen to and consider differing opinions.	GLO: C5, C7
+3-0-9B	Express enjoyment when sharing and discussing science-related experiences from daily life.	GLO: C5
+3-0-9C	Take the time to repeat a measurement or observation for greater precision or detail.	GLO: C5
+3-1-01	Use appropriate vocabulary related to their investigations of growth and changes in plants. Include: growing medium, nutrient, energy, root, stem, leaf, flowers, pistil, stamen, ovule, pollen, seed, fruit, adaptation, life cycle	GLO: C6, D1
+3-1-02	Observe, compare, and contrast the structure and appearance of several types of plants. Examples: plants with different types of roots, trees with needles and trees with leaves	GLO: C2, D1, E1
+3-1-03	Show respect for plants as living things.	GLO: B5
+3-1-04	Conduct experiments to determine conditions needed for healthy plant growth. Include: light, water, air, space, warmth, growing medium, nutrients	GLO: A1, C2, C5, D1
+3-1-05	Recognize that a plant uses the Sun's energy to make its own food.	GLO: D1, D2, D4, E4
+3-1-06	Use the design process to construct an environment that enhances plant growth. Examples: window sill garden, terrarium, cold frames	GLO: A5, C3, C5, D1
+3-1-07	Identify the basic parts of plants and describe their functions. Include: roots, stems, leaves, flowers, pistil, stamen, ovule, pollen, seeds, fruit	GLO: D1, E2
+3-1-08	Explain how different adaptations of plants help them survive in particular environments. Examples: cacti have fleshy stems that store water, allowing them to survive in a dry environment; plants with tap roots can grow well in heavily compacted soil	GLO: D1, D2, E1
+3-1-09	Identify plant adaptations that can be harmful to humans, and describe their effects. Examples: rose thorns cause painful punctures, poison in rhubarb leaves can cause sickness and death	GLO: B3, C1, D1
+3-1-10	Care for a flowering plant throughout its life cycle, tracking its growth, and its changes over time.	GLO: B5, C5, D1, E3
+3-1-11	Identify characteristics that remain constant and those that change throughout the life cycle of a flowering plant. Examples: generally, for a given plant, the leaf shape and flower colour stay the same, whereas the leaf size and number of leaves change	GLO: D1, E3
+3-1-12	Identify needs common to plants and animals, and contrast how they meet those needs.	GLO: D1, E1
+3-1-13	Describe ways that plants and animals depend on each other. Examples: plants provide food and shelter for some animals, animals help distribute pollen and seeds	GLO: D2, E2
+3-1-14	Describe ways plants are important to the environment. Examples: improve soil, air, and water quality; reduce erosion	GLO: B5, D2
+3-1-15	Identify and describe hobbies and jobs involving plants.	GLO: B4
+3-1-16	Identify how humans from various cultures use plant parts for food and medicine. Examples: use of roots for food (carrots) and medicine (ginseng)	GLO: A4, B1, C5, E1
+3-1-17	Investigate to determine how humans from various cultures make useful products from plant materials. Examples: lumber milling, paper making, rope making, fabric making	GLO: A3, A4, B1
+3-1-18	Explain how humans replenish the plants they use and the consequences if plants are not replenished. Examples: after loggers harvest trees, new ones should be planted to ensure a future lumber supply	GLO: B1, B5, E3
+3-2-01	Use appropriate vocabulary related to their investigations of materials and structures. Include: strength, balance, stability, structure, frame structure, natural structure, human-built structure, force	GLO: C6, D3
+3-2-02	Conduct experiments to compare the strength of common materials. Examples: wooden toothpicks, plastic straws, paper, cardboard, polystyrene foam	GLO: A1, A2, C2, D3
+3-2-03	Explore to determine ways to strengthen a material used for building. Include: changing shape, bulk, and number of layers	GLO: B1, C2, D3
+3-2-04	Explore to determine an appropriate method for joining two materials for a specific use.	GLO: C2, D3
+3-2-05	Recognize that balance affects the stability of a structure. Examples: a domino tower that leans to one side is more likely to tip over than one that stands straight	GLO: D4
+3-2-06	Explore to determine ways to improve the strength and stability of a frame structure. Examples: use of triangulation or a cross member	GLO: C2, D4, E2
+3-2-07	Identify shapes that are part of natural and human-built structures from various cultures and describe how these shapes help to provide strength and stability. Examples: cylinders, triangles, hexagons in outdoor playstructure, hexagons in a honeycomb	GLO: A4, D4, E2
+3-2-08	Identify characteristics of materials that need to be considered when choosing materials for building structures. Examples: strength, flexibility, durability, surface texture	GLO: D3
+3-2-09	Use the design process to build a structure that meets given criteria related to strength, stability, and function.	GLO: A3, C3
+3-2-10	Describe the effects of various forces on different structures. Examples: bookshelf sagging under the mass/weight of books, tent blowing over in a storm	GLO: D4, E2
+3-2-11	Evaluate simple structures to determine if they are safe and appropriate to the user. Examples: classroom furniture	GLO: C1, C3, C4, D4
+3-2-12	Investigate to identify hobbies and jobs related to construction, engineering, and architecture.	GLO: B4
+3-2-13	Identify various materials used in the construction of buildings in their community and in communities around the world.	GLO: A4, B1, D3, E1
+3-3-01	Use appropriate vocabulary related to their investigations of forces. Include: force, attract, repel, gravity, magnet, magnetize, magnetism, north pole, south pole, magnetic field, compass, electrostatic charge, static electricity, electrostatic force	GLO: C6, D4
+3-3-02	Recognize that force is a push or pull and that attraction and repulsion are types of pushes and pulls.	GLO: D4
+3-3-03	Describe evidence showing that objects and living things on or near Earth are pulled toward it by a force called gravity.	GLO: A2, D4
+3-3-04	Predict and test to identify materials that are attracted by magnets and those that can be magnetized.	GLO: C2, C5, D3
+3-3-05	Investigate to determine how to magnetize a given object. Include: contact with another magnet, proximity to a magnet	GLO: C2, D4
+3-3-06	Investigate to determine the location of poles on a magnet, and the shape of the magnetic field around a magnet.	GLO: A1, C2, D4
+3-3-07	Demonstrate that opposite poles attract and like poles repel.	GLO: C2, D4
+3-3-08	Explain why Earth can be compared to a giant magnet. Include: Earth has a magnetic field with poles adjacent to the geographic poles	GLO: D4, E1, E2
+3-3-09	Demonstrate and explain how a compass operates by magnetism. Include: Earth's magnetic pole attracts the magnetic needle of a compass	GLO: B1, D4
+3-3-10	Describe potentially harmful effects of magnets on magnetized materials. Examples: computers, videos, credit cards	GLO: B1, C1, D4
+3-3-11	Describe and demonstrate ways to use everyday materials to produce electrostatic charges. Examples: rubbing feet on carpet, brushing hair, rubbing a balloon on clothes	GLO: D4
+3-3-12	Investigate to determine how electrostatically charged materials interact with each other and with uncharged materials. Include: charged materials attract or repel each other, charged materials attract uncharged materials	GLO: A2, C2, D4
+3-3-13	Identify ways in which problems associated with static electricity can be avoided or eliminated. Examples: staying indoors when there is a lightning storm, grounding yourself before using computers, avoiding shuffling your feet on carpets	GLO: B1, C1, D4
+3-3-14	Investigate to determine the change in magnetic and electrostatic forces at different distances.	GLO: C2, D4
+3-3-15	Predict and test to determine the effect of placing materials between a magnet and an attracted object and between charged objects. Examples: different thicknesses of paper, glass, water, metal	GLO: C2, C5, D4
+3-3-16	Recognize that gravitational, magnetic, and electrostatic forces can move certain objects without touching them directly.	GLO: D4
+3-3-17	Distinguish between motion that is caused without contact and that which is caused by contact.	GLO: D4
+3-3-18	Identify devices that use gravitational, magnetic, or electrostatic forces. Examples: balances, magnetic cupboard latches, dust mops	GLO: B1, D4
+3-3-19	Use the design process to construct a game, toy, or useful device that uses gravitational, magnetic, or electrostatic forces.	GLO: C3, C5
+3-4-01	Use appropriate vocabulary related to their investigations of soils in the environment. Include: soil, soil component, loam, clay, sand, pebbles, organic matter, humus, rocks, sedimentation, sieving, water-holding capacity	GLO: C6, D5
+3-4-02	Identify and describe various components within a sample of soil from the local environment. Examples: clay, loam, sand, pebbles, organic matter, humus, rocks	GLO: D5
+3-4-03	Explore to determine ways to separate soil components. Include: sedimentation and sieving techniques	GLO: C2, D5
+3-4-04	Describe and compare components of soil samples collected at different locations and depths.	GLO: D5, E1
+3-4-05	Compare the water-holding capacity of different soils. Examples: sandy soil retains far less water than loamy soil	GLO: D3, D5, E1
+3-4-06	Describe the effect of water on different soils. Examples: texture, cohesion, ability to hold shape	GLO: D3, D5
+3-4-07	Conduct experiments to determine how different soils affect the growth of plants. Examples: compare the same type of plant grown in sand versus potting soil	GLO: A1, A2, C2, D2
+3-4-08	Explain the importance of understanding the characteristics of different soils. Examples: enables farmers to determine which crops can be grown in a particular area, enables gardeners to improve plant growth, enables engineers to know what types of foundations to set for structures	GLO: A5, B1, B5, E2
+3-4-09	Identify animals found in soil and explain their importance to soil quality. Examples: worms, insects, and mammals help to aerate the soil or increase nutrients	GLO: B5, D2
+3-4-10	Describe ways to return organic matter to the soil. Examples: composting, spreading manure on fields	GLO: B1, B5, D2, D5
+3-4-11	Use the design process to construct a simple composter that returns organic matter to the soil Examples: classroom composter for left-over food, school composter for grass clippings and leaves	GLO: B1, B5, C3, D2
+3-4-12	Investigate how humans from various cultures use earth materials to make objects. Examples: clay pots, sod houses, adobe bricks, glass	GLO: A4, B1, B4
+4-0-1A	Ask questions that lead to investigations of living things, objects, and events in the local environment.	GLO: A1, C2, C5
+4-0-1B	Make and justify predictions based on observed patterns, collected data, or data provided from other sources.	GLO: A1, C2
+4-0-1C	Identify practical problems to solve in the local environment.	GLO: C3
+4-0-2A	Access information using a variety of sources. Examples: school libraries, videos, traditional knowledge, local hunters, CD-ROMs, Internet	GLO: C6
+4-0-2B	Review information to determine its usefulness to inquiry or to research needs.	GLO: C6, C8
+4-0-3A	Brainstorm, in small groups, one or more methods of finding the answer to a given question, and reach consensus on which method to implement.	GLO: C2, C7
+4-0-3B	Identify, in small groups, variables that have an impact on an investigation.	GLO: A1, A2, C2, C7
+4-0-3C	Create, in small groups, a plan to answer a given question.	GLO: C2
+4-0-3D	Brainstorm possible solutions to a practical problem, and identify and justify which solution to implement.	GLO: C3
+4-0-3E	Create a written plan to solve a problem or meet a need. Include: identify steps to follow, prepare a labelled diagram	GLO: C3
+4-0-3F	Develop criteria to evaluate an object, device, or system based on its function, aesthetics, and other considerations such as materials, and cost.	GLO: C3
+4-0-4A	Carry out a plan, and describe the purpose of the steps followed.	GLO: C2
+4-0-4B	Construct an object, device, or system to solve a problem or meet a need.	GLO: C3
+4-0-4C	Test an object, device, or system with respect to pre-determined criteria.	GLO: C3, C5
+4-0-4D	Identify and make improvements to an object, device, or system, and explain the rationale for the changes.	GLO: C3
+4-0-4E	Identify problems as they arise, and work with others to find solutions.	GLO: C3, C7
+4-0-4F	Assume roles, and share responsibilities as group members.	GLO: C7
+4-0-4G	Communicate questions, ideas and intentions, and listen effectively to others during classroom-learning experiences.	GLO: C6
+4-0-4H	Use tools and apparatus in a manner that ensures personal safety and the safety of others.	GLO: C1
+4-0-5A	Select and use tools to observe, measure, and construct. Examples: tuning fork, prism, binoculars, measuring tape	GLO: C2, C3, C5
+4-0-5B	Estimate and measure mass/weight, length, volume, area, and temperature using standard units.	GLO: C2, C3, C5
+4-0-5C	Record observations in a variety of ways. Examples: point-form notes, sentences, labelled diagrams, charts	GLO: C2, C6
+4-0-6A	Construct bar graphs and pictographs using many to one correspondence, and interpret these as well as graphs from other sources.	GLO: C2, C6
+4-0-6B	Identify and suggest explanations for patterns and discrepancies in data.	GLO: A1, A2, C2, C5
+4-0-6C	Choose and identify relevant attributes for use in a classification system, and create a chart or diagram that shows the method of classifying.	GLO: C2, C3, C5
+4-0-6D	Sort and classify according to an established classification system.	GLO: C2, C3
+4-0-6E	Evaluate, with guidance, the methods used to answer a question or solve a problem.	GLO: C2, C3
+4-0-7A	Draw a conclusion based on evidence gathered through research and observation.	GLO: A1, A2, C2
+4-0-7B	Identify new questions that arise from what was learned.	GLO: A1, C2, C3
+4-0-7C	Identify new problems that arise.	GLO: C3
+4-0-7D	Construct meaning in different contexts by connecting new experiences and information to prior experiences and knowledge.	GLO: A2, C6
+4-0-7E	Communicate results and conclusions in a variety of ways. Examples: point-form lists, sentences, graphs, labeled diagrams, charts	GLO: C6
+4-0-8A	Recognize that experimental results may vary slightly when carried out by different persons, or at different times or places; but that if the results of repeated experiments are very different, something must be wrong with the design of the experiment.	GLO: A1, A2, C2
+4-0-8B	Recognize that scientists must support their explanations using evidence and scientific knowledge.	GLO: A1, A2, C2
+4-0-8C	Recognize that designing a solution to a simple problem may have considerations, such as cost, materials, time, and space.	GLO: B2, C3
+4-0-9A	Respect alternative views of the world.	GLO: C5, C7
+4-0-9B	Demonstrate confidence in their ability to do science.	GLO: C5
+4-0-9C	Report and record what is observed, not what they think they ought to observe, or what they believe the teacher expects.	GLO: C5
+4-1-01	Use appropriate vocabulary related to their investigations of habitats and communities. Include: habitat, physical adaptation, behavioural adaptation, traditional knowledge, technological development, population, community, food chain, food web, organism, producer, consumer, herbivore, omnivore, carnivore, predator, prey, scavenger, endangerment, extinction, conservation	GLO: C6, D2
+4-1-02	Recognize that each plant and animal depends on a specific habitat to meet its needs.	GLO: D2
+4-1-03	Identify the components of an animal habitat. Include: food, water, living space, cover/shelter	GLO: D2, E2
+4-1-04	Identify physical and behavioural adaptations of animals and plants, and infer how these adaptations help them to survive in a specific habitat. Examples: ducks' webbed feet and waterproof feathers help them dive for food in the marsh	GLO: D1, D2
+4-1-05	Investigate alternate explanations of plant or animal adaptations based on traditional knowledge from a variety of cultures.	GLO: A1, A4, C8
+4-1-06	Investigate how technological developments often mirror physical adaptations. Examples: fishnet - spider web, diving fins - webbed feet	GLO: A5, E1
+4-1-07	Investigate and describe a variety of local and regional habitats and their associated populations of plants and animals.	GLO: D2, E2
+4-1-08	Predict and test to determine an appropriate method for measuring a plant population within a given habitat.	GLO: A2, C2, C3, C5
+4-1-09	Recognize that plant and animal populations interact within a community.	GLO: D2
+4-1-10	Recognize that the food chain is a system in which some of the energy from the Sun is transferred eventually to animals.	GLO: D2, D4, E2
+4-1-11	Construct food chains and food webs, and classify organisms according to their roles. Include: producer, consumer, herbivore, omnivore, carnivore, predator, prey, scavenger	GLO: D2, E2
+4-1-12	Use the design process to construct a model of a local or regional habitat and its associated populations of plants and animals.	GLO: C3, D4
+4-1-13	Predict, based on their investigations, how the removal of a plant or animal population may affect the rest of the community. Examples: if the wolves were removed from a community, the deer population may increase rapidly	GLO: D2, E2, E3
+4-1-14	Investigate natural and human-caused changes to habitats, and identify resulting effects on plant and animal populations. Include: endangerment, extinction	GLO: B1, B5, D2, E3
+4-1-15	Describe how their actions can help conserve plant and animal populations and their habitats. Examples: clean up a local stream to improve fish and bird habitat	GLO: B5
+4-1-16	Describe how specific technological developments have enabled humans to increase their knowledge about plant and animal populations. Examples: radio collar tracking, timelapse photography	GLO: A2, A3, A5
+4-1-17	Recognize and appreciate how traditional knowledge contributes to our understanding of plant and animal populations and interactions.	GLO: A1, A2, A4, C8
+4-2-01	Use appropriate vocabulary related to their investigations of light. Include: energy, reflect, absorb, transmit, artificial, light beam, transparent, translucent, opaque, technological development, science, brightness	GLO: A5, B1, C6, D4
+4-2-02	Give examples of various forms of energy. Include: light, heat, food, sound	GLO: D4, E4
+4-2-03	Recognize that energy is an integral part of daily life.	GLO: B1, D4, E4
+4-2-04	Demonstrate that white light can be separated into colours.	GLO: C2, D4
+4-2-05	Distinguish between objects that produce their own light and those that reflect light from another source. Examples: the Sun emits its own light, the Moon reflects light from the Sun	GLO: A1, A2, D4
+4-2-06	Identify a variety of natural and artificial light sources. Examples: Sun, candle, light bulb, firefly, lightning, aurora borealis, lasers	GLO: D4
+4-2-07	Observe and describe properties of light. Include: travels in a straight path, bends as it passes from one medium to another, can be reflected, can be different colours	GLO: C2, D4
+4-2-08	Explore to determine effects different materials and objects have on a light beam. Examples: prisms and water bend light; some lenses intensify light, whereas others disperse light	GLO: C2, D3, D4
+4-2-09	Recognize that most objects that produce light also give off heat, and identify objects that produce light but give off little or no heat.	GLO: D4
+4-2-10	Classify materials as transparent, translucent, or opaque.	GLO: D3, E1
+4-2-11	Evaluate the usefulness of a material for a particular task based on its ability to transmit, reflect, or absorb light. Examples: usefulness of coloured glass to preserve food and drink by protecting them from light	GLO: A5, B1, D3
+4-2-12	Predict the location, shape, and size of a shadow based on the position of a light source relative to an object.	GLO: C2, D4
+4-2-13	Identify technological developments that extend our ability to see, and recognize their impact on science. Examples: the telescope allows astronomers to obtain new information	GLO: A5, B1
+4-2-14	Use the design process to construct a device that transmits and reflects light. Examples: periscope, kaleidoscope	GLO: B1, C3
+4-2-15	Describe practices that help ensure protection of eyes and sight. Examples: direct mirrors away from the eyes when reflecting intense light sources	GLO: B3, C1
+4-2-16	Identify different uses of light at home, at school, and in the community, and explain how the brightness and colour of the light are appropriate for each use. Examples: vivid neon lights for advertising, blue lights for snow removal vehicles	GLO: B1, B3, C1
+4-3-01	Use appropriate vocabulary related to their investigations of sound. Include: energy, sound, vibration, vocal cords, pitch, loudness, sound waves, outer ear, middle ear, inner ear, brain, transmit, absorb, reflect, detect	GLO: B1, C6, D4
+4-3-02	Recognize that sound is a form of energy.	GLO: D4, E4
+4-3-03	Recognize that energy makes things happen and can be found all around us.	GLO: D4, E4
+4-3-04	Identify and classify various sounds using student-generated criteria.	GLO: C2, D4
+4-3-05	Recognize that sounds are caused by vibrations. Include: the human voice relies on the vibrations of vocal cords	GLO: D3, D4
+4-3-06	Use the design process to create a musical instrument.	GLO: C3, C5, D4, E2
+4-3-07	Demonstrate how the pitch and loudness of sounds can be modified. Examples: differences in sound when plucking a loose rubber band vs. a stretched rubber band	GLO: C2, D3, D4, E3
+4-3-08	Observe and describe properties of sound. Include: travels in waves in all directions	GLO: C2, D4
+4-3-09	Describe how the human ear is designed to detect sound vibrations. Include: sound is transmitted from the outer ear to the middle ear and the inner ear, which relays messages to the brain	GLO: D1, D4
+4-3-10	Recognize that there is a range of sounds that humans can and cannot hear.	GLO: D1
+4-3-11	Describe practices that help ensure protection of the ears and hearing. Examples: ear plugs in situations involving excessive noise	GLO: B3, C1
+4-3-12	Describe harmful effects of high or sustained sound levels and identify potential sound hazards at home or in the community. Examples: leaf blowing machines, snowblower, stereo, drone of machinery	GLO: B1, B3, C1
+4-3-13	Investigate to compare how vibrations travel differently through solids, liquids, and gases.	GLO: C2, D3, E1
+4-3-14	Explore to determine the ability of materials to transmit or absorb sound.	GLO: C2, D3, E1
+4-3-15	Describe how materials that absorb or reflect sound are used in different situations. Examples: concrete sound barriers are placed beside highways to absorb sound	GLO: B1, C1, D3
+4-3-16	Describe devices that extend our ability to produce, transmit, and detect sound. Examples: amplifier, hearing aids, megaphone, ear trumpet	GLO: B1
+4-3-17	Investigate to identify inventions related to sound, and describe their impacts on society. Examples: radio, telephone, microphone	GLO: A4, B1, B2
+4-3-18	Describe the role of sound in different jobs and hobbies. Examples: physicians listen to a patient's heartbeat during a check-up, birders identify birds by their calls	GLO: B4
+4-4-01	Use appropriate vocabulary related to their investigations of rocks, minerals, and erosion. Include: rock, mineral, characteristic, property, scratch test, streak test, igneous, sedimentary, metamorphic, fossil, organism, extinct, soil formation, erosion, natural phenomena	GLO: C6, D5
+4-4-02	Classify rocks and minerals according to student-generated criteria.	GLO: C2, D3, D5
+4-4-03	Test to determine characteristics of rocks and properties of minerals, and classify accordingly. Include: scratch test for hardness, streak test for colour	GLO: A1, C2, D3, D5
+4-4-04	Differentiate between minerals and rocks. Include: minerals are composed of the same substance throughout, rocks are composed of two or more minerals.	GLO: D5
+4-4-05	Compare rocks and minerals from the local environment with each other and with those from other geological areas.	GLO: C2, D5, E1
+4-4-06	Give examples of products derived from rocks and minerals. Examples: china, chalk, jewellery, pumice stone, drywall, talcum powder	GLO: B1
+4-4-07	Describe how characteristics of rocks and properties of minerals determine their uses. Examples: soft soapstone is used for carving	GLO: B1, D3, D5
+4-4-08	Recognize that there are three types of rock, and describe how each is formed. Include: igneous, sedimentary, metamorphic	GLO: D5
+4-4-09	Explain how fossils are formed.	GLO: D1, D5, E3
+4-4-10	Describe how fossils help humans gain a better understanding of Earth's history, including identifying organisms that are now extinct.	GLO: A1, A2, D1, D5
+4-4-11	Investigate and describe ways in which rock contributes to soil formation.	GLO: D5, E2, E3
+4-4-12	Investigate and describe ways in which soil erosion is controlled or minimized in their community and in communities around the world. Examples: windbreaks, retaining walls, terracing, cover crops, reforestation	GLO: A5, B1, B5
+4-4-13	Use the design process to determine an appropriate system for controlling soil erosion in a given situation.	GLO: B1, B5, C3, E3
+4-4-14	Describe effects of wind, water, and ice on the landscape. Examples: ice breaking rocks into soil, wind shaping sand dunes, waves polishing rocks on the shoreline	GLO: D5, E3
+4-4-15	Identify natural phenomena and human activities that cause significant changes in the landscape. Examples: floods, avalanches, mud slides, hydroelectric dams, clearing land for agriculture, clear-cut forestry, forest fires	GLO: B5, D5, E3
+5-0-1A	Formulate, with guidance, specific questions that lead to investigations. Include: rephrase questions to a testable form, focus research questions	GLO: A1, C2
+5-0-1B	Identify various methods for finding the answer to a specific question and, with guidance, select one to implement. Examples: generating experimental data, accessing information from a variety of sources	GLO: C2
+5-0-1C	Identify practical problems to solve. Examples: How can I determine the mass of air? Which prepared pizza should I buy?	GLO: C3
+5-0-1D	Identify various methods to solve a practical problem and select and justify one to implement. Examples: constructing and testing a prototype, evaluating consumer products, accessing information from a variety of sources	GLO: C3
+5-0-2A	Access information using a variety of sources. Examples: libraries, magazines, community resource people, outdoor experiences, videos, CD-ROMS, Internet	GLO: C6
+5-0-2B	Review information to determine its usefulness using pre-determined criteria.	GLO: C6, C8
+5-0-2C	Record information in own words and reference sources appropriately.	GLO: C6
+5-0-3A	Formulate, with guidance, a prediction/hypothesis that identifies a cause and effect relationship.	GLO: A2, C2
+5-0-3B	Identify variables that have an impact on their experiments, and, with guidance, variables to hold constant to ensure a fair test.	GLO: A2, C2
+5-0-3C	Create a written plan to answer a specific question. Include: apparatus, materials, safety considerations, and steps to follow	GLO: C1, C2
+5-0-3D	Develop criteria to evaluate a prototype or consumer product. Include: function, aesthetics, efficient use of materials, cost, reliability	GLO: C3
+5-0-3E	Create a written plan to solve a problem. Include: materials, safety considerations, labelled diagrams of top and side views, steps to follow	GLO: C1, C3, C6
+5-0-4A	Carry out, with guidance, procedures that comprise a fair test. Include: controlling variables, repeating measurements to increase accuracy and reliability	GLO: C2
+5-0-4B	Construct a prototype.	GLO: C3
+5-0-4C	Work cooperatively with group members to carry out a plan, and troubleshoot problems as they arise.	GLO: C7
+5-0-4D	Assume various roles and share responsibilities as group members.	GLO: C7
+5-0-4E	Use tools and materials in a manner that ensures personal safety and the safety of others. Include: keeping an uncluttered workspace, putting equipment away after its use, handling glassware with care	GLO: C1
+5-0-5A	Make observations that are relevant to a specific question.	GLO: A1, A2, C2
+5-0-5B	Test a prototype or consumer product with respect to pre-determined criteria.	GLO: C3, C5
+5-0-5C	Select and use tools and instruments to observe, measure, and construct. Include: balance, thermometer, spring scale, weather instruments	GLO: C2, C3, C5
+5-0-5D	Evaluate the appropriateness of units and measuring tools in practical contexts.	GLO: C2, C5
+5-0-5E	Estimate and measure mass/weight, length, volume, and temperature using SI and other standard units.	GLO: C2, C5
+5-0-5F	Record and organize observations in a variety of ways. Examples: point-form notes, sentences, labelled diagrams, charts, ordered lists of data, frequency diagrams, spreadsheets	GLO: C2, C6
+5-0-6A	Construct graphs to display data, and interpret and evaluate these and other graphs. Examples: bar graphs, frequency tallies, line plots, broken line graphs	GLO: C2, C6
+5-0-6C	Identify and suggest explanations for patterns and discrepancies in data.	GLO: A1, A2, C2, C5
+5-0-6D	Identify and make improvements to a prototype and explain the rationale for the improvement.	GLO: C3, C4
+5-0-6E	Evaluate the strengths and weaknesses of a consumer product based on pre-determined criteria.	GLO: C3, C4
+5-0-6F	Evaluate the methods used to answer a question or solve a problem.	GLO: C2, C3
+5-0-7A	Draw, with guidance, a conclusion that explains investigation results. Include: explaining patterns in data, supporting or rejecting a prediction/hypothesis	GLO: A1, A2, C2
+5-0-7B	Base conclusions on evidence rather than preconceived ideas or hunches.	GLO: C2, C4
+5-0-7C	Identify, with guidance, a new prediction/hypothesis based on results of investigations.	GLO: A1, C2
+5-0-7D	Propose and justify a solution to the initial problem.	GLO: C3
+5-0-7E	Identify new practical problems to solve.	GLO: C3
+5-0-7F	Use prior knowledge and experiences selectively to make sense of new information in a variety of contexts.	GLO: A2, C4
+5-0-7G	Communicate methods, results, conclusions, and new knowledge in a variety of ways. Examples: oral, written, multi-media presentations	GLO: C6
+5-0-7H	Identify, with guidance, connections between the investigation results and everyday life.	GLO: C4
+5-0-8A	Recognize that science is a way of answering questions about the world and that there are questions that science cannot answer.	GLO: A1, A3
+5-0-8B	Identify examples of scientific knowledge that have developed as a result of the gradual accumulation of evidence.	GLO: A2
+5-0-8C	Recognize that technology is a way of solving problems in response to human needs.	GLO: A3, B2
+5-0-8D	Provide examples of technologies from the past and describe how they have evolved over time.	GLO: B1
+5-0-8E	Describe hobbies and careers related to science and technology.	GLO: B4
+5-0-8F	Recognize that science is organized into specialized disciplines.	GLO: A1, B4
+5-0-8G	Describe positive and negative effects of scientific and technological endeavours. Include: effects on themselves, society, the environment, and the economy.	GLO: A1, B1, B3, B5
+5-0-9A	Appreciate that women and men of diverse cultural backgrounds can contribute equally to science.	GLO: A4
+5-0-9B	Show interest in the activities of individuals working in scientific and technological fields.	GLO: B4
+5-0-9C	Demonstrate confidence in their ability to carry out investigations in science and technology.	GLO: C5
+5-0-9D	Appreciate the importance of creativity, accuracy, honesty, and perseverance as scientific and technological habits of mind.	GLO: C5
+5-0-9E	Be sensitive to and develop a sense of responsibility for the welfare of other humans, other living things, and the environment.	GLO: B5
+5-0-9F	Frequently and thoughtfully evaluate the potential consequences of their actions.	GLO: B5, C4
+5-1-01	Use appropriate vocabulary related to their investigations of human health. Include: nutrients; carbohydrates; proteins; fats; vitamins; minerals; Canada's Food Guide to Healthy Eating; food group; serving size; terms related to the digestive, skeletal, muscular, nervous, integumentory, respiratory, and circulatory systems	GLO: B3, C6, D1
+5-1-02	Interpret nutritional information found on food labels. Examples: ingredient proportions, identification of potential allergens, information related to energy content and nutrients	GLO: B3, C4, C5, C8
+5-1-03	Describe the types of nutrients in foods and their function in maintaining a healthy body. Include: carbohydrates, proteins, fats, vitamins, minerals	GLO: B3, D1
+5-1-04	Evaluate a daily menu plan and suggest changes to make it align more closely with Canada's Food Guide to Healthy Eating. Include: serving size recommendations according to age for each food group	GLO: B3, C3, C4, C8
+5-1-05	Evaluate prepared food products using the design process. Examples: frozen pizza, snack foods, beverages	GLO: B3, C3, C4, C8
+5-1-06	Identify the major components of the digestive system, and describe its role in the human body. Include: teeth, mouth, esophagus, stomach, and intestines break down food	GLO: D1, E2
+5-1-07	Identify the major components of the skeletal, muscular, and nervous systems, and describe the role of each system in the human body. Include: the skeleton provides protection and support; muscles, tendons, and ligaments enable movement; brain, spinal cord, and nerves receive sensory input, process information, and send out signals	GLO: D1, E2
+5-1-08	Identify skin as the major component of the integumentory system, and describe its role in protecting and supporting the human body.	GLO: D1, E2
+5-1-09	Identify components of the human body's defenses against infections, and describe their role in defending the body against infection. Include: tears, saliva, skin, white blood cells	GLO: D1, E2
+5-1-10	Identify the major components of the respiratory and circulatory systems, and describe the role of each system in the human body. Include: the nose, trachea, and lungs take in oxygen and expel carbon dioxide; the heart, blood vessels, and blood transport oxygen, nutrients, and waste products such as carbon dioxide	GLO: D1, E2
+5-1-11	Describe how the human body gets rid of waste. Include: kidneys filter blood and dispose of waste as urine; lungs give off waste carbon dioxide; the rectum collects and expels undigested food matter	GLO: D1, E2
+5-1-12	Give examples of how systems of the human body work together. Examples: the circulatory system transports nutrients from the digestive system and oxygen from the respiratory system to the muscular system	GLO: D1, E2
+5-1-13	Identify and describe factors necessary to maintain a healthy body. Include: daily physical activity, a balanced diet, fluid replacement, adequate sleep, appropriate hygiene practices, regular check-ups	GLO: B3, C4, D1
+5-1-14	Evaluate information related to body image and health from media sources for science content and bias. Examples: glamorization of smoking in movies, promotion of unrealistic role models in magazines, trivialization of scientific information on television	GLO: B3, C4, C5, C8
+5-1-15	Explain how human health may be affected by lifestyle choices and natural- and human-caused environmental factors. Include: smoking and poor air quality may cause respiratory disorders; unhealthy eating and physical inactivity may lead to diabetes or heart disease; prolonged exposure to the Sun can cause skin cancer	GLO: B3, B5, C4, D1
+5-2-01	Use appropriate vocabulary related to their investigations of properties of, and changes in, substances. Include: characteristic, property, substance, matter, volume, state, solid, liquid, gas, reversible, and non-reversible changes, physical change, chemical change, chemical products, raw material	GLO: C6, D3
+5-2-02	Identify characteristics and properties that allow substances to be distinguished from one another. Examples: texture, hardness, flexibility, strength, buoyancy, solubility, colour, mass/weight for the same volume	GLO: D3, E1
+5-2-03	Investigate to determine how characteristics and properties of substances may change when they interact with one other. Examples: baking soda in vinegar produces a gas; adding flour to water produces a sticky paste	GLO: C2, D3, E3
+5-2-04	Recognize that matter is anything that has mass/weight and takes up space.	GLO: D3
+5-2-05	Identify properties of the three states of matter. Include: solids have definite volume and hold their shape; liquids have definite volume but take the shape of their container; gases have no definite volume and take the volume and shape of their container	GLO: D3
+5-2-06	Experiment to compare the mass/weight of a substance in its liquid and solid states. Examples: compare the mass of ice cubes with the mass of the liquid that results when they melt	GLO: C2, D3, E3
+5-2-07	Demonstrate that the mass/weight of a whole object is equal to the sum of the mass/weight of its parts. Examples: compare the mass/weight of a pencil case and its contents with that of the individual componenets weighed separately and added together	GLO: C2, D3, E3
+5-2-08	Demonstrate that changes of state are reversible through the addition or removal of heat. Include: melting, freezing/solidification, condensation, evaporation	GLO: D3, E3, E4
+5-2-09	Explore to identify reversible and non-reversible changes that can be made to substances. Examples: reversible - folding paper, mixing baking soda and marbles; non-reversible - cutting paper, mixing baking soda and vinegar	GLO: C2, D3, E3
+5-2-10	Recognize that a physical change alters the characteristics of a substance without producing a new substance, and that a chemical change produces a new substance with distinct characteristics and properties.	GLO: D3, E3
+5-2-11	Observe examples of changes in substances, classify them as physical or chemical changes, and justify the designation. Examples: physical - bending a nail, chopping wood, chewing food; chemical - rusting of a nail, burning wood, cooking food	GLO: C2, D3, E3
+5-2-12	Identify potentially harmful chemical products used at home, and describe practices to ensure personal safety. Include: use of products with parental supervision, recognition of safety symbols, procedures to follow in case of an emergency, proper storage of chemical products	GLO: B1, C1, D3
+5-2-13	Evaluate household chemical products using the design process. Examples: glass-cleaner, laundry soap, toothpaste	GLO: B5, C3, C4, C8
+5-2-14	Research and describe how raw materials are transformed into useful products. Examples: food processing, oil refining, paper milling, plastic moulding, gold smelting	GLO: B1, B4, C2, E3
+5-3-01	Use appropriate vocabulary related to their investigations of forces and simple machines. Include: applied force, balanced and unbalanced forces, fulcrum, load, friction, terms related to types of simple machines	GLO: C6, D4
+5-3-02	Describe, using diagrams, the forces acting on an object and the effects of increasing or decreasing them. Include: force arrows representing direction and relative strength of forces acting in the same plane, balanced and unbalanced forces	GLO: C6, D4
+5-3-03	Investigate a variety of levers used to accomplish particular tasks in order to compare them qualitatively with respect to fulcrum position, applied force, and load. Include: first class, second class, and third class levers	GLO: C2, D4, E1
+5-3-04	Identify objects in the school and at home that use wheels and axles, and describe the forces involved. Examples: doorknob, manual pencil sharpener, hinge, bicycle	GLO: B1, D4, E1
+5-3-05	Recognize that a gear is a wheel and axle used to turn another wheel and axle.	GLO: D4, E2
+5-3-06	Identify common devices and systems that incorporate pulleys and/or gears.	GLO: A5, B1, D4, E1
+5-3-07	Explore to determine how the direction and amount of the applied force and the speed of rotation vary within a two-gear system.	GLO: C2, D4, E2
+5-3-08	Compare, quantitatively, the force required to lift a load using a pulley system versus a single fixed pulley, and recognize the relationship between the force required and the distance over which the force is applied. Include: a system of pulleys reduces the force required while increasing the distance over which the force is applied; a single fixed pulley requires a greater force but applies it over a shorter distance.	GLO: C2, D4, E2
+5-3-09	Identify and make modifications to their own pulley and/or gear systems to improve how they move loads. Include: reducing friction	GLO: C3, D4, E2
+5-3-10	Identify and describe types of simple machines. Include: levers, wheel and axle, pulley, gear, inclined plane, screw, wedge	GLO: D4
+5-3-11	Describe the advantage of using simple machines to move or lift a given load. Include: to decrease the force required; to increase the resulting force; to change the direction of the applied force.	GLO: D4
+5-3-12	Investigate to identify advantages and disadvantages of using different simple machines to accomplish the same task. Examples: using a pulley, inclined plane, or lever to move a piano to the second floor	GLO: B1, C2, C4, D4
+5-3-13	Compare devices that use variations of simple machines to accomplish similar tasks. Examples: a short- or long-handled pump, a racing or mountain bicycle	GLO: B1, C3, C4, D4
+5-3-14	Use the design process to construct a prototype containing a system of two or more different simple machines that move in a controlled way to perform a specific function.	GLO: C3, D4, E2
+5-4-01	Use appropriate vocabulary related to their investigations of weather. Include: weather; properties; volume; pressure; air masses; fronts; weather instrument; severe weather; forecast; accuracy; water cycle; climate; terms related to public weather reports, and cloud formations	GLO: C6, D5
+5-4-02	Describe how weather conditions may affect the activities of humans and other animals. Examples: heavy rainfall may cause roads to wash out; stormy conditions may prevent a space shuttle launching; in excessive heat, cattle may produce less milk	GLO: D5
+5-4-03	Describe properties of air. Include: has mass/weight and volume; expands to fill a space; expands and rises when heated; contracts and sinks when cooled; exerts pressure; moves from areas of high pressure to areas of low pressure	GLO: D3
+5-4-04	Recognize that warm and cold air masses are important components of weather, and describe what happens when these air masses meet along a front. Include: in a cold front the cold air mass slides under a warm air mass, pushing the warm air upwards; in a warm front the warm moist air slides up over a cold air mass	GLO: D5, E2
+5-4-05	Use the design process to construct a weather instrument. Examples: an instrument that measures wind direction, wind speed, rainfall	GLO: C3, D5
+5-4-06	Observe and measure local weather conditions over a period of time, using student-constructed or standard instruments, and record and analyze these data.	GLO: A2, C2, C5, D5
+5-4-07	Identify and describe components of public weather reports from a variety of sources. Include: temperature; relative humidity; wind speed and direction; wind chill; barometric pressure; humidex; cloud cover; ultraviolet index; warm and cold fronts; amount, types, and probability of precipitation	GLO: C6, D5
+5-4-08	Describe the key features of a variety of weather phenomena. Examples: wind speed and precipitation of blizzards	GLO: D5, E1, E2
+5-4-09	Provide examples of severe weather forecasts, and describe preparations for ensuring personal safety during severe weather and related natural disasters. Examples: tornado, thunderstorm, blizzard, extreme wind chill, flood, forest fire	GLO: B3, C1, D5
+5-4-10	Investigate various ways of predicting the weather, and evaluate their usefulness. Examples: weather-related sayings, traditional knowledge, folk knowledge, observations of the natural environment	GLO: A2, A4, B2, C8
+5-4-11	Contrast the accuracy of short- and long-term weather forecasts, and discuss possible reasons for the discrepancies. Include: long-term forecasts may not be accurate as weather is a complex natural phenomenon that science is not yet able to predict accurately	GLO: A1, C2
+5-4-12	Describe examples of technological advances that have enabled humans to deepen their scientific understanding of weather and improve the accuracy of weather predictions. Examples: satellites collect data that scientists analyze to increase understanding of global weather patterns; computerized models predict weather	GLO: A2, A5, B1, D5
+5-4-13	Explain how the transfer of energy from the Sun affects weather conditions. Include: the Sun's energy evaporates water and warms the Earth's land, water, and air on a daily basis	GLO: D4, D5, E4
+5-4-14	Explain how clouds form, and relate cloud formation and precipitation to the water cycle.	GLO: D5, E2
+5-4-15	Identify and describe common cloud formations. Include: cumulus, cirrus, stratus	GLO: D5, E1
+5-4-16	Differentiate between weather and climate. Examples: weather includes the atmospheric conditions existing at a particular time and place; climate describes the long-term weather trend of a particular region	GLO: D5, E1
+5-4-17	Identify factors that influence weather and climate in Manitoba and across Canada, and describe their impacts. Examples: jet stream, proximity to water, elevation, chinook	GLO: D5, E2
+5-4-18	Recognize that climates around the world are ever changing, and identify possible explanations. Examples: volcanic eruptions, ozone depletion, greenhouse effect, El Nino, deforestation	GLO: B5, D5, E2, E3
+6-0-1A	Formulate specific questions that lead to investigations. Include: Rephrase questions to a testable form, focus research questions	GLO: A1, C2
+6-0-1B	Identify various methods for finding the answer to a specific question and select one to implement. Examples: generating experimental data, accessing information from a variety of sources	GLO: C2
+6-0-1C	Identify practical problems to solve. Examples: How can I make a hot-air balloon? Which type of light bulb should I buy?	GLO: C3
+6-0-1D	Identify various methods to solve a practical problem and select and justify one to implement. Examples: constructing and testing a prototype, evaluating consumer products, accessing information from a variety of sources	GLO: C3
+6-0-2A	Access information using a variety of sources. Examples: libraries, magazines, community resource people, outdoor experiences, videos, CD-ROMS, Internet	GLO: C6
+6-0-2B	Review information to determine its usefulness using pre-determined criteria.	GLO: C6, C8
+6-0-2C	Make notes on a topic, combining information from more than one source and reference sources appropriately.	GLO: C6
+6-0-3A	Formulate a prediction/hypothesis that identifies a cause and effect relationship.	GLO: A2, C2
+6-0-3B	Identify variables that have an impact on their experiments and variables to hold constant to ensure a fair test.	GLO: A2, C2
+6-0-3C	Create a written plan to answer a specific question. Include: apparatus, materials, safety considerations, steps to follow	GLO: C1, C2
+6-0-3D	Develop criteria to evaluate a prototype or consumer product. Include: function, aesthetics, efficient use of materials, cost, reliability	GLO: C3
+6-0-3E	Create a written plan to solve a problem. Include: materials, safety considerations, labelled diagrams of top and side views, steps to follow	GLO: C1, C3, C6
+6-0-4A	Carry out procedures that comprise a fair test. Include: controlling variables, repeating measurements to increase accuracy and reliability of results.	GLO: C2
+6-0-4B	Construct a prototype.	GLO: C3
+6-0-4C	Work cooperatively with group members to carry out a plan, and troubleshoot problems as they arise.	GLO: C7
+6-0-4D	Assume various roles to achieve group goals.	GLO: C7
+6-0-4E	Use tools and materials in a manner that ensures personal safety and the safety of others. Include: keeping an uncluttered workspace, putting equipment away after its use, handling glassware with care.	GLO: C1
+6-0-5A	Make observations that are relevant to a specific question.	GLO: A1, A2, C2
+6-0-5B	Test a prototype or consumer product with respect to pre-determined criteria.	GLO: C3, C5
+6-0-5C	Select and use tools and instruments to observe, measure, and construct. Examples: hand lens, telescope, binoculars	GLO: C2, C3, C5
+6-0-5D	Evaluate the appropriateness of units and measuring tools in practical contexts.	GLO: C2, C5
+6-0-5E	Estimate and measure accurately using SI and other standard units.	GLO: C2, C5
+6-0-5F	Record and organize observations in a variety of ways. Examples: point-form notes, sentences, labelled diagrams, charts, ordered lists of data, frequency diagrams, spreadsheets	GLO: C2, C6
+6-0-6A	Construct graphs to display data, and interpret and evaluate these and other graphs. Examples: frequency tallies, histograms, double-bar graphs, stem-and-leaf plots	GLO: C2, C6
+6-0-6C	Identify and suggest explanations for patterns and discrepancies in data.	GLO: A1, A2, C2, C5
+6-0-6D	Identify and make improvements to a prototype and explain the rationale for the changes.	GLO: C3, C4
+6-0-6E	Evaluate the strengths and weaknesses of a consumer product based on pre-determined criteria.	GLO: C3, C4
+6-0-6F	Evaluate the methods used to answer a question or solve a problem.	GLO: C2, C3
+6-0-7A	Draw a conclusion that explains investigation results. Include: explaining patterns in data, supporting or rejecting a prediction/hypothesis	GLO: A1, A2, C2
+6-0-7B	Base conclusions on evidence rather than preconceived ideas or hunches.	GLO: C2, C4
+6-0-7C	Identify a new prediction/hypothesis based on results of investigations.	GLO: A1, C2
+6-0-7D	Propose and justify a solution to the initial problem.	GLO: C3
+6-0-7E	Identify new practical problems to solve.	GLO: C3
+6-0-7F	Reflect on prior knowledge and experiences to construct new understanding and apply this new knowledge in other contexts.	GLO: A2, C4
+6-0-7G	Communicate methods, results, conclusions, and new knowledge in a variety of ways. Examples: oral, written, multi-media presentations	GLO: C6
+6-0-7H	Identify connections between the investigation results and everyday life.	GLO: C4
+6-0-8A	Recognize that science is a way of answering questions about the world and that there are questions that science cannot answer.	GLO: A1, A3
+6-0-8B	Identify examples of scientific knowledge that have developed as a result of the gradual accumulation of evidence.	GLO: A2
+6-0-8C	Recognize that technology is a way of solving problems in response to human needs.	GLO: A3, B2
+6-0-8D	Provide examples of technologies from the past and describe how they have evolved over time.	GLO: B1
+6-0-8E	Describe hobbies and careers related to science and technology.	GLO: B4
+6-0-8F	Recognize that science is organized into specialized disciplines.	GLO: A1, B4
+6-0-8G	Describe positive and negative effects of scientific and technological endeavours. Include: effects on themselves, society, the environment, and the economy	GLO: A1, B1, B3, B5
+6-0-9A	Appreciate that women and men of diverse cultural backgrounds can contribute equally to science.	GLO: A4
+6-0-9B	Show interest in the activities of individuals working in scientific and technological fields.	GLO: B4
+6-0-9C	Demonstrate confidence in their ability to carry out investigations in science and technology.	GLO: C5
+6-0-9D	Appreciate the importance of creativity, accuracy, honesty, and perseverance as scientific and technological habits of mind.	GLO: C5
+6-0-9E	Be sensitive to and develop a sense of responsibility for the welfare of other humans, other living things, and the environment.	GLO: B5
+6-0-9F	Frequently and thoughtfully evaluate the potential consequences of their actions.	GLO: B5, C4
+6-1-01	Use appropriate vocabulary related to their investigations of the diversity of living things. Include: classification system, classification key, paleontologist, terms related to names of kingdoms and types of vertebrates and invertebrates	GLO: C6, D1
+6-1-02	Describe various kinds of classification systems used in everyday life, and identify related advantages and disadvantages. Examples: organization of phone numbers in a phone book, books in a library, groceries in a supermarket	GLO: B1, B2, E1, E2
+6-1-03	Develop a system to classify common objects or living things into groups and subgroups, and explain the reasoning used in the system's development.	GLO: A1, C2, E1, E2
+6-1-04	Identify living things using an existing classification key, and explain the rationale used. Examples: identification of birds, butterflies, animal tracks, winter twigs	GLO: A1, C2, D1, E2
+6-1-05	Identify advantages and disadvantages of having a common classification system for living things, and recognize that the system changes as new evidence comes to light.	GLO: A1, A2, D1, E2
+6-1-06	Identify the five kingdoms commonly used for the classification of living things, and provide examples of organisms from each to illustrate the diversity of living things. Include: monerans, protists, fungi, plants, animals	GLO: A1, D1, E1, E2
+6-1-07	Recognize that many living things are difficult to see with the unaided eye, and observe and describe some examples.	GLO: C2, D1, E1
+6-1-08	Observe and describe the diversity of living things within the local environment.	GLO: A1, C2, D1, E1
+6-1-09	Recognize that the animal kingdom is divided into two groups, vertebrates and invertebrates, and differentiate between the two. Include: vertebrates have backbones, invertebrates do not	GLO: D1, E1
+6-1-10	Provide examples of a variety of invertebrates to illustrate their diversity. Include: sponges, worms, molluscs, arthropods	GLO: D1, E1
+6-1-11	Compare and contrast adaptations of common arthropods, and describe how these adaptations enable them to live in particular habitats. Include: crustacean, insect	GLO: D1, D2, E1
+6-1-12	Classify vertebrates as fishes, amphibians, reptiles, birds, and mammals, and provide examples to illustrate the diversity within each group.	GLO: D1, E1
+6-1-13	Compare and contrast the adaptations of closely related vertebrates living in different habitats, and suggest reasons that explain these adaptations.	GLO: D1, D2, E1
+6-1-14	Identify, based on evidence gathered gathered by paleontologists, similarities and differences in animals living today and those that lived in the past. Examples: archaeopteryx and modern birds	GLO: A1, A2, E1, E3
+6-1-15	Identify and describe the contributions of scientists and naturalists who have increased our understanding of the diversity of living things.	GLO: A2, A4, B4, D1
+6-2-01	Use appropriate vocabulary related to their investigations of flight. Include: fluid, pressure, lift, gravity, thrust, drag, Bernoulli's Principle, propulsion, unbalanced forces	GLO: C6, D4
+6-2-02	Describe properties of fluids using air and water as examples, and identify manifestations of these properties in daily life. Include: air and water flow and exert pressure; objects can flow through air and water; warm air and water rise	GLO: B1, D3, E1
+6-2-03	Identify adaptations that enable living things to propel themselves through air, water, or to be transported by the wind. Examples: the streamlined shape of dolphins and barn swallows, the helicopter-like motion of the winged fruit of maple trees, the parachute-shaped fruit of dandelions	GLO: D1, D4, E1
+6-2-04	Recognize that in order for devices or living things to fly they must have sufficient lift to overcome the downward force of gravity, and that the force of gravity increases as mass increases.	GLO: D4
+6-2-05	Describe how" lighter-than-air flying devices" are able to achieve lift Include: hot-air balloons, helium balloons	GLO: D4
+6-2-06	Test models of aircraft to observe Bernoulli's Principle. Include: the shape of a wing affects the speed of airflow, creating lift in a "heavier-than-air flying device"	GLO: C2, C3, D3, D4
+6-2-07	Explain how Bernoulli's Principle is applied in a device other than an aircraft. Examples: paint sprayer, perfume mister	GLO: A5, B1, D4
+6-2-08	Provide examples of design features or adaptations that enhance or reduce drag, and explain how they work. Examples: to increase drag when landing aircraft; birds tuck their wings to decrease drag when diving	GLO: A5, B1, D1, D4
+6-2-09	Provide examples of design features or adaptations that enhance or reduce drag, and explain how they work. Examples: pilots use flaps to increase drag when landing aircraft; birds tuck their wings to decrease drag when diving	GLO: A5, B1, D1, D4
+6-2-10	Identify and diagram the four forces that act on living things or devices that fly through the air. Include: lift, gravity, thrust, drag	GLO: C6, D4
+6-2-11	Compare a variety of propulsion methods that are used to produce thrust in animals and flying devices. Examples: rockets for spacecraft, propellers, or jet engines for aircrafts, wings for flying animals	GLO: B1, D1, D4, E4
+6-2-12	Describe how unbalanced forces are used to steer aircraft and spacecraft.	GLO: A5, D4, D6
+6-2-13	Explain why the design of aircraft and spacecraft differ.	GLO: B1, C3, D4, D6
+6-2-14	Identify milestones in the history of air travel and describe their impacts on daily life.	GLO: A4, B1, B2, D4
+6-2-15	Use the design process to construct a prototype that can fly and meet specific performance criteria. Examples: a glider that can loop; a hot-air balloon that can stay aloft for a given time	GLO: C3, D4
+6-3-01	Use appropriate vocabulary related to their investigations of electricity. Include: positive charge, negative charge, current electricity, static electricity, electrical circuit, insulator, conductor, switch, series circuit, parallel circuit, electromagnet, magnetic field, motor, generator, transformation, electrical energy, renewable, non-renewable, energy consumption	GLO: C6, D4, E4
+6-3-02	Explain the attraction and repulsion of electrostatically charged materials. Include: negatively and positively charged materials attract one another; materials of like charge repel one another	GLO: D4
+6-3-03	Explain current electricity, and compare the characteristics of current and static electricity, by using a model.	GLO: A2, D4
+6-3-04	Identify dangers associated with static and current electricity, and demonstrate and describe appropriate safety precautions.	GLO: C1, D4
+6-3-05	List electrical devices used at home, at school, and in the community, and identify the human needs that they fulfill. Examples: heat, light, communication, movement	GLO: B1, B2, D4
+6-3-06	Develop a definition of an electrical circuit, based on classroom explorations. Include: an electrical circuit is a continuous path for charges and must contain a power source and a conductor	GLO: C2, D4
+6-3-07	Experiment to classify a variety of materials as insulators or conductors.	GLO: C2, D3, D4, E1
+6-3-08	Demonstrate and describe the function of switches in electrical circuits.	GLO: D4
+6-3-09	Construct and diagram simple series circuits and simple parallel circuits.	GLO: C2, C6, D4, E1
+6-3-10	Explore to determine factors that affect bulb brightness in simple series and parallel circuits. Include: number of bulbs, number of batteries, placement of bulbs and batteries	GLO: C2, D4
+6-3-11	Use the design process to construct an electrical circuit that performs a useful function. Examples: doorbell, alarm, motorized toy, game	GLO: C3, D4
+6-3-12	Demonstrate, using a simple electromagnet constructed in class, that an electric current can create a magnetic field.	GLO: C2, D4
+6-3-13	Explore motors and generators to determine that electromagnets transform electricity into motion and motion, into electricity.	GLO: A5, D4, E2, E4
+6-3-14	Identify forms of energy that may result from the transformation of electrical energy, and recognize that energy can only be changed from one form into another, not created or destroyed. Include: light, heat, sound, motion	GLO: D4, E4
+6-3-15	Identify the two major sources of electrical energy, and provide examples of each. Include: chemical sources such as batteries; electromagnetic sources such as turbine motion caused by wind, falling water, and steam	GLO: B1, D4, E4
+6-3-16	Identify renewable and non-renewable sources of electrical energy, and discuss advantages and disadvantages of each. Examples: renewable sources such as hydroelectric, wind, geothermal, solar; non-renewable sources such as fossil fuels, nuclear fission	GLO: B5, E4
+6-3-17	Evaluate an electrical device using the design process. Examples: light bulbs, kitchen appliances	GLO: B5, C4
+6-3-18	Describe factors that affect the consumption of electrical energy, and outline an action plan to reduce electrical energy consumption at home, at school, or in the community.	GLO: B5, C4, E4
+6-3-19	Describe ways in which electricity has had an impact on daily life.	GLO: B1, B2, B5
+6-4-01	Use appropriate vocabulary related to their investigations of Earth and space. Include: astronauts, communication and remote sensing satellites, solar system, inner and outer planets, asteroid belt, mass, weight, points of reference, apparent movement, celestial objects, astrology, astronomy, rotation, revolution, axis, moon phases, eclipses	GLO: C6, D6
+6-4-02	Identify technological developments that enable astronauts to meet their basic needs in space. Examples: dehydrated foods, backpacks with an oxygen supply, hermetically sealed cabins with temperature and air controls	GLO: B1, B2, D1, D6
+6-4-03	Identify Canadians who have contributed to space science or space technology, and describe their achievements.	GLO: A4, A5, B1, B4
+6-4-04	Investigate past and present space research programs involving astronauts, and explain the contributions to scientific knowledge. Examples: Appollo, Mir, International Space Station	GLO: A1, A2, A5, D6
+6-4-05	Describe positive and negative impacts arising from space research programs. Examples: advantages - increased knowledge about space and medicine, the development of technologies such as orange drink crystals and pocket calculators; disadvantages - space pollution and the high cost of research projects	GLO: A1, B1, B5, D6
+6-4-06	Identify technological devices placed in space that help humans learn more about the Earth and communicate more efficiently. Include: communication and remote-sensing satellites	GLO: B1, B2, D6
+6-4-07	Describe how the conception of the Earth and its position in space have been continuously questioned and how our understanding has evolved over time. Include: from a flat Earth, to an Earth-centred system, to a Sun-centred system	GLO: A1, A2, B2, C5
+6-4-08	Recognize that the Sun is the centre of the solar system and it is the source of energy for life on Earth.	GLO: D6, E2, E4
+6-4-09	Identify the planets in the solar system and describe their size relative to the Earth and their position relative to the Sun.	GLO: D6, E1, E2
+6-4-10	Classify planets as inner or outer planets, based on their position relative to the asteroid belt, and describe characteristics of each type. Include: inner planets are small and rocky; outer planets (except Pluto) are giant balls of gas	GLO: D6, E1
+6-4-11	Recognize that mass is the amount of matter in an object, that weight is the force of gravity on the mass of an object, and that the force of gravity varies from planet to planet.	GLO: D3
+6-4-12	Explain, using models and simulations, how the Earth's rotation causes the cycle of day and night, and how the Earth's tilt of axis and revolution cause the yearly cycle of seasons.	GLO: A2, D6, E2, E4
+6-4-13	Use the design process to construct a prototype that tells the time of day or measures a time span.	GLO: C3, D6
+6-4-14	Explain how the relative positions of the Earth, moon, and Sun are responsible for moon phases and eclipses.	GLO: D6, E2
+6-4-15	Identify points of reference in the night sky and recognize that the apparent movement of celestial objects is regular, predictable, and related to the Earth's rotation and revolution. Examples: planets, constellations	GLO: D6, E2, E3
+6-4-16	Identify and describe how people from various cultures, past and present, apply astonomy in daily life. Examples: using celestial bodies to navigate; knowing when to plant crops	GLO: A4, A5, B1, B2
+6-4-17	Differentiate between astrology and astronomy, and explain why astrology is considered unscientific.	GLO: A1, A2, C5, C8
+7-0-1A	Formulate specific questions that lead to investigations. Include: rephrase questions to a testable form, focus research questions	GLO: A1, C2
+7-0-1B	Select and justify a method to be used in finding the answer to a specific question.	GLO: C2
+7-0-1C	Identify practical problems to solve. Examples: How can I make my soup hot? Which sunscreen should I buy?	GLO: C3
+7-0-1D	Select and justify a method to be used in finding a solution to a practical problem.	GLO: C3
+7-0-2A	Access information using a variety of sources. Examples: libraries, magazines, community resource people, outdoor experiences, videos, CD-ROMS, Internet	GLO: C6
+7-0-2B	Evaluated the usefulness, currency, and reliability of information using pre-determined criteria.	GLO: C6, C8
+7-0-2C	Make notes using headings and subheadings or graphic organizers appropriate to a topic and reference sources.	GLO: C6
+7-0-3A	Formulate a prediction/hypothesis that identifies a cause and effect relationship between the dependent and independent variables.	GLO: A2, C2
+7-0-3C	Create a written plan to answer a specific question. Include: apparatus, materials, safety considerations, steps to follow, and variables to control	GLO: C1, C2
+7-0-3D	Develop criteria to evaluate a prototype or consumer product. Include: function, aesthetics, environmental considerations, cost, efficiency	GLO: C3
+7-0-3E	Create a written plan to solve a problem. Include: materials, safety considerations, three-dimensional sketches, steps to follow	GLO: C1, C3, C6
+7-0-4A	Carry out procedures that comprise a fair test. Include: controlling variables, repeating experiments to increase accuracy and reliability of results	GLO: C2
+7-0-4B	Construct a prototype.	GLO: C3
+7-0-4C	Work cooperatively with group members to carry out a plan, and troubleshoot problems as they arise.	GLO: C7
+7-0-4D	Assume various roles to achieve group goals.	GLO: C7
+7-0-4E	Demonstrate work habits that ensure personal safety and the safety of others and consideration for the environment. Include: keeping an uncluttered workspace, putting equipment away after its use, handling glassware with care, wearing goggles when required, disposing of materials in a safe and responsible manner	GLO: C1
+7-0-4F	Identify WHMIS hazard symbols that provide information on the safety of substances.	GLO: C1
+7-0-5A	Make observations that are relevant to a specific question.	GLO: A1, A2, C2
+7-0-5B	Test a prototype or consumer product with respect to pre-determined criteria.	GLO: C3, C5
+7-0-5C	Select and use tools to observe, measure, and construct. Include: microscopes, a variety of thermometers, graduated cylinders, glassware, balance	GLO: C2, C3, C5
+7-0-5D	Use conversions among commonly used SI units.	GLO: C2, C3
+7-0-5E	Estimate and measure accurately using SI and other standard units. Include: determining volume by displacement of water	GLO: C2, C5
+7-0-5F	Record, compile and display observations and data using an appropriate format.	GLO: C2, C6
+7-0-6A	Construct graphs to display data, and interpret and evaluate these and other graphs. Examples: frequency tallies, histograms, double-bar graphs, stem-and-leaf plots	GLO: C2, C6
+7-0-6B	Interpret pattern and trends in data, and infer and explain relationships.	GLO: A1, A2, C2, C5
+7-0-6C	Identify strengths and weaknesses of different methods of collecting and displaying data and potential sources of error.	GLO: A1, A2, C2, C5
+7-0-6D	Identify and make improvements to a prototype and explain the rationale for the changes.	GLO: C3, C4
+7-0-6E	Evaluate the strengths and weaknesses of a consumer product based on pre-determined criteria.	GLO: C3, C4
+7-0-6F	Identify how the original plan evolved and justify the changes.	GLO: C2, C3
+7-0-7A	Draw a conclusion that explains investigation results. Include: explaining the cause and effect relationship between the dependent and independent variables; identifying alternative explanations for observations; supporting or rejecting a prediction/hypothesis	GLO: A1, A2, C2
+7-0-7B	Critically evaluate conclusions, basing arguments on fact rather than opinion.	GLO: C2, C4
+7-0-7C	Identify a new prediction/hypothesis based on results of investigations.	GLO: A1, C2
+7-0-7D	Propose and justify a solution to the initial problem.	GLO: C3
+7-0-7E	Identify new practical problems to solve.	GLO: C3
+7-0-7F	Reflect on prior knowledge and experiences to construct new understanding and apply this new knowledge in other contexts.	GLO: A2, C4
+7-0-7G	Communicate methods, results, conclusions, and new knowledge in a variety of ways. Examples: oral, written, multi-media presentations	GLO: C6
+7-0-7H	Identify and evaluate potential applications of investigation results.	GLO: C4
+7-0-8A	Distinguish between science and technology. Include: purpose, procedures, products	GLO: A3
+7-0-8B	Describe examples of how scientific knowledge has evolved in light of new evidence, and the role of technology in this evolution.	GLO: A2, A5, B1
+7-0-8D	Describe examples of how technologies have evolved over time in response to changing needs and scientific advances.	GLO: A5, B1, B2
+7-0-8E	Provide examples of Canadian institutions that have contributed to science and technology and describe their contributions.	GLO: A1, A4, B1, B4
+7-0-8F	Relate personal activities to specific science disciplines.	GLO: A1, B4
+7-0-8G	Discuss societal, environmental, and economic impacts of scientific and technological endeavours. Include: local and global impacts	GLO: A1, B1, B3, B5
+7-0-9A	Appreciate and respect that science has evolved from different views held by women and men from a variety of societies and cultural backgrounds.	GLO: A4
+7-0-9B	Express interest in a broad scope of science and technology-related fields and issues.	GLO: B4
+7-0-9C	Demonstrate confidence in their ability to carry out investigations in science and technology.	GLO: C5
+7-0-9D	Value skepticism, accuracy, precision, and open-mindedness as scientific and technological habits of mind.	GLO: C5
+7-0-9E	Be sensitive and responsible in maintaining a balance between the needs of humans and a sustainable environment.	GLO: B5
+7-0-9F	Consider the cause and effects relationships of actions and decisions.	GLO: B5, C4, E3
+7-1-01	Use appropriate vocabulary related to their investigations of interactions within ecosystems. Include: ecosystem, biosphere, abiotic, biotic, organisms, ecological succession, photosynthesis, cellular respiration, ecological pyramid, bioaccumulation, scavengers, decomposers, micro-organisms	GLO: C6, D2
+7-1-02	Define ecosystem, and describe various examples that range from the microscopic to the entire biosphere. Include: a place on Earth where living things interact with other living things as well as non-living things	GLO: D2, E2
+7-1-03	Identify abiotic and biotic components of ecosystems that allow particular organisms to survive.	GLO: D1, D2, E2
+7-1-04	Describe ecological succession and identify signs of succession in a variety of ecosystems. Include: the natural process whereby some species are replaced by other species in a predictable pattern	GLO: D2, E2, E3
+7-1-05	Identify and describe positive and negative examples of human interventions that have an impact on ecological succession or the makeup of ecosystems. Examples: positive - protecting habitats, reintroducing species; negative - preventing natural fires, introducing non-indigenous species, draining wetlands for agriculture or housing	GLO: B5, D2, E2, E3
+7-1-06	Identify environmental, social, and economic factors that should be considered in the management and preservation of ecosystems. Examples: habitat preservation, recreation, employment, industrial growth, resource development	GLO: B1, B5, D2, E2
+7-1-07	Propose a course of action to protect the habitat of a particular organism within an ecosystem. Examples: protect the nesting habitat of a given bird in a local wetland	GLO: B5, C3, D2, E2
+7-1-08	Compare photosynthesis to cellular respiration, and explain how both are part of the cycling of matter and the transfer of energy in ecosystems. Include: photosynthesis: water + carbon dioxide + light energy = sugar + oxygen in the presence of chlorophyll; cellular respiration: sugar + oxygen = water + carbon dioxide + energy	GLO: A2, C6, D2, E4
+7-1-09	Analyze food webs, using ecological pyramids, to show energy gained or lost at various consumer levels. Include: producers; primary, secondary, and tertiary consumers	GLO: C2, C8, D2, E4
+7-1-10	Analyze, using ecological pyramids, the implications of the loss of producers and consumers to the transfer of energy within an ecosystem.	GLO: C2, C8, D2, E4
+7-1-11	Explain, using ecological pyramids, the potential for bioaccumulation within an ecosystem.	GLO: D2, E2, E4
+7-1-12	Provide examples of scavengers and decomposers, and describe their role in cycling matter in an ecosystem. Include: micro-organisms	GLO: D2, E1, E2, E3
+7-1-13	Demonstrate proper use and care of the microscope to observe micro-organisms. Include: preparing wet mounts beginning with the least powerful lens; focussing; drawing specimens; indicating magnification	GLO: C1, C2, C7
+7-1-14	Identify benefical and harmful roles played by micro-organisms. Examples: benefical - aids in digestion, composting, food and vaccine production; harmful - causes disease, food spoilage	GLO: B3, C2, D2
+7-1-15	Research and describe human food production or preservation techniques that apply a knowledge of micro-organisms. Examples: bread and yogurt making, food drying, sterilization, refrigeration	GLO: A5, B2, B3, D1
+7-2-01	Use appropriate vocabulary related to their investigations of the particle theory of matter. Include: boiling and melting points, pure substance, scientific theory, particle theory of matter, temperature, heat, conduction, convection, radiation, mixture, solution, mechanical mixture, homogeneous heterogeneous, solutes, solvents, solubility, concentration, dilute, concentrated, saturated, unsaturated, terms related to forms of energy	GLO: C6, D3, E4
+7-2-02	Evaluate different types of thermometers using the design process. Examples: materials used, range, sensitivity, durability, scale, cost	GLO: C1, C3
+7-2-03	Demonstrate the effects of heating and cooling on the volume of solids, liquids, and gases, and give examples from daily life.	GLO: A2, C1, D3, E4
+7-2-04	Compare the boiling and melting points of a variety of substances and recognize that boiling and melting points are properties of pure substances. Include: water	GLO: C2, D3, E3, E4
+7-2-05	Explain what scientific theories are, and provide some examples. Include: a scientific theory helps to explain an observation; when this explanation has been repeatedly tested and shown to be consistent it is generally accepted in the scientific world	GLO: A1, A2
+7-2-06	Describe the particle theory of matter and use it to explain changes of state.	GLO: A2, C6, D3, D4
+7-2-07	Differentiate between the concept of temperature and the concept of heat.	GLO: D3, D4, E4
+7-2-08	Demonstrate how heat can be transmitted through solids, liquids, and gases. Include: conduction, convection, radiation	GLO: C1, D3, D4, E4
+7-2-09	Plan an experiment to identify materials that are good heat insulators and good heat conductors, and describe some uses of these materials.	GLO: B1, D3, D4
+7-2-10	Use the design process to construct a prototype that controls the transfer of heat energy. Examples: insulated lunch bag, solar oven, home insulation	GLO: A5, B2, C3, C4
+7-2-11	Recognize that heat energy is the most common by-product of energy transformations, and describe some examples. Examples: thermal pollution, body heat, friction	GLO: B1, D4, E4
+7-2-12	Identify different forms of energy that can be transformed into heat energy. Include: mechanical, chemical, nuclear, electrical	GLO: D4, E4
+7-2-13	Differentiate between pure substances and mixtures by using the particle theory of matter. Include: a pure substance is made up of one type of particle; a mixture is made up of two or more types of particles	GLO: A2, D3, E1
+7-2-14	Differentiate between the two types of mixtures, solutions and mechanical mixtures. Include: solutions - homogeneous; mechanical mixtures - heterogeneous mixtures	GLO: D3, E1
+7-2-15	Classify a variety of substances used in daily life as pure substances, solutions, or mechanical mixtures. Examples: distilled water, paint thinner, mouthwash, peanut butter, liquid soap, medicines, sunscreens	GLO: B1, E1
+7-2-16	Identify solutes and solvents in common solid, liquid, and gaseous solutions.	GLO: D3
+7-2-17	Describe solutions by using the particle theory of matter. Include: particles have an attraction for each other; the attraction between the particles of solute and solvent keeps them in solution	GLO: A1, D3, E1
+7-2-18	Demonstrate different methods of separating the components of both solutions and mechanical mixtures. Examples: distillation, chromatography, evaporation, sieving, dissolving, filtration, decanting, magnetism, sedimentation	GLO: C1, C2
+7-2-19	Identify a separation technique used in industry, and explain why it is appropriate.	GLO: B1, C4
+7-2-20	Experiment to determine factors that affect solubility. Include: agitation, surface area, temperature	GLO: C2, D3
+7-2-21	Describe the concentration of a solution in qualitative and quantitative terms, and give examples from daily life when the concentration of a solution influences its usefulness. Include: dilute, concentrated, grams of solute per 100 mL	GLO: C6, D3
+7-2-22	Demonstrate the difference between saturated and unsaturated solutions.	GLO: C2, C6, D3
+7-2-23	Discuss the potential harmful effects of some substances on the environment, and identify methods to ensure their safe use and disposal. Examples: pollution of groundwater from improper disposal of paints and solvents; pollution of the atmosphere by car exhaust	GLO: B1, B3, B5, C1
+7-3-01	Use appropriate vocabulary related to their investigations of forces and structures. Include: frame, shell, solid, centre of gravity, stability, compression, tension, shear, torsion, internal and external forces, stress, structural fatigue, structural failure, load, magnitude, point and plane of application, efficiency.	GLO: C6, D4
+7-3-02	Classify natural and human-built structures found locally and around the world. Include: frame, shell, solid	GLO: E1
+7-3-03	Identify the centre of gravity in a model structure, and demonstrate that changes in the location of a structure's centre of gravity affect its stability.	GLO: C1, D4
+7-3-04	Identify internal forces acting on a structure, and describe them using diagrams Examples: compression, tension, shear, torsion	GLO: D4, E4
+7-3-05	Identify external forces acting of a structure, and describe them using diagrams Examples: snow on a rooftop, wind on a tent, water against a beaver dam	GLO: C6, D4, E4
+7-3-06	Recognize that internal and external forces apply stress to structures, and describe examples in which this stress has led to structual fatigue or structural failure.	GLO: D4, E3
+7-3-07	Investigate to determine that the effect of a force on a structure depends on its magnitude, direction, and point and plane of application.	GLO: D4
+7-3-08	Describe, using diagrams, how common structural shapes and components can increase the strength and stability of a structure. Examples: a triangle distributes the downward force of a load evenly between its two vertices	GLO: C6, D3, D4
+7-3-09	Describe and demonstrate methods to increase the strength of materials Examples: corrugation of surfaces, lamination of adjacent members, alteration of the shape of components	GLO: C2, C3, D3, E3
+7-3-10	Determine the efficiency of a structure by comparing its mass with the mass of the load it supports.	GLO: C1, C5
+7-3-11	Evaluate a structure to determine the appropriateness of its design, using the design process. Examples: jacket, foot stool, local building	GLO: C3, C4, C8, D4
+7-3-12	Use the design process to construct a structure that will withstand the application of an external force. Examples: a tower that will remain standing during a simulated earthquake	GLO: C3, D3, D4
+7-4-01	Use appropriate vocabulary related to their investigations of the Earth's crust. Include: crust, mantle, outer core, inner core, weathering (physical, biological and chemical) , erosion, rock cycle, fossil fuel, geothermal energy, continental drift theory, theory of plate tectonics	GLO: C6, D5
+7-4-02	Describe the Earth's structure. Include: crust, mantle, outer core, inner core	GLO: C6, D5
+7-4-03	Describe the geological processes involved in rock and mineral formation, and classify rocks and minerals by their method of formation.	GLO: D3, D5, E3
+7-4-04	Investigate and describe the processes of weathering and erosion, and recognize that they cause changes in the landscape over time. Include: physical, biological, and chemical weathering	GLO: D3, D5, E3
+7-4-05	Explain how rocks on the Earth constantly undergo a slow process of change through the rock cycle.	GLO: D5, E3
+7-4-06	Identify geologic resources that are used by humans as sources of energy, and describe their method of formation. Include: fossil fuels, geothermal energy	GLO: D4, D5, E3
+7-4-07	Identify geologic resources that are present in Manitoba and Canada, and describe the processes involved in their location, extraction, processing, and recycling. Include: fossil fuels, minerals	GLO: A5, B5, D3, D5
+7-4-08	Identify environmental impacts of geological resource extraction, and describe techniques used to address these.	GLO: B1, B5, C1, C3
+7-4-09	Recognize that soil is a natural resource, and explain how the characteristics of soil determine its use.	GLO: D5, E1
+7-4-10	Describe methods used to control soil erosion, and recognize the importance of soil conservation. Examples: economically important to the agri-food industry, important for controlling the flow of water, necessary for plant growth.	GLO: A5, B2, B5, E3
+7-4-11	Identify environmental, social, and economic factors that should be considered in making informed decisions about land use.	GLO: B1, B5, D5
+7-4-12	Describe evidence used to support the continental drift theory and explain why this theory was not generally accepted by scientists.	GLO: A1, A2, A4, D5
+7-4-13	Describe evidence used to support the theory of plate tectonics, the role technology has played in the development of this theory, and reasons why it is generally accepted by scientists.	GLO: A1, A2, A5, D5
+7-4-14	Explain geological processes and events using the theory of plate tectonics. Include: mountain formation, earthquakes, volcanoes	GLO: A1, A2, D5, E3
+7-4-15	Identify specialized careers involving the study of the Earth's crust or the utilization of geological resources, and give examples of technologies used in each. Examples: geophysicist, seismologist, volcanologist, farmer	GLO: A5, B4
+8-0-1A	Formulate specific questions that lead to investigations.   GLO: A1, C2
+8-0-1B	Select and justify a method to be used in finding the answer to a specific question.	GLO: C2
+8-0-1C	Identify practical problems to solve. Examples: How can I make water flow uphill? Which type of bottled water should I buy?	GLO: C3
+8-0-1D	Select and justify a method to be used in finding a solution to a practical problem.	GLO: C3
+8-0-2A	Access information using a variety of sources. Examples: libraries, magazines, community resource people, outdoor experiences, videos, CD-ROMS, Internet	GLO: C6
+8-0-2B	Develop and use criteria for evaluating information Include: Distinguish between fact and opinion	GLO: C6, C8
+8-0-2C	Make notes in point form, summarizing major ideas and supporting details and reference sources.	GLO: C6
+8-0-3A	Formulate a prediction/hypothesis that identifies a cause and effect relationship between the dependent and independent variables.	GLO: A2, C2
+8-0-3C	Create a written plan to answer a specific question. Include: apparatus, materials, safety considerations, steps to follow, and variables to control	GLO: C2
+8-0-3D	Develop criteria to evaluate a prototype or consumer product. Include: function, aesthetics, environmental considerations, cost, efficiency	GLO: C3
+8-0-3E	Create a written plan to solve a problem. Include: materials, safety considerations, three-dimensional sketches, steps to follow	GLO: C3, C6
+8-0-4A	Carry out procedures that comprise a fair test. Include: controlling variables, repeating experiments to increase accuracy and reliability of results	GLO: C2
+8-0-4B	Construct a prototype.	GLO: C3
+8-0-4C	Work cooperatively with group members to carry out a plan, and troubleshoot problems as they arise.	GLO: C7
+8-0-4D	Identify and assume various roles to achieve group goals.	GLO: C7
+8-0-4E	Demonstrate work habits that ensure personal safety and the safety of others and consideration for the environment. Include: keeping an uncluttered workspace, putting equipment away after its use, handling glassware with care, wearing goggles when required, disposing of materials in a safe and responsible manner	GLO: C1
+8-0-4F	Identify WHMIS hazard symbols that provide information on the safety of substances.	GLO: C1
+8-0-5A	Make observations that are relevant to a specific question.	GLO: A1, A2, C2
+8-0-5B	Test a prototype or consumer product with respect to pre-determined criteria.	GLO: C3, C5
+8-0-5C	Select and use tools to observe, measure, and construct. Examples: microscope, concave and convex mirrors and lenses, chemical indicators	GLO: C2, C3, C5
+8-0-5D	Use conversions among commonly used SI units.	GLO: C2, C5
+8-0-5E	Estimate and measure accurately using SI and other standard units. Include: determining volume by displacement of water	GLO: C2, C5
+8-0-5F	Record, compile and display observations and data using an appropriate format.	GLO: C2, C6
+8-0-6A	Construct graphs to display data, and interpret and evaluate these and other graphs. Examples: circle graphs	GLO: C2, C6
+8-0-6B	Interpret patterns and trends in data, and infer and explain relationships.	GLO: A1, A2, C2, C5
+8-0-6C	Identify strengths and weaknesses of different methods of collecting and displaying data and potential sources of error.	GLO: A1, A2, C2, C5
+8-0-6D	Identify and make improvements to a prototype and explain the rationale for the changes.	GLO: C3, C4
+8-0-6E	Evaluate the strengths and weaknesses of a consumer product based on pre-determined criteria.	GLO: C3, C4
+8-0-6F	Identify how the original plan evolved and justify the changes.	GLO: C2, C3
+8-0-7A	Draw a conclusion that explains investigation results. Include: explaining the cause and effect relationship between the dependent and independent variables; identifying alternative explanations for observations; supporting or rejecting a prediction/hypothesis	GLO: A1, A2, C2
+8-0-7B	Critically evaluate conclusions, basing arguments on fact rather than opinion.	GLO: C2, C4
+8-0-7C	Identify a new prediction/hypothesis based on results of investigations.	GLO: A1, C2
+8-0-7D	Propose and justify a solution to the initial problem.	GLO: C3
+8-0-7E	Identify new practical problems to solve.	GLO: C3
+8-0-7F	Reflect on prior knowledge and experiences to construct new understanding and apply this new knowledge in other contexts.	GLO: A2, C4
+8-0-7G	Communicate methods, results, conclusions, and new knowledge in a variety of ways. Examples: oral, written, multi-media presentations	GLO: C6
+8-0-7H	Identify and evaluate potential applications of investigation results.	GLO: C4
+8-0-8A	Distinguish between science and technology. Include: purpose, procedures, products	GLO: A3
+8-0-8B	Describe examples of how scientific knowledge has evolved in light of new evidence, and the role of technology in this evolution.	GLO: A2, A5, B1
+8-0-8D	Describe examples of how technologies have evolved over time in response to changing needs and scientific advances.	GLO: A5, B1, B2
+8-0-8E	Provide examples of Canadian institutions that have contributed to science and technology and describe their contributions.	GLO: A1, A4, B1, B4
+8-0-8F	Relate personal activities to specific science disciplines.	GLO: A1, B4
+8-0-8G	Discuss societal, environmental, and economic impacts of scientific and technological endeavours. Include: local and global impacts	GLO: A1, B1, B3, B5
+8-0-9A	Appreciate and respect that science has evolved from different views held by women and men from a variety of societies and cultural backgrounds.	GLO: A4
+8-0-9B	Express interest in a broad scope of science and technology-related fields and issues.	GLO: B4
+8-0-9C	Demonstrate confidence in their ability to carry out investigations in science and technology.	GLO: C5
+8-0-9D	Value skepticism, accuracy, precision, and open-mindedness as scientific and technological habits of mind.	GLO: C5
+8-0-9E	Be sensitive and responsible in maintaining a balance between the needs of humans and a sustainable environment.	GLO: B5
+8-0-9F	Consider the cause and effects relationships of actions and decisions.	GLO: B5, C4, E3
+8-1-01	Use appropriate vocabulary related to their investigations of cells and systems. Include: cell theory, osmosis, diffusion, selective permeability, unicellular, multicellular, specialized cells and tissues, organs, systems, arteries, veins, capillaries, terms related to cell structure, heart structure, components of blood, and primary and secondary defense systems	GLO: C6, D1
+8-1-02	Identify characteristics of living things, and describe how different living things exhibit these characteristics. Include: composed of cells; reproduce; grow; repair themselves; require energy; respond to the environment; have a lifespan; produce wastes	GLO: D1, E1
+8-1-03	Describe cell theory. Include: all living things are composed of one or more cells; cells are the basic unit of structure and function of any organism; all cells come from pre-existing cells; the activity of an organism as a whole depends on the total activity of all its cells	GLO: A2, D1, E2
+8-1-04	Identify major events and technological innovations that have enabled scientists to increase our understanding of cell biology. Examples: invention of the light and electron microscope, works of Robert Hooke, Anton van Leeuwenhoek, Matthias Schleiden and Theodor Schwann	GLO: A2, A4, B1, B2
+8-1-05	Identify and compare major structures in plants and animal cells, and explain their function. Include: cell membrane, cytoplasm, mitochondria, nucleus, vacuoles, cell wall, chloroplasts	GLO: D1, E1
+8-1-06	Demonstrate proper use and care of the microscope to observe the general structure of plant and animal cells. Include: preparing wet mounts beginning with the least powerful lens; focussing; drawing specimens; indicating magnification	GLO: C1, C2, D1
+8-1-07	Describe the movement of nutrients and wastes across cell membranes and explain its importance. Include: osmosis, diffusion, selective permeability	GLO: D1
+8-1-08	Differentiate between unicellular and multicellular organisms.	GLO: D1, E1
+8-1-09	Describe why cells and tissues are specialized in multicellular organisms, and observe examples. Include: specialization is needed because all cells in a complex organism do not have access to the external environment	GLO: C2, D1
+8-1-10	Describe structural and functional relationship among cells, tissues, organs, and systems.	GLO: D1, E2
+8-1-11	Describe the structure and function of the heart and the path of blood to and from the heart through its four chambers. Include: atria, ventricles, septum, valves, aorta, pulmonary artery, pulmonary veins, superior vena cava, inferior vena cava	GLO: D1, E1
+8-1-12	Compare and contrast the structure and function of arteries, veins, and capillaries.	GLO: D1, E1
+8-1-13	Identify components of blood and describe the function of each. Include: red blood cells carry oxygen; white blood cells fight infection; platelets clot blood; plasma is the liquid part of blood that transports blood cells, dissolved material, nutrients, and waste products	GLO: D1
+8-1-14	Describe, using examples, how individual systems in the human body function interdependently.	GLO: D1, E2
+8-1-15	Compare heart rate and respiratory rate before, during, and after various physical activities; explain the observed variations; and discuss implications for overall health.	GLO: B3, C2, D1, E3
+8-1-16	Identify components of the primary and secondary defense systems of the body and describe their roles. Include: primary defense system - skin, tears, ear wax, saliva, gastric juices, cilia hairs; secondary defense system - white blood cells, antibodies	GLO: D1, E2
+8-1-17	Identify medical advances that enhance the human body's defence mechanisms and describe their effects on society. Examples: vaccines, antibiotics	GLO: A5, B1, B2, B3
+8-1-18	Research and describe disorders/diseases that affect body systems, and identify possible preventative measures. Examples: liver disease, diabetes, multiple sclerosis, heart attack, stroke, high/low blood pressure, leukemia, anemia, high cholesterol	GLO: B3, C6, D1
+8-1-19	Describe functional similarities and differences of comparable structures and systems in different groups of living things. Examples: movement, food intake, and digestion of a unicellular organism, an invertebrate, and a vertebrate; gas exchange in plants versus Animals	GLO: D1, E1
+8-2-01	Use appropriate vocabulary related to their investigations of optics. Include: spectrum; additive theory; subtractive theory; frequency; wave length; refraction; concave and convex mirrors and lenses; terms related to types of light sources, types of electromagnetic radiation, and the law of reflection	GLO: C6, D3
+8-2-02	Differentiate between incandescent and luminescent sources of light. Include: fluorescent, phosphorescent, chemiluscent, bioluminescent	GLO: D3, D4, E1
+8-2-03	Demonstrate that light is a form of energy, that light travels in a straight line, and can be separated into the visible light spectrum.	GLO: A1, C1, C2, D4
+8-2-04	Explain, using the additive theory, how colours are produced, and identify applications of this theory in daily life.	GLO: A1, A2, B1, D4
+8-2-05	Explain how the human eye detects colour, and how the ability to perceive colour may vary from person to person.	GLO: A2, E1
+8-2-06	Demonstrate, using the subtractive theory, how colours are produced, and identify applications of this theory in daily life.	GLO: A2, B1, E1
+8-2-07	Compare and contrast various types of electromagnetic radiation, with respect to relative energy, frequency, wavelength, and human perception. Include: radio waves, microwaves, infrared radiation, visible light, ultra-violet radiation, x-rays, gamma rays.	GLO: D4, E1
+8-2-08	Provide examples of technologies that use electromagnetic radiation, and describe potential postive and negative impacts of their uses. Examples: satellite dish, x-ray machine, light telescopes, motion sensors, microwave ovens	GLO: A5, B1, D4
+8-2-09	Conduct experiments to determine the law of reflection, and provide examples of the use of reflection in daily life.. Include: the angle of reflection is the same as the angle of incidence; the incident beam, the normal and the reflected beam are all on the same plane	GLO: A2, C1, C2, D4
+8-2-10	Conduct experiments to compare the refraction of light through substances of different densities.	GLO: C1, C2, D4
+8-2-11	Explain how reflection and refraction produce natural phenomena. Examples: sun dogs, rainbows, blue sky	GLO: D4, D5
+8-2-12	Investigate to determine how light interacts with concave and convex mirrors and lenses, and provide examples of their use in various optical instruments and systems.	GLO: B1, C2, D3, D4
+8-2-13	Demonstrate the formation of images using a double convex lens, and predict the effects of changes in lens position on the size and location of the image. Examples: magnify or reduce an image by altering the placement of one or more lenses	GLO: C2, C5, D4
+8-2-14	Compare the functional operation of the human eye to that of a camera in focusing an image.	GLO: A5, C4, D1, D4
+8-3-01	Use appropriate vocabulary related to their investigations of fluids. Include: fluid, viscosity, flow, density, particle theory of matter, buoyant force, pressure, compressibility, hydraulic, pneumatic	GLO: C6, D3, E1
+8-3-02	Distinguish between fluids and non-fluids.	GLO: D3, E1
+8-3-03	Explore and compare the viscosity of various liquids. Examples: time the fall of a steel ball through various liquids; time the flow rate of different liquids on an incline	GLO: C2, D3, E1
+8-3-04	Identify products in which viscosity is an important property, and evaluate different brands of the same product, using the design process. Examples: sauces, lubricating oil, paint, hand lotion	GLO: A5, B2, C1
+8-3-05	Plan and conduct experiments to determine factors that affect flow within a given system. Examples: temperature, pressure, tube diameter	GLO: C1, C2, D3, E2
+8-3-06	Measure, calculate, and compare densities of solids, and liquids, and gases. Include: different amounts of the same substance, regularly and irregularly shaped objects	GLO: C2, C5, D3
+8-3-07	Illustrate, using the particle theory of matter, the effects of temperature change on the density of solids, liquids, and gases.	GLO: A2, C2, D3, E4
+8-3-08	Compare fluids of different densities to determine how they alter the buoyant force on an object.	GLO: C2, D3
+8-3-09	Recognize that pressure is the relationship between force and area, and describe situations in which pressure can be increased or decreased by altering surface area. Examples: wearing snowshoes instead of boots to decrease pressure, increase surface area, and stay on top of snow	GLO: B1, B2, D4
+8-3-10	Explain, using the particle theory of matter, the relationships among pressure, volume, and temperature of liquid and gaseous fluids.	GLO: A2, D4
+8-3-11	Compare the relative compressibility of water and air, and relate this property to their ability to transmit force in hydraulic and pneumatic devices.	GLO: A5, C2, D4, E1
+8-3-12	Identify a variety of natural and constructed hydraulic and pneumatic systems and describe how they function. Examples: heart, lungs, eyedropper, misting bottle, fuel pump, hydraulic lift	GLO: D4, E2
+8-3-13	Compare hydraulic and pneumatic systems, and identify advantages and disadvantages of each.	GLO: B1, D4, E1, E2
+8-3-14	Use the design process to construct a prototype that uses a pneumatic or hydraulic system to perform a given task. Examples: a prototype that can lift a load a specified distance	GLO: C3, D4
+8-4-01	Use appropriate vocabulary related to their investigations of water systems. Include: heat capacity, fresh water, salt water, convection, Coriolis effect, global water cycle, drainage system, watershed, continental divide, erosion, deposition, flow rate, tides, terms related to water treatment	GLO: C6, D5
+8-4-02	Demonstrate that water, as compared to other substances, has a high heat capacity and is able to dissolve a wide variety of solutes.	GLO: C1, C2, C5, D3
+8-4-03	Compare and contrast characteristics and properties of fresh water and salt water. Examples: freezing point, density, dissolved materials, global distribution, relative amounts, biologically diverse components of each	GLO: D3, D5, E1
+8-4-04	Identify factors that can work individually or in combination to affect ocean currents. Include: convection, Coriolis effect, prevailing winds, position of continents	GLO: D5, E2
+8-4-05	Describe how the heat capacity of large bodies of water and the movement of ocean currents influence regional climates. Examples: Gulf Stream effects, El Nino, lake affect	GLO: D3, D5, E2
+8-4-06	Describe the components of the global water cycle and explain how it works.	GLO: D3, D5, E2
+8-4-07	Describe features of the North American drainage system. Include: local and regional watersheds, direction of water flow, continental divide	GLO: C6, D5
+8-4-08	Descirbe how erosion and deposition are influenced by the flow rate of a stream or river, and contrast the related characteristics of young and mature streams. Examples: meanders, oxbows, alluvial deposits, sandbars, flood plains, deltas	GLO: D5, E3
+8-4-09	Describe how wave action and ice movement in large bodies of water cause erosion and deposition.	GLO: D5, E3
+8-4-10	Explain how tides are caused and describe their effects on shorelines.	GLO: D5, D6
+8-4-11	Describe examples of human interventions to prevent riverbank or coastal erosion. Examples: vegetation, reinforcement (concrete, boulders), piers, breakwaters	GLO: B2, B5, D5
+8-4-12	Identify factors that can cause flooding either individually or in combination. Examples: heavy snow pack, quick thaw, rain in spring, lack of vegetation to remove water through transpiration, frozen ground preventing absorption, agricultural drainage systems, dams, diversions	GLO: C8, D5
+8-4-13	Provide examples of the way in which technology is used to contain or prevent damage due to flooding, and discuss related positive and negative impacts. Examples: floodway, diversion, dike, levee	GLO: A5, B1, D5
+8-4-14	Identify sources of drinking water and describe methods for obtaining water in areas where supply is limited. Examples: desalination, melting of ice, condensation	GLO: B1, B2, B3, D5
+8-4-15	Explain how and why water may need to be treated for use by humans. Include: filtration, settling, chlorination, fluoridation	GLO: B1, B3, D5
+8-4-16	Compare the waste-water disposal system within their communities to one used elsewhere. Include: process involved, environmental impact cost	GLO: B2, B5
+8-4-17	Identify substances that may pollute water, related environmental and societal impacts of pollution, and ways to reduce or eliminate effects of pollution.	GLO: B2, B3, B5, D5
+8-4-18	Identify environmental, social, and economic factors that should be considered in the management of water resources. Examples: ecosystem preservation, employment, recreation, industrial growth, water quality	GLO: B5, D5
+8-4-19	Use the design process to develop a system to solve a water-related problem.	GLO: B2, B3, C3, D5
+S1-0-1a	Propose questions that could be tested experimentally.	GLO: C2
+S1-0-1b	Select and justify various methods for finding answers to specific questions.	GLO: C2
+S1-0-1c	Identify STSE issues which could be addressed.	GLO: C4
+S1-0-1d	Identify stakeholders and initiate research related to an STSE issue.	GLO: C4
+S1-0-2a	Select and integrate information obtained from a variety of sources. Include: print, electronic, specialists, other resource people	GLO: C2, C4, C6
+S1-0-2b	Evaluate the reliability, bias, and usefulness of information.	GLO: C2, C4, C5, C8
+S1-0-2c	Summarize and record information in a variety of forms. Include: paraphrasing, quoting relevant facts and opinions, proper referencing of sources	GLO: C2, C4, C6
+S1-0-2d	Review effects of past decisions and various perspectives related to an STSE issue. Examples: government's, public, environmentalists', and First Nations' opinions on hydroelectric development; religious, social, and medical views on genetic screening	GLO: B1, C4
+S1-0-3a	State a testable hypothesis or prediction based on background data or on observed events.	GLO: C2
+S1-0-3b	Identify probable mathematical relationships between variables. Examples: relationship between current and resistance	GLO: C2
+S1-0-3c	Plan an investigation to answer a specific scientific question. Include: materials, variables, controls, methods, safety considerations	GLO: C2
+S1-0-3d	Summarize relevant data and consolidate existing arguments and positions related to an STSE issue.	GLO: C4
+S1-0-3e	Determine criteria for the evaluation of an STSE decision. Examples: scientific merit; technological feasability; social, cultural, economic, and political factors; safety; cost; sustainability	GLO: B5, C1, C3, C4
+S1-0-3f	Formulate and develop options which could lead to an STSE decision.	GLO: C4
+S1-0-4a	Carry out procedures that comprise a fair test. Include: controlling variables, repeating experiments to increase accuracy and reliability of results	GLO: C1, C2
+S1-0-4b	Demonstrate work habits that ensure personal safety, the safety of others, as well as consideration for the environment. Include: knowledge and use of relevant safety precautions, WHMIS regulations, and emergency equipment	GLO: B3, B5, C1, C2
+S1-0-4c	Interpret relevant WHMIS regulations. Include: symbols, labels, Material Safety Data Sheets (MSDS)	GLO: C1, C2
+S1-0-4d	Use various methods for anticipating the impacts of different options. Examples: test run, partial implementation, simulation, debate	GLO: C4, C5, C6, C7
+S1-0-4e	Work cooperatively with group members to carry out a plan, and troubleshoot problems as they arise.	GLO: C2, C4, C7
+S1-0-4f	Assume the responsiblities of various roles within a group and evaluate which roles are most appropriate for given tasks.	GLO: C2, C4, C7
+S1-0-5a	Select and use appropriate methods and tools for collecting data or information.	GLO: C2
+S1-0-5b	Estimate and measure accurately using Système International (SI) and other standard units. Include: SI conversions	GLO: C2
+S1-0-5c	Record, organize, and display data using an appropriate format. Include: labelled diagrams, graphs, multimedia	GLO: C2, C5
+S1-0-5d	Evaluate, using pre-determined criteria, different STSE options leading to a possible decision. Include: scientific merit; technological feasability; social, cultural, economic, and political factors; safety; cost; sustainability	GLO: B5, C1, C3, C4
+S1-0-6a	Interpret patterns and trends in data, and infer and explain relationships.	GLO: C2, C5
+S1-0-6b	Identify and suggest explanations for discrepancies in data. Examples: sources of error	GLO: C2
+S1-0-6c	Evaluate the original plan for an investigation and suggest improvements. Examples: identify strenghts and weaknesses of data collection methods used	GLO: C2, C5
+S1-0-6d	Adjust STSE options as required once their potential effects become evident.	GLO: C3, C4, C5, C8
+S1-0-7a	Draw a conclusion that explains the results of an investigation. Include: cause and effect relationships, alternative explanations, supporting or rejecting the hypothesis or prediction	GLO: C2, C5, C8
+S1-0-7b	Select the best option and determine a course of action to implement an STSE decision.	GLO: B5, C4
+S1-0-7c	Implement an STSE decision and evaluate its effects.	GLO: B5, C4, C5, C8
+S1-0-7d	Reflect on the process used to arrive at or to implement an STSE decision, and suggest improvements.	GLO: C4, C5
+S1-0-7e	Reflect on prior knowledge and experiences to develop new understanding.	GLO: C2, C3, C4
+S1-0-8a	Distinguish between science and technology. Include: purpose, procedures, products	GLO: A3
+S1-0-8b	Explain the importance of using precise language in science and technology.	GLO: A2, A3, C2, C3
+S1-0-8c	Describe examples of how scientific knowledge has evolved in light of new evidence, and the role of technology in this evolution.	GLO: A2, A5
+S1-0-8d	Describe examples of how technologies have evolved in response to changing needs and scientific advances.	GLO: A5
+S1-0-8e	Discuss how peoples of various cultures have contributed to the development of science and technology.	GLO: A4, A5
+S1-0-8f	Relate personal activities and possible career choices to specific science disciplines.	GLO: B4
+S1-0-8g	Discuss social and environmental effects of past scientific and technological endeavours. Include: major shifts in scientific world views, unintended consequences	GLO: B1
+S1-0-9a	Appreciate and respect that science and technology have evolved from different views held by women and men from a variety of societies and cultural backgrounds.	GLO: A4
+S1-0-9b	Express interest in a broad scope of science- and technology-related fields and issues.	GLO: B4
+S1-0-9c	Demonstrate confidence in their ability to carry out investigations in science and to address STSE issues.	GLO: C2, C4, C5
+S1-0-9d	Value skepticism, honesty, accuracy, precision, perseverance, and open-mindedness as scientific and technological habits of mind.	GLO: C2, C3, C4, C5
+S1-0-9e	Be sensitive and responsible in maintaining a balance between the needs of humans and a sustainable environment.	GLO: B5, C4
+S1-0-9f	Demonstrate personal involvement and be proactive with respect to STSE issues.	GLO: B5, C4
+S1-1-01	Illustrate and explain the process of mitotic cell division in plants and animals. Include: chromosomes, mitosis, cytoplasmic division, cell cycle	GLO: D1, E1, E2
+S1-1-02	Observe and explain the dynamic nature of cell division.	GLO: C2, D1, E3
+S1-1-03	Describe various types of asexual reproduction that occur in plant and animal species. Examples: fission, budding, sporulation, vegetative propagation, regeneration	GLO: D1, E1
+S1-1-04	Investigate and describe agricultural applications of asexual reproduction. Examples: cloning, cuttings, grafting, bulbs	GLO: A5, B1, B2, D1
+S1-1-05	Illustrate and explain the production of male and female gametes by meiosis.	GLO: D1, E1, E2
+S1-1-06	Compare and contrast the functions of mitosis to that of meiosis. Include: diploid cells, haploid cells	GLO: D1, E1
+S1-1-07	Compare sexual and asexual reproduction in terms of their advantages and disadvantages for plant and animal species.	GLO: D1, E1
+S1-1-08	Investigate and explain adaptations of plant and animal species which enhance reproductive success. Examples: appearance, behaviour, number of gametes or offspring, chemical cues	GLO: D2, E1, E2
+S1-1-09	Describe the structure and function of the male and female human reproductive systems. Include: role of hormones	GLO: D1, E1, E2
+S1-1-10	Outline human development from conception through birth. Include: X and Y chromosomes, zygote, embryo, fetus	GLO: D1, E1, E2, E3
+S1-1-11	Observe, collect, and analyze class data of single trait inheritance. Examples: hand clasping, earlobe attachment, tongue rolling	GLO: C2, D1
+S1-1-12	Differentiate between dominant and recessive genes. Include: genotype, phenotype	GLO: D1, E1, E2
+S1-1-13	Describe the relationship among DNA, chromosomes, genes, and the expression of traits. Include: genetic similarity among all humans	GLO: A2, D1, E1, E2
+S1-1-14	Explain the inheritance of sex-linked traits in humans and use a pedigree to track the inheritance of a single trait. Examples: colour blindness, hemophilia	GLO: D1, E1, E2
+S1-1-15	Investigate and describe environmental factors and personal choices that may lead to a genetic mutation or changes in an organism's development. Examples: fetal exposure to alcohol, overexposure to sunlight, toxins, hormone mimics, food additives, radiation	GLO: B1, B3, D1, D2
+S1-1-16	Investigate Canadian and international contributions to research and technological development in the field of genetics and reproduction. Examples: Human Genome Project	GLO: A3, A4, B1, B2
+S1-1-17	Discuss current and potential applications and implications of biotechnologies including their effects upon personal and public decision-making. Include: genetic engineering, genetic screening, cloning, DNA fingerprinting	GLO: B1, B2, C4, C8
+S1-1-18	Use the decision-making process to address a current biotechnology issue.	GLO: C4, C6, C7, C8
+S1-2-01	Describe how historical ideas and models furthered our understanding of the nature of matter. Include: Greek ideas, alchemy, Lavoisier	GLO: A1, A2, A4
+S1-2-02	Investigate the historical progression of the atomic model. Include: Dalton, Thompson, Rutherford, Bohr, quantum model	GLO: A1, A2, A4, D3
+S1-2-03	Define element and identify symbols of some common elements. Include: the first 18 elements, K, Ca, Fe, Ni, Cu, Zn, I, Ag, Sn, Au, W, Hg, Pb, U	GLO: C2, D3
+S1-2-04	Explain the atomic structure of an atom in terms of the number of protons, electrons, and neutrons, and explain how those numbers define atomic number and atomic mass.	GLO: D3, E2
+S1-2-05	Assemble or draw Bohr atomic models for the first 18 elements and group them according to the number of outer shell electrons.	GLO: A2, C2, D3
+S1-2-06	Investigate the development of the periodic table as a method of organizing elements. Include: periods, families (groups)	GLO: A2, A4, B2, E1
+S1-2-07	Investigate the characteristic properties of metals, non-metals, and metalloids and classify elements according to these properties. Examples: ductility, conductivity of heat and electricity, lustre, reactivity	GLO: D3, E1
+S1-2-08	Relate the reactivity and stability of different families of elements to their atomic structure. Include: alkali metals, alkaline earths, chalcogens, halogens, noble gases	GLO: D3, D4, E1, E3
+S1-2-09	Compare elements to compounds. Include: atoms, molecules	GLO: D3, E1, E2
+S1-2-10	Interpret chemical formulas of elements and compounds in terms of the number of atoms of each element. Examples: He, H2, O2, H2O, CO2, NH3	GLO: C2, D3
+S1-2-11	Investigate properties of substances and explain the importance of knowing these properties. Examples: usefulness, durability, safety	GLO: A5, B2, D3, E1
+S1-2-12	Differentiate between physical and chemical changes.	GLO: D3, E1, E3
+S1-2-13	Experiment to determine indicators of chemical change. Examples: colour change, production of heat and / or light, production of a gas or precipitate or new substance	GLO: C2, D3, E3
+S1-2-14	Investigate technologies and natural phenomena that demonstrate chemical change in everyday situations. Examples: photography, rusting, photosynthesis, combustion, baking	GLO: A3, A5, B1, B2
+S1-3-01	Demonstrate evidence for the existence of two types of charge.	GLO: A2, C2, C5
+S1-3-02	Discuss early models of electricity to support the premise that models in science change. Include: one-fluid model, two-fluid model, particle model	GLO: A1, A2, A5, C8
+S1-3-03	Explain how a discrepant event can be used to evaluate the particle model of electricity. Include: the attraction of neutral objects to charged objects	GLO: A1, A2, A3, C8
+S1-3-04	Relate the particle model of electricity to atomic structure.	GLO: A1, A2, D3
+S1-3-05	Investigate and explain electrostatic phenomena using the particle model of electricity. Include: conservation of charge, conduction, grounding, attraction of a neutral insulator, induction	GLO: A2, D3, D4, E4
+S1-3-06	Investigate common electrostatic technologies and phenomena and describe measures which reduce dangers associated with electrostatics. Examples: photocopying, static straps to reduce charge buildup, lightning, electrostatic spray-painting, electrostatic precipitator	GLO: A5, B1, C1, D4
+S1-3-07	Construct one or more electrostatic apparatus and explain how they function using the particle model of electricity. Include: pie-plate electrophorus	GLO: A2, C3, D3, D4
+S1-3-08	Demonstrate and explain the like nature of electrostatics and current electricity. Include: discharge an electrophorus through a neon bulb	GLO: C3, D4, E4
+S1-3-09	Define electric current as charge per unit time and solve related problems. Include: I=Q/t	GLO: C2, C3, D4
+S1-3-10	Define voltage (electric potential difference) as the energy per unit charge between two points along a conductor and solve related problems. Include: V=E/Q	GLO: C2, C3, D4
+S1-3-11	Identify the five sources of electrical energy and some associated technologies. Include: chemical, photo, thermo, electromagnetic, piezo.	GLO: B1, D4, E4
+S1-3-12	Describe resistance in terms of the particle model of electricity.	GLO: A2, D3, E2
+S1-3-13	Construct electric circuits using schematic diagrams. Include: series, parallel	GLO: C3, D4, E4
+S1-3-14	Use appropriate instruments and units to measure voltage (electric potential difference), current, and resistance.	GLO: C2, C3, D4
+S1-3-15	Compare and contrast voltage and current in series and parallel circuits. Include: cells, resistance	GLO: C3, D4
+S1-3-16	Investigate and describe qualitatively the relationship among current, voltage (electric potential difference), and resistance in a simple electric circuit.	GLO: C2, D4, E4
+S1-3-17	Relate the energy dissipated in a circuit to the resistance, current, and brightness of bulbs.	GLO: D4
+S1-3-18	Explain the parallel circuits, the components, and the safety aspects of household wiring. Include: switches, fuses, circuit breakers, outlets	GLO: A5, B1, B2, C1
+S1-3-19	Explain safety considerations of some common household electrical appliances. Examples: kettle, heater, toaster	GLO: A5, B1, C1, D4
+S1-3-20	Define electrical power as energy per unit time, and solve related problems. Include: P=E/t	GLO: C2, C3, D4
+S1-3-21	Develop a formula for domestic power consumption costs, and solve related problems. Include: Cost = Power x time x unit price/kWh	GLO: B2, C2, C3, D4
+S1-3-22	Analyze the electrical energy consumption of a household appliance. Include: calculate consumption using Energuide labels, read hydro meter, interpret monthly hydro bill	GLO: B5, C4, C5, C8
+S1-3-23	Recognize and explain the importance of incorporating principles of electrical energy conservation into the decision-making process.	GLO: B2, B5, C4, C8
+S1-3-24	Use the decision-making process to address an issue associated with the generation and transmission of electricity in Manitoba. Include: hydroelectric power, sustainability	GLO: B2, B5, C4, C8
+S1-4-01	Use a coordinate system to locate visible celestial objects, and construct an astrolabe to determine the position of these objects. Include: altitude, azimuth	GLO: C2, C3, D6
+S1-4-02	Observe the motion of visible celestial objects and organize collected data. Examples: graph sunrise and sunset data, track the position of the Moon and planets over time, maintain a log of changes in the night sky	GLO: C2, C5, C6, D6
+S1-4-03	Investigate how various cultures used knowledge of the position and motion of visible celestial objects for navigation.	GLO: A4, B1, B2, D6
+S1-4-04	Compare and contrast historical perspectives on the relationship between Earth and space. Include: geocentric model, heliocentric model	GLO: A2, A4, B2, E2
+S1-4-05	Explain reasons for the apparent motion of the Sun, stars, planets, and the Moon as seen from Earth. Include: daily rising and setting, seasonal constellations, retrograde motion	GLO: D4, D6, E2
+S1-4-06	Differentiate between units of measure used for astronomical distances, and perform simple calculations using these units. Include: astronomical unit, light year	GLO: C2, D6
+S1-4-07	Compare and contrast scientific and cultural perspectives on the origin and evolution of the universe.	GLO: A1, A2, A4, D6
+S1-4-08	Differentiate between the major components of the universe. Include: planets, moons, comets and asteroids, nebulae, stars, galaxies, black holes	GLO: D6, E1, E2
+S1-4-09	Explain how various technologies have extended our ability to explore and understand space. Examples: robotics, Canadarm, Hubble telescope, Lunar Rover, shuttle, space station, Sojourner Rover, Pathfinder and Galileo space probes	GLO: A5, B1, B2, D6
+S1-4-10	Investigate ways in which Canada participates in space research and in international space programs, then use the decision-making process to address a related issue. Examples: International Space Station, Canadarm	GLO: A3, A4, B2, C4
+S1-4-11	Evaluate the impact of space science and technologies in terms of their benefits and risks to humans. Examples: search for extraterrestrial life and habitat, remote sensing, predictions of potentially catastrophic impacts, colonization of space by only a few countries	GLO: A3, B1, B2, B5
+S2-0-1a	Propose questions to be tested experimentally.	GLO: C2
+S2-0-1b	Select and justify various methods for finding answers to specific questions.	GLO: C2
+S2-0-1c	Identify STSE issues to be addressed.	GLO: C4
+S2-0-1d	Identify stakeholders and initiate research related to an STSE issue.	GLO: C4
+S2-0-2a	Select and integrate information obtained from a variety of sources. Include: print, electronic, specialists, other resource people	GLO: C2, C4, C6
+S2-0-2b	Evaluate the reliability, bias, and usefulness of information.	GLO: C2, C4, C5, C8
+S2-0-2c	Summarize and record information in a variety of forms using appropriate Include: paraphrasing, quoting relevant facts and opinions, proper referencing of sources	GLO: C2, C4, C6
+S2-0-2d	Review effects of past decisions and various perspectives related to an STSE issue. Examples: political accords, economic and ecological considerations related to the enhanced greenhouse effect; environmentalist and industry group positions on fossil fuel emissions	GLO: B1, C4
+S2-0-3a	State a testable hypothesis or prediction based on background data or on observed events.	GLO: C2
+S2-0-3b	Identify mathematical relationships between variables. Examples: relationship between braking distance, velocity, and friction	GLO: C2
+S2-0-3c	Plan an experiment to answer a specific scientific question. Include: materials, dependent and independent variables, controls, methods, safety considerations	GLO: C1, C2
+S2-0-3d	Summarize relevant data and consolidate existing arguments and positions related to an STSE issue.	GLO: C4
+S2-0-3e	Determine criteria for the evaluation of an STSE decision. Examples: scientific merit; technological feasibility; social, cultural, economic, and political factors; safety; cost; sustainability	GLO: B5, C1, C3, C4
+S2-0-3f	Formulate and develop options which could lead to an STSE decision.	GLO: C4
+S2-0-4a	Carry out procedures that comprise a fair test. Include: controlling variables, repeating experiments to increase accuracy and reliability of results	GLO: C1, C2
+S2-0-4b	Demonstrate work habits that ensure personal safety, the safety of others, as well as consideration for the environment. Include: knowledge and use of relevant safety precautions, WHMIS regulations, and emergency equipment	GLO: B3, B5, C1, C2
+S2-0-4c	Discuss safety procedures to follow given situations. Examples: acid or base spills in a lab, use of cleaning products	GLO: C1, C2
+S2-0-4d	Interpret relevant WHMIS regulations. Include: symbols, labels, Material Safety Data Sheets (MSDS)	GLO: C1, C2
+S2-0-4e	Use various methods for anticipating the impacts of different options. Examples: test run, partial implementation, simulation, debate	GLO: C4, C5, C6, C7
+S2-0-4f	Work co-operatively with group members to carry out a plan, and troubleshoot problems as they arise.	GLO: C2, C4, C7
+S2-0-4g	Assume the responsibilities of various roles within a group and evaluate which roles are most appropriate for given tasks.	GLO: C2, C4, C7
+S2-0-5a	Select and use appropriate methods and tools for sampling data or collecting.	GLO: C2
+S2-0-5b	Estimate and measure accurately using Système International (SI) and other standard units. Include: SI conversions	GLO: C2
+S2-0-5c	Record, organize, and display data using an appropriate format. Include: labelled diagrams, tables, graphs, multimedia	GLO: C2, C5
+S2-0-5d	Evaluate, using pre-determined criteria, different STSE options leading to a possible decision. Examples: scientific merit; technological feasibility; social, cultural, economic, and political factors; safety; cost; sustainability	GLO: B5, C1, C3, C4
+S2-0-6a	Interpret patterns and trends in data, and infer and explain relationships.	GLO: C2, C5
+S2-0-6b	Identify and suggest explanations for discrepancies in data. Include:sources of error	GLO: C2
+S2-0-6c	Evaluate the original plan for an experiment and suggest improvements. Examples:identify strengths and weaknesses of data collection methods used	GLO: C2, C5
+S2-0-6d	Adjust STSE options, as required, once their potential effects become evident.	GLO: C3, C4, C5, C8
+S2-0-7a	State a conclusion based on analysis and interpretation of the data.	GLO: C2, C5, C8
+S2-0-7b	Identify further questions and problems arising from an investigation.	GLO: C4, C8
+S2-0-7c	Select the best option and determine a course of action to implement an STSE.	GLO: B5, C4
+S2-0-7d	Implement an STSE decision and evaluate its effects.	GLO: B5, C4, C5, C8
+S2-0-7e	Reflect on the process used to arrive at or to implement an STSE decision, and suggest improvements.	GLO: C4, C5
+S2-0-7f	Reflect on prior knowledge and experiences to develop new understanding.	GLO: C2, C3, C4
+S2-0-8a	Distinguish between science and technology. Include: purpose, procedures, products, impacts	GLO: A3
+S2-0-8b	Explain the importance of using precise language in science and technology.	GLO: A2, A3, C2, C3
+S2-0-8c	Describe examples of how scientific knowledge has evolved in light of new evidence, and the role of technology in this evolution.	GLO: A2, A5
+S2-0-8d	Describe examples of how technologies have evolved in response to changing needs and scientific advances.	GLO: A5
+S2-0-8e	Discuss how peoples of various cultures have contributed to the development of science and technology.	GLO: A4, A5
+S2-0-8f	Relate personal activities and possible career choices to specific science disciplines.	GLO: B4
+S2-0-8g	Discuss social, economic, and environmental effects of past and present scientific and technological endeavours. Include: major shifts in scientific world views, unintended consequences	GLO: B1
+S2-0-9a	Appreciate and respect that science and technology have evolved from different views held by women and men from a variety of societies and cultural backgrounds.	GLO: A4
+S2-0-9b	Express interest in a broad scope of science- and technology-related fields and issues.	GLO: B4
+S2-0-9c	Demonstrate confidence in their ability to carry out investigations in science and to address STSE issues.	GLO: C2, C4, C5
+S2-0-9d	Value skepticism, honesty, accuracy, precision, perseverance, and open-mindedness as scientific and technological habits of mind.	GLO: C2, C3, C4, C5
+S2-0-9e	Be sensitive and responsible in maintaining a balance between the needs of humans and a sustainable environment.	GLO: B5, C4
+S2-0-9f	Demonstrate personal involvement and be proactive with respect to STSE issues.	GLO: B5, C4
+S2-1-01	Illustrate and explain how carbon, nitrogen, and oxygen are cycled through an ecosystem.	GLO: D2, D3, D5, E2
+S2-1-02	Discuss factors that may disturb biogeochemical cycles. Include: natural events, human activities	GLO: A2, C8, D2, D5
+S2-1-03	Describe bioaccumulation and explain its potential impact on consumers. Examples: DDT, lead, dioxin, PCBs, mercury	GLO: B1, D2
+S2-1-04	Describe the carrying capacity of an ecosystem.	GLO: E2, E3
+S2-1-05	Investigate and discuss various limiting factors that influence population dynamics. Include: density-dependent and density-independent factors	GLO: C2, D2, E2, E3
+S2-1-06	Construct and interpret graphs of population dynamics.	GLO: C2, C6, C8, D2
+S2-1-07	Describe potential consequences of introducing new species and species extinction on an ecosystem.	GLO: E1, E2
+S2-1-08	Observe and document a range of organisms that illustrate the biodiversity within a local or regional ecosystem.	GLO: D2, E2, E3
+S2-1-09	Explain how the biodiversity of an ecosystem contributes to its sustainability.	GLO: B5, E1
+S2-1-10	Investigate how human activities affect an ecosystem and use the decision-making process to propose a course of action to enhance its sustainability. Include: impact on biogeochemical cycling, population dynamics, and biodiversity	GLO: B5, C4, C5, C8
+S2-2-01	Relate an element's position in the periodic table to its combining capacity (valence). Include: alkali metals, alkaline earths, chalcogens, halogens, noble gases	GLO: D3, D4, E1
+S2-2-02	Explain, using the periodic table, how and why elements combine in specific ratios to form compounds. Include: ionic bonds, covalent bonds	GLO: D3, E2
+S2-2-03	Write formulas and names of binary ionic compounds. Include: IUPAC guidelines and rationale for their use	GLO: A2, C2, D3, E1
+S2-2-04	Write formulas and names for covalent compounds using prefixes. Include: mono, di, tri, tetra	GLO: C2, D3, E1
+S2-2-05	Investigate the Law of Conservation of Mass, and recognize that mass is conserved in chemical reactions.	GLO: A2, D3, D4, E3
+S2-2-06	Balance chemical equations. Include: translation of word equations to balanced chemical equations, and balanced chemical equations to word equations	GLO: D3
+S2-2-07	Investigate and classify reactions as synthesis, decomposition, single displacement, double displacement, or combustion.	GLO: B1, D4, E4
+S2-2-08	Experiment to classify acids and bases using their characteristic properties. Include: pH, indicators,	GLO: D3, E1
+S2-2-09	Discuss the occurrence of acids and bases in biological systems, industrial processes, and domestic applications. Include: environmental, health, and safety issues	GLO: B2, B3, C1, C8
+S2-2-10	Explain how acids and bases interact to form a salt and water in the process of neutralization.	GLO: D3, E2
+S2-2-11	Describe the formation and the environmental impact of various types of air pollution. Examples: acidic precipitation, ground-level ozone, airborne particulates / aerosols, smog; stratospheric ozone depletion, respiratory ailments, acidified lakes	GLO: B5, C6, D2, D5
+S2-2-12	Investigate technologies that are used to reduce emissions of potential air pollutants. Examples: catalytic converters in automobiles, smokestack scrubbers, regulation of vehicle emissions, disposal of PCBs from electrical transformers, elimination of CFCs from refrigerants and aerosol propellants	GLO: A5, B5, C8, E2
+S2-3-01	Analyze the relationship among displacement, time, and velocity for an object in uniform motion. Include: visual, numeric, graphical, symbolic (velocity = delta d/delta t)	GLO: C5, C8, D4, E3
+S2-3-02	Collect displacement data to calculate and graph velocity versus time for an object that is accelerating at a constant rate.	GLO: C5, C8, D4, E3
+S2-3-03	Analyze the relationships among velocity, time, and acceleration for an object that is accelerating at a constant rate. Include: visual, numeric, graphical, symbolic (acceleration = delta v/ delta t)	GLO: C5, C8, D4, E3
+S2-3-04	Outline the historical development of the concepts of force and "natural" motion. Include: Aristotle, Galileo, Newton's First Law	GLO: A2, A4, B1
+S2-3-05	Experiment to illustrate the effects of inertia in car collisions. Include: distance travelled (of an unrestrained passenger) is proportional to velocity	GLO: C2, C6, C7, E3
+S2-3-06	Describe qualitatively how force is related to motion. Include: no force; constant force; the relationship among force, mass, and acceleration (Newton's Second Law)	GLO: D4, E3
+S2-3-07	Investigate and describe qualitatively Newton's Third Law. Examples: balloon-powered car, model rockets, head-on collision	GLO: C2, C6, C7, E3
+S2-3-08	Define momentum and impulse and qualitatively relate impulse to change in momentum for everyday situations. Include: car collisions, bumpers, restraints, air bags, size and type of vehicle	GLO: A5, B1, B2, D4
+S2-3-09	Investigate the conservation of energy in a motor vehicle collision. Include: kinetic energy, heat energy, sound	GLO: B2, D4, E4
+S2-3-10	Investigate conditions that illustrate the effects of friction on motion. Include: weather conditions, surface materials	GLO: C2, C5, D4, E2
+S2-3-11	Investigate the factors that influence braking distance. Include: reaction time, friction, condition of driver, speed	GLO: C2, C3, C6, D4
+S2-3-12	Using the relationship between displacement, velocity, and friction ( d=kv squared ), calculate the braking distance of a motor vehicle.	GLO: C2, C3, C5, C8
+S2-3-13	Use the decision-making process to address an STSE issue related to safe driving conditions. Examples: adverse driving conditions; reaction time and narcotic influences or blood alcohol level; excessive vehicle speed	GLO: B3, C4, C5, C8
+S2-4-01	Illustrate the composition and organization of the hydrosphere and theatmosphere. Include: salt water, fresh water, polar ice caps/glaciers, troposphere, stratosphere	GLO: D5, E2
+S2-4-02	Outline factors influencing the Earth's radiation budget. Include: solar radiation, cloud cover, surface and atmospheric reflectance (albedo), absorption, latitude	GLO: D4, D5, E2, E3
+S2-4-03	Explain effects of heat transfer within the atmosphere and hydrosphere on the development and movement of wind and ocean currents. Include: Coriolis effect and atmospheric convection, prevailing winds, jet streams, El Niño	GLO: A2, D5, E2, E4
+S2-4-04	Explain the formation and dynamics of selected severe weather phenomena. Examples: thunderstorms, tornadoes, blizzards, hurricanes, extreme temperature events, cyclonic storms	GLO: A2, D5, E1, E4
+S2-4-05	Collect, interpret, and analyze meteorological data related to a severe weather event. Include: meteorological maps, satellite imagery, conditions prior to and following the event	GLO: C2, C6, C8, D5
+S2-4-06	Investigate the social, economic, and environmental impacts of a recent severe weather event. Include: related consequences of personal and societal decision making	GLO: B2, B3, B4, C6
+S2-4-07	Investigate and evaluate evidence that climate change occurs naturally and could be influenced by human activities. Include: the use of technology in gathering and interpreting current and historical data	GLO: A1, A4, D5, E3
+S2-4-08	Discuss potential consequences of climate change. Examples: changes in ocean temperature may affect aquatic populations, higher frequency of severe weather events influencing social and economic activities, scientific debate over nature and degree of change	GLO: A1, A2, C5, C8

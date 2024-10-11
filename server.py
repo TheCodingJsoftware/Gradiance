@@ -16,20 +16,8 @@ import tornado.websocket
 from tornado.options import define, options
 from tornado.concurrent import run_on_executor
 from concurrent.futures import ThreadPoolExecutor
-from supabase import create_client, Client
-from supabase.client import ClientOptions
 
 load_dotenv()
-
-url: str = os.environ.get("SUPABASE_URL")
-key: str = os.environ.get("SUPABASE_KEY")
-
-supabase: Client = create_client(url, key,
-  options=ClientOptions(
-    postgrest_client_timeout=10,
-    storage_client_timeout=10,
-    schema="public",
-  ))
 
 loader = jinja2.FileSystemLoader("dist/html")
 env = jinja2.Environment(loader=loader)
@@ -71,7 +59,9 @@ class MainHandler(BaseHandler):
 class LoginHandler(tornado.web.RequestHandler):
     def get(self):
         template = env.get_template("login.html")
-        rendered_template = template.render(username="", show_password=False, show_incorrect_password_or_username=False)
+        rendered_template = template.render(
+            username="", show_password=False, show_incorrect_password_or_username=False
+        )
         self.write(rendered_template)
 
     def post(self):
@@ -80,14 +70,20 @@ class LoginHandler(tornado.web.RequestHandler):
 
         if username == "admin" and not password:
             template = env.get_template("login.html")
-            rendered_template = template.render(username=username, show_password=True, show_incorrect_password_or_username=False)
+            rendered_template = template.render(
+                username=username,
+                show_password=True,
+                show_incorrect_password_or_username=False,
+            )
             self.write(rendered_template)
         elif username == "admin" and password != "admin":
             template = env.get_template("login.html")
-            rendered_template = template.render(username=username, show_password=True, show_incorrect_password_or_username=True)
+            rendered_template = template.render(
+                username=username,
+                show_password=True,
+                show_incorrect_password_or_username=True,
+            )
             self.write(rendered_template)
-        else:
-            self.redirect("/home")
 
         if username == "admin" and password == "admin":
             session_id = str(uuid.uuid4())
@@ -109,9 +105,9 @@ class LogoutHandler(BaseHandler):
 
 class HomeHandler(BaseHandler):
     def get(self):
-            template = env.get_template("home.html")
-            rendered_template = template.render()
-            self.write(rendered_template)
+        template = env.get_template("home.html")
+        rendered_template = template.render()
+        self.write(rendered_template)
 
 
 class GamesHandler(BaseHandler):
@@ -119,6 +115,7 @@ class GamesHandler(BaseHandler):
         template = env.get_template("games.html")
         rendered_template = template.render()
         self.write(rendered_template)
+
 
 class UnGradebookHandler(BaseHandler):
     def get(self):
@@ -139,22 +136,37 @@ class UnGradebookHandler(BaseHandler):
             self.redirect("/login")
 
 
-class PrivacyPolicyHandler(tornado.web.RequestHandler):
+class PolicyHandler(tornado.web.RequestHandler):
     def get(self):
-        template = env.get_template("privacy_policy.html")
+        template = env.get_template("policy.html")
         rendered_template = template.render()
         self.write(rendered_template)
 
 
-class CurriculumsHandler(tornado.web.RequestHandler):
+class CurrikiHandler(tornado.web.RequestHandler):
     def get(self):
-        template = env.get_template("curriculums.html")
+        template = env.get_template("curriki.html")
         rendered_template = template.render()
         self.write(rendered_template)
+
 
 class ManitobaMathematicsCurriculumHandler(tornado.web.RequestHandler):
     def get(self):
         template = env.get_template("manitobaMathematicsCurriculum.html")
+        rendered_template = template.render()
+        self.write(rendered_template)
+
+
+class ManitobaScienceCurriculumHandler(tornado.web.RequestHandler):
+    def get(self):
+        template = env.get_template("manitobaScienceCurriculum.html")
+        rendered_template = template.render()
+        self.write(rendered_template)
+
+
+class LessonPlanHandler(tornado.web.RequestHandler):
+    def get(self):
+        template = env.get_template("lessonPlan.html")
         rendered_template = template.render()
         self.write(rendered_template)
 
@@ -173,15 +185,18 @@ def make_app():
             (r"/home", HomeHandler),
             (r"/games", GamesHandler),
             (r"/ungradebook", UnGradebookHandler),
-            (r"/privacy_policy", PrivacyPolicyHandler),
-            (r"/curriculums", CurriculumsHandler),
+            (r"/policy", PolicyHandler),
+            (r"/curriki", CurrikiHandler),
             (r"/manitoba_mathematics_curriculum", ManitobaMathematicsCurriculumHandler),
+            (r"/manitoba_science_curriculum", ManitobaScienceCurriculumHandler),
+            (r"/lesson_plan", LessonPlanHandler),
             (r"/version", VersionHandler),
             (r"/dist/(.*)", tornado.web.StaticFileHandler, {"path": "dist"}),
             (r"/static/(.*)", tornado.web.StaticFileHandler, {"path": "app/static"}),
         ],
-        cookie_secret=os.environ.get('COOKIE_SECRET', secrets.token_hex(32))
+        cookie_secret=os.environ.get("COOKIE_SECRET", secrets.token_hex(32)),
     )
+
 
 def check_inactive_sessions():
     now = datetime.now()
@@ -191,5 +206,7 @@ if __name__ == "__main__":
     options.parse_command_line()
     app = tornado.httpserver.HTTPServer(make_app())
     app.listen(int(os.getenv("PORT", default=5500)))
-    tornado.ioloop.PeriodicCallback(check_inactive_sessions, 60 * 60 * 1000).start()  # Check every hour
+    tornado.ioloop.PeriodicCallback(
+        check_inactive_sessions, 60 * 60 * 1000
+    ).start()  # Check every hour
     tornado.ioloop.IOLoop.instance().start()

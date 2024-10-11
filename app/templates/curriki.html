@@ -9,17 +9,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="/static/icons/favicon.png">
-    <title>Gradiance</title>
+    <title>Curriki</title>
 </head>
 
 
 <header class="fixed no-padding">
-    <nav class="primary left-padding right-padding">
+    <nav class="inverse-surface left-padding right-padding">
         <button class="circle transparent" onclick="ui('#about-dialog')">
             <img class="responsive" fetchpriority="low" loading="lazy" src="/static/icons/favicon.png" alt="" width="32"
                 height="32">
         </button>
-        <h5 class="max small">Curriculums</h5>
+        <h5 class="max small">Curriki</h5>
         <button class="circle transparent" id="theme-toggle">
             <i id="theme-icon">dark_mode</i>
         </button>
@@ -30,17 +30,17 @@
     <main class="responsive">
         <div class="grid">
             <article class="no-padding s12 m6 l6">
-                <div class="grid no-space">
-                    <div class="s1" id="math-background"></div>
+                <div class="grid no-space" id="math-background">
+                    <div class="s1" id="math-banner"></div>
                     <div class="s11">
                         <div class="padding">
                             <h5>Manitoba Mathematics Curriculum</h5>
                             <p>A comprehensive app for accessing the K-12 Manitoba Mathematics Curriculum.</p>
                             <nav>
-                                <a class="link" href="/manitoba_mathematics_curriculum">
-                                    <button class="transparent small-round">
+                                <a class="on-surface" href="/manitoba_mathematics_curriculum">
+                                    <button class="inverse-surface small-round">
                                         <i class="mdi mdi-notebook"></i>
-                                        <span>View</span>
+                                        <span>Open</span>
                                     </button>
                                 </a>
                             </nav>
@@ -49,8 +49,8 @@
                 </div>
             </article>
             <article class="no-padding s12 m6 l6">
-                <div class="grid no-space">
-                    <div class="s1" id="ela-background"></div>
+                <div class="grid no-space" id="ela-background">
+                    <div class="s1" id="ela-banner"></div>
                     <div class="s11">
                         <div class="padding">
                             <h5>Manitoba ELA Curriculum</h5>
@@ -62,21 +62,27 @@
                 </div>
             </article>
             <article class="no-padding s12 m6 l6">
-                <div class="grid no-space">
-                    <div class="s1" id="science-background"></div>
+                <div class="grid no-space" id="science-background">
+                    <div class="s1" id="science-banner"></div>
                     <div class="s11">
                         <div class="padding">
                             <h5>Manitoba Science Curriculum</h5>
                             <p>A comprehensive app for accessing the K-12 Science ELA Curriculum.</p>
                             <nav>
+                                <a class="on-surface" href="/manitoba_science_curriculum">
+                                    <button class="inverse-surface small-round">
+                                        <i class="mdi mdi-notebook"></i>
+                                        <span>Open</span>
+                                    </button>
+                                </a>
                             </nav>
                         </div>
                     </div>
                 </div>
             </article>
             <article class="no-padding s12 m6 l6">
-                <div class="grid no-space">
-                    <div class="s1" id="social-studies-background"></div>
+                <div class="grid no-space" id="social-studies-background">
+                    <div class="s1" id="social-studies-banner"></div>
                     <div class="s11">
                         <div class="padding">
                             <h5>Manitoba Social Studies Curriculum</h5>
@@ -97,9 +103,9 @@
         <img class="icon responsive circle border" style="max-width: 150px; height: auto;" fetchpriority="low" loading="lazy" src="/static/icons/icon.png" alt="" width="128" height="128">
     </div>
     <div class="padding">
-        <h5 class="small center-align">Curriculums</h5>
+        <h5 class="small center-align">Curriki</h5>
         <p class="center-align  medium-width">
-            A comprehensive app for accessing interactive curriculums.
+            A comprehensive app for accessing curriculums.
         <p class="center-align">Developed with <i>favorite</i> by <a class="link" href="https://thecodingjsoftware.github.io/">TheCodingJ's</a></p>
     </div>
     <article class="border" style="margin-top: auto;">
