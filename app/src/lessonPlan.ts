@@ -7,7 +7,7 @@ import MathCurriculumManager from "./utils/mathCurriculumManager";
 import ScienceCurriculumManager from "./utils/scienceCurriculumManager";
 import { MathLearningOutcome } from './utils/mathLearningOutcome';
 import { ScienceLearningOutcome } from './utils/scienceLearningOutcome';
-import { clusterIconDictionary, skillsIconDictionary } from './utils/icons';
+import { scienceClustersIconDictionary, skillsIconDictionary } from './utils/icons';
 
 const gradeNames: { [key: string]: string } = {
     'K': 'Kindergarten',
@@ -89,17 +89,17 @@ class LessonPlan {
         this.date.value = new Date().toISOString().split('T')[0];
         Promise.all([this.mathCurriculumManager.load(), this.scienceCurriculumManager.load()]).then(() => {
             const url = new URL(window.location.href);
-            const ids = url.searchParams.get('id')?.split(',') || [];  // Split IDs by commas
+            const outcomes = url.searchParams.get('outcome')?.split(',') || [];  // Split IDs by commas
             const curriculum = url.searchParams.get('curriculum') || "";
 
             this.topicTitle.value = curriculum;
 
-            if (ids.length > 0 && curriculum) {
-                ids.forEach(id => {
+            if (outcomes.length > 0 && curriculum) {
+                outcomes.forEach(outcome => {
                     let selectedLearningOutcome: MathLearningOutcome | ScienceLearningOutcome | undefined;
 
                     if (curriculum === 'math') {
-                        selectedLearningOutcome = this.mathCurriculumManager.getLearningOutcomeByID(id) as MathLearningOutcome;
+                        selectedLearningOutcome = this.mathCurriculumManager.getLearningOutcomeByID(outcome) as MathLearningOutcome;
                         if (selectedLearningOutcome) {
                             const outcome = new OutCome(
                                 selectedLearningOutcome.specificLearningOutcome,
@@ -110,7 +110,7 @@ class LessonPlan {
                             this.outcomes.push(outcome);
                         }
                     } else if (curriculum === 'science') {
-                        selectedLearningOutcome = this.scienceCurriculumManager.getLearningOutcomeByID(id) as ScienceLearningOutcome;
+                        selectedLearningOutcome = this.scienceCurriculumManager.getLearningOutcomeByID(outcome) as ScienceLearningOutcome;
                         if (selectedLearningOutcome) {
                             const outcome = new OutCome(
                                 selectedLearningOutcome.specificLearningOutcome,

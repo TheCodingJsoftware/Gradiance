@@ -6,50 +6,7 @@ import '@mdi/font/css/materialdesignicons.min.css';
 import MathCurriculumManager from "./utils/mathCurriculumManager"
 import CookieManager from './utils/cookieManager';
 import { MathLearningOutcome } from "./utils/mathLearningOutcome";
-import { ScienceLearningOutcome } from './utils/scienceLearningOutcome';
 import { skillsIconDictionary, strandIconDictionary } from './utils/icons';
-
-const skillsDictionary: { [key: string]: string } = {
-    'C': 'Communication',
-    'CN': 'Connections',
-    'ME': 'Mental Mathematics and Estimation',
-    'PS': 'Problem Solving',
-    'R': 'Reasoning',
-    'T': 'Technology',
-    'V': 'Visualization',
-};
-
-const strandDictionary: { [key: string]: string } = {
-    'N': 'Number Sense',
-    'PR': 'Patterns and Relations',
-    'SS': 'Shape and Space',
-    'SP': 'Statistics and Probability',
-    'PF': 'Personal Finance',
-    'M': 'Measurement',
-    'G': 'Geometry',
-    'AG': 'Analysis of Games and Numbers',
-    'TG': 'Trigonometry',
-    'CD': 'Consumer Decisions',
-    'T': 'Transformations',
-    'AC': 'Angle Construction',
-    'A': 'Algebra and Numbers',
-    'R': 'Relations and Functions',
-    'L': 'Logical Reasoning',
-    'S': 'Statistics',
-    'RP': 'Research Project',
-    'I': 'Interest and Credit',
-    'MM': 'Managing Money',
-    'D': 'Design Modelling',
-    'FM': 'Financial Mathematics',
-    'P': 'Probability',
-    'V': 'Vehicle Finanace',
-    'PM': 'Precision Measurement',
-    'C': 'Career Life',
-    'H': 'Home Finance',
-    'GT': 'Geometry and Trigonometry',
-    'B': 'Business Finance',
-    'PCB': 'Permutations, Combinations, and Binomial Theorem',
-};
 
 const quickSearchKeyWords: string[] = [
     "3-D Object",
@@ -58,6 +15,8 @@ const quickSearchKeyWords: string[] = [
     "2-D Object",
     "2-D Shape",
     "Subtract zero",
+    "Angle",
+    "Drawing",
     "Add zero",
     "Addition",
     "Arrays",
@@ -111,6 +70,7 @@ const quickSearchKeyWords: string[] = [
     "Statistical",
     "Permutation",
     "Combination",
+    "Unit circle",
     "Shapes",
     "Sequence",
     "Skip counting",
@@ -162,10 +122,19 @@ class FilterManager {
         this.alwaysOpenOutcomeCheckbox.addEventListener('change', this.handleCheckboxChange.bind(this));
         this.alwaysOpenSLOCheckbox.addEventListener('change', this.handleCheckboxChange.bind(this));
         this.alwaysOpenGLOCheckbox.addEventListener('change', this.handleCheckboxChange.bind(this));
-
+        const url = new URL(window.location.href);
+        const grade = url.searchParams.get('grade');
+        const outcome = url.searchParams.get('outcome');
         this.curriculumManager.load().then(() => {
             this.loadSettingsFromCookies();
             this.setActiveTabFromCookie();
+
+            if (grade) {
+                this.setActiveTab(`#grade_${grade}`);
+            }
+            if (outcome) {
+                this.searchInput.value = `${outcome}`;
+            }
             this.filterContent();
         });
     }
@@ -204,7 +173,7 @@ class FilterManager {
             button.appendChild(strandIcon);
 
             const text = document.createElement('span');
-            text.textContent = strandDictionary[strand];
+            text.textContent = this.curriculumManager.strands[strand];
             button.appendChild(text);
 
             const icon = document.createElement('i');
@@ -242,7 +211,7 @@ class FilterManager {
             button.appendChild(skillIcon);
 
             const span = document.createElement('span');
-            span.textContent = skillsDictionary[skill];
+            span.textContent = this.curriculumManager.skills[skill];
             button.appendChild(span);
 
             const icon = document.createElement('i');
@@ -433,7 +402,7 @@ class FilterManager {
                 skills: this.getActiveSkills()
             });
 
-            this.renderContent(filteredData, searchQuery, this.getActiveSkills());
+            this.renderContent(filteredData, activeGrade.dataset.ui, searchQuery, this.getActiveSkills());
         }
     }
 
@@ -457,8 +426,7 @@ class FilterManager {
         return keywords.size > 0 ? `: ${Array.from(keywords).join(', ')}` : '';
     }
 
-
-    async renderContent(learningOutcomes: MathLearningOutcome[], searchQuery: string, selectedSkills: string[]) {
+    async renderContent(learningOutcomes: MathLearningOutcome[], activeGrade: string, searchQuery: string, selectedSkills: string[]) {
         const contentDiv = document.getElementById('content');
         if (contentDiv) {
             contentDiv.innerHTML = '';
@@ -480,10 +448,46 @@ class FilterManager {
                 }
 
                 const summary = document.createElement('summary');
-                summary.classList.add('bold');
-                summary.style.fontSize = '18pt';
+                summary.classList.add('bold', 'row', 'no-space');
                 const title = learningOutcome.getID() + this.getKeyword(learningOutcome);
-                summary.innerHTML = searchQuery ? title.replace(new RegExp(searchQuery, 'gi'), (match) => `<span class="highlight">${match}</span>`) : title;
+
+                const summaryText = document.createElement('span');
+                summaryText.classList.add('max');
+                summaryText.innerHTML = searchQuery ? title.replace(new RegExp(searchQuery, 'gi'), (match) => `<span class="highlight">${match}</span>`) : title;
+
+                summary.appendChild(summaryText);
+
+                const copyOutcomeButton = document.createElement('button');
+                copyOutcomeButton.classList.add('small-round', 'chip', 'no-border');
+
+                const icon = document.createElement('i');
+                icon.classList.add('mdi', 'mdi-clipboard-outline');
+
+                copyOutcomeButton.appendChild(icon);
+                copyOutcomeButton.onclick = function () {
+                    ui('#copy-outcome-snackbar', 2000);
+                    navigator.clipboard.writeText(`${learningOutcome.getID()} ${learningOutcome.specificLearningOutcome} [${learningOutcome.skills.join(', ')}]`);
+                }
+
+                const shareButton = document.createElement('button');
+                shareButton.classList.add('small-round', 'chip', 'no-border');
+
+                const shareIcon = document.createElement('i');
+                shareIcon.classList.add('mdi', 'mdi-share-variant');
+                shareButton.appendChild(shareIcon);
+                shareButton.onclick = function () {
+                    if (navigator.share) {
+                        navigator.share({
+                            title: `Manitoba Mathematics Curriculum - Grade ${activeGrade.replace("#grade_", "")}`,
+                            url: `/manitobaMathematicsCurriculum.html?grade=${activeGrade.replace("#grade_", "")}&outcome=${learningOutcome.getID()}`
+                        })
+                            .then(() => console.log('Shared successfully'))
+                            .catch(error => console.error('Error sharing:', error));
+                    }
+                }
+
+                summary.appendChild(shareButton);
+                summary.appendChild(copyOutcomeButton);
 
                 details.appendChild(summary);
 
@@ -503,7 +507,7 @@ class FilterManager {
                     icon.textContent = skillsIconDictionary[skill];
 
                     const span = document.createElement('span');
-                    span.textContent = skillsDictionary[skill];
+                    span.textContent = this.curriculumManager.skills[skill];
 
                     button.appendChild(icon);
                     button.appendChild(span);
@@ -518,15 +522,16 @@ class FilterManager {
                 if (alwaysOpenSLO || (searchQuery && learningOutcome.specificLearningOutcome.toLowerCase().includes(searchQuery.toLowerCase()))) {
                     sloDetails.setAttribute('open', '');
                 }
-
                 const sloSummary = document.createElement('summary');
+                sloSummary.classList.add('row', 'no-space');
                 sloSummary.textContent = 'Specific Learning Outcome';
+
                 sloDetails.appendChild(sloSummary);
 
                 const sloContent = searchQuery ? learningOutcome.specificLearningOutcome.replace(new RegExp(searchQuery, 'gi'), (match) => `<span class="highlight">${match}</span>`) : learningOutcome.specificLearningOutcome;
 
                 const sloText = document.createElement('p');
-                sloText.classList.add('no-line', 'tiny-margin');
+                sloText.classList.add('no-line', 'bottom-margin');
                 sloText.innerHTML = 'It is expected that students will: ' + sloContent;
 
                 sloDetails.appendChild(sloText);
@@ -559,13 +564,16 @@ class FilterManager {
 
                 gloDetails.appendChild(gloList);
                 details.appendChild(gloDetails);
+                const buttonRowDiv = document.createElement('div');
+                buttonRowDiv.classList.add('row');
                 const createLessonPlanButton = document.createElement('button');
                 createLessonPlanButton.classList.add('small-round');
                 createLessonPlanButton.textContent = 'Create Lesson Plan';
                 createLessonPlanButton.onclick = function () {
-                    window.open(`/lessonPlan.html?id=${learningOutcome.getID()}&curriculum=math`, '_blank');
+                    window.open(`/lessonPlan.html?curriculum=math&outcome=${learningOutcome.getID()}`, '_blank');
                 }
-                details.appendChild(createLessonPlanButton);
+                buttonRowDiv.appendChild(createLessonPlanButton);
+                details.appendChild(buttonRowDiv);
                 contentDiv.appendChild(details);
             });
             if (!contentAdded) {
@@ -591,7 +599,7 @@ document.addEventListener('DOMContentLoaded', function () {
             icons.forEach(icon => {
                 icon.style.filter = 'invert(1)';
             });
-        }else{
+        } else {
             icons.forEach(icon => {
                 icon.style.filter = 'invert(0)';
             });

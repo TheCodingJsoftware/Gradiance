@@ -3,10 +3,10 @@ import 'material-dynamic-colors';
 import '../static/css/style.css';
 import '../static/css/science-theme.css';
 import '@mdi/font/css/materialdesignicons.min.css';
-import ScienceCurriculumManager from "./utils/scienceCurriculumManager"
+import BiologyCurriculumManager from "./utils/biologyCurriculumManager"
 import CookieManager from './utils/cookieManager';
-import { ScienceLearningOutcome } from "./utils/scienceLearningOutcome";
-import { scienceClustersIconDictionary } from './utils/icons';
+import { BiologyLearningOutcome } from "./utils/biologyLearningOutcome";
+import { unitIconDictionary } from './utils/icons';
 
 class FilterManager {
     container: HTMLDivElement;
@@ -15,8 +15,8 @@ class FilterManager {
     alwaysOpenOutcomeCheckbox: HTMLInputElement;
     alwaysOpenSLOCheckbox: HTMLInputElement;
     alwaysOpenGLOCheckbox: HTMLInputElement;
-    clusterContainer: HTMLDivElement;
-    curriculumManager: ScienceCurriculumManager;
+    unitsContainer: HTMLDivElement;
+    curriculumManager: BiologyCurriculumManager;
 
     constructor() {
         this.container = document.querySelector(`#tabs-container`) as HTMLDivElement;
@@ -25,8 +25,8 @@ class FilterManager {
         this.alwaysOpenOutcomeCheckbox = document.getElementById('always-open-outcome') as HTMLInputElement;
         this.alwaysOpenSLOCheckbox = document.getElementById('always-open-specific-learning-outcome') as HTMLInputElement;
         this.alwaysOpenGLOCheckbox = document.getElementById('always-open-general-learning-outcomes') as HTMLInputElement;
-        this.clusterContainer = document.getElementById('clusters-container') as HTMLDivElement;
-        this.curriculumManager = new ScienceCurriculumManager();
+        this.unitsContainer = document.getElementById('units-container') as HTMLDivElement;
+        this.curriculumManager = new BiologyCurriculumManager();
     }
 
     init() {
@@ -64,7 +64,7 @@ class FilterManager {
     }
 
     handleSearch() {
-        CookieManager.setCookie('searchQuery', this.searchInput.value, '/manitobaScienceCurriculum.html');
+        CookieManager.setCookie('searchQuery', this.searchInput.value, '/manitobaBiologyCurriculum.html');
         this.filterContent();
     }
 
@@ -74,9 +74,9 @@ class FilterManager {
     }
 
     saveCheckboxStates() {
-        CookieManager.setCookie('alwaysOpenOutcome', String(this.alwaysOpenOutcomeCheckbox.checked), '/manitobaScienceCurriculum.html');
-        CookieManager.setCookie('alwaysOpenSLO', String(this.alwaysOpenSLOCheckbox.checked), '/manitobaScienceCurriculum.html');
-        CookieManager.setCookie('alwaysOpenGLO', String(this.alwaysOpenGLOCheckbox.checked), '/manitobaScienceCurriculum.html');
+        CookieManager.setCookie('alwaysOpenOutcome', String(this.alwaysOpenOutcomeCheckbox.checked), '/manitobaBiologyCurriculum.html');
+        CookieManager.setCookie('alwaysOpenSLO', String(this.alwaysOpenSLOCheckbox.checked), '/manitobaBiologyCurriculum.html');
+        CookieManager.setCookie('alwaysOpenGLO', String(this.alwaysOpenGLOCheckbox.checked), '/manitobaBiologyCurriculum.html');
     }
 
     loadSettingsFromCookies() {
@@ -86,7 +86,7 @@ class FilterManager {
             this.searchInput.value = searchQuery;
         }
 
-        this.loadClusters(this.tabsNav.dataset.ui || '#grade_k');
+        this.loadUnits(this.tabsNav.dataset.ui || '#grade_11');
 
         // Load always open settings
         this.alwaysOpenOutcomeCheckbox.checked = CookieManager.getCookie('alwaysOpenOutcome') === 'true';
@@ -100,83 +100,83 @@ class FilterManager {
         const selectedTab = this.tabsNav.querySelector(`a[data-ui="${tabId}"]`);
         if (selectedTab) {
             selectedTab.classList.add('active');
-            CookieManager.setCookie('lastSelectedTab', tabId, '/manitobaScienceCurriculum.html');
+            CookieManager.setCookie('lastSelectedTab', tabId, '/manitobaBiologyCurriculum.html');
         }
-        this.loadClusters(tabId);
+        this.loadUnits(tabId);
         this.filterContent();
     }
 
-    loadClusters(tabId: string) {
+    loadUnits(tabId: string) {
         const grade = tabId.replace('#grade_', '').toUpperCase();
-        const activeClusters = this.getActiveClusters();
-        const clusters = this.curriculumManager.clusters[grade];
+        const activeUnits = this.getActiveUnits();
+        const units = this.curriculumManager.units[grade];
 
-        this.clusterContainer.innerHTML = "";
-        Object.keys(clusters).forEach(clusterKey => {
+        this.unitsContainer.innerHTML = "";
+        Object.keys(units).forEach(unitKey => {
             const button = document.createElement('button');
             button.classList.add('tiny-margin', 'surface', 'border', 'round');
 
             const strandIcon = document.createElement('i');
-            strandIcon.innerHTML = scienceClustersIconDictionary[clusters[clusterKey]];
+            strandIcon.innerHTML = unitIconDictionary[units[unitKey]];
             button.appendChild(strandIcon);
 
             const text = document.createElement('span');
-            text.textContent = clusters[clusterKey];
+            text.textContent = units[unitKey];
             button.appendChild(text);
 
             const icon = document.createElement('i');
             icon.classList.add('mdi', 'hidden'); // default icon
             button.appendChild(icon);
 
-            if (activeClusters.includes(clusterKey)) {
+            if (activeUnits.includes(unitKey)) {
                 button.classList.add('fill');
                 icon.classList.replace('hidden', 'mdi-check-circle');
             }
 
             button.addEventListener('click', () => {
-                this.toggleCluster(button, clusterKey);
+                this.toggleUnits(button, unitKey);
             });
 
-            this.clusterContainer.appendChild(button);
+            this.unitsContainer.appendChild(button);
         });
     }
 
-    toggleCluster(button: HTMLButtonElement, cluster: string) {
+    toggleUnits(button: HTMLButtonElement, unit: string) {
         const icons = button.querySelectorAll('i');
         const icon = icons[1];
         if (button.classList.contains('fill')) {
             button.classList.remove('fill');
             icon?.classList.replace('mdi-check-circle', 'hidden');
-            this.removeActiveCluster(cluster);
+            this.removeActiveCluster(unit);
         } else {
             button.classList.add('fill');
             icon?.classList.replace('hidden', 'mdi-check-circle');
-            this.addActiveCluster(cluster);
+            this.addActiveUnit(unit);
         }
         this.filterContent();
     }
 
-    addActiveCluster(cluster: string) {
-        const activeClusters = this.getActiveClusters();
-        if (!activeClusters.includes(cluster)) {
-            activeClusters.push(cluster);  // Add the cluster to the active clusters list
-            CookieManager.setCookie('activeClusters', JSON.stringify(activeClusters), '/manitobaScienceCurriculum.html');
+    addActiveUnit(unit: string) {
+        const activeUnits = this.getActiveUnits();
+        if (!activeUnits.includes(unit)) {
+            activeUnits.push(unit);  // Add the unit to the active units list
+            CookieManager.setCookie('activeClusters', JSON.stringify(activeUnits), '/manitobaBiologyCurriculum.html');
         }
     }
 
-    removeActiveCluster(cluster: string) {
-        const activeClusters = this.getActiveClusters();
-        const updatedClusters = activeClusters.filter(s => s !== cluster);  // Remove the cluster from the active clusters
-        CookieManager.setCookie('activeClusters', JSON.stringify(updatedClusters), '/manitobaScienceCurriculum.html');
+    removeActiveCluster(unit: string) {
+        const activeUnits = this.getActiveUnits();
+        const updatedUnits = activeUnits.filter(s => s !== unit);  // Remove the unit from the active units
+        CookieManager.setCookie('activeClusters', JSON.stringify(updatedUnits), '/manitobaBiologyCurriculum.html');
     }
 
-    getActiveClusters(): string[] {
+    getActiveUnits(): string[] {
         const activeClusters = CookieManager.getCookie('activeClusters');
         return activeClusters ? JSON.parse(activeClusters) : [];
     }
 
     setActiveTabFromCookie() {
-        const lastSelectedTab = CookieManager.getCookie('lastSelectedTab') || '#grade_k';
+        const lastSelectedTab = CookieManager.getCookie('lastSelectedTab') || '#grade_11';
         if (lastSelectedTab) {
             this.setActiveTab(lastSelectedTab);
         }
@@ -184,7 +184,7 @@ class FilterManager {
 
     filterContent() {
         const activeGradeElement = this.tabsNav.querySelector('a.active') as HTMLElement;
-        let activeGrade = '#grade_k';
+        let activeGrade = '#grade_11';
 
         if (activeGradeElement.dataset.ui) {
             activeGrade = activeGradeElement.dataset.ui;
@@ -194,13 +194,13 @@ class FilterManager {
         const filteredData = this.curriculumManager.filterData({
             grade: activeGrade,
             searchQuery: searchQuery,
-            clusters: this.getActiveClusters(),
+            units: this.getActiveUnits(),
         });
 
         this.renderContent(filteredData, activeGrade, searchQuery);
     }
 
-    renderContent(learningOutcomes: ScienceLearningOutcome[], activeGrade: string, searchQuery: string) {
+    renderContent(learningOutcomes: BiologyLearningOutcome[], activeGrade: string, searchQuery: string) {
         const contentDiv = document.getElementById('content');
         if (contentDiv) {
             contentDiv.innerHTML = ''; // Clear previous content
@@ -253,7 +253,7 @@ class FilterManager {
                     if (navigator.share) {
                         navigator.share({
                             title: `Manitoba Science Curriculum - Grade ${activeGrade.replace("#grade_", "")}`,
-                            url: `/manitobaScienceCurriculum.html?grade=${activeGrade.replace("#grade_", "")}&outcome=${learningOutcome.getID()}`
+                            url: `/manitobaBiologyCurriculum.html?grade=${activeGrade.replace("#grade_", "")}&outcome=${learningOutcome.getID()}`
                         })
                             .then(() => console.log('Shared successfully'))
                             .catch(error => console.error('Error sharing:', error));
@@ -316,7 +316,7 @@ class FilterManager {
                 createLessonPlanButton.classList.add('small-round');
                 createLessonPlanButton.textContent = 'Create Lesson Plan';
                 createLessonPlanButton.onclick = function () {
-                    window.open(`/lessonPlan.html?curriculum=science&outcome=${learningOutcome.getID()}`, '_blank');
+                    window.open(`/lessonPlan.html?curriculum=biology&outcome=${learningOutcome.getID()}`, '_blank');
                 }
                 details.appendChild(createLessonPlanButton);
                 contentDiv.appendChild(details);

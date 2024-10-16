@@ -13,6 +13,8 @@ const entries = {
     curriki: './app/src/curriki.ts',
     manitobaMathematicsCurriculum: './app/src/manitobaMathematicsCurriculum.ts',
     manitobaScienceCurriculum: './app/src/manitobaScienceCurriculum.ts',
+    manitobaBiologyCurriculum: './app/src/manitobaBiologyCurriculum.ts',
+    manitobaSocialStudiesCurriculum: '/app/src/manitobaSocialStudiesCurriculum.ts',
     lessonPlan: './app/src/lessonPlan.ts',
 };
 

@@ -1,10 +1,9 @@
-export class MathLearningOutcome {
-    specificLearningOutcome: string;
-    generalLearningOutcomes: string[];
+import { LearningOutcome } from './learningOutcome';
+
+export class MathLearningOutcome extends LearningOutcome {
     skills: string[];
-    grade: string;
-    id: number;
     strand: string;
+    id: number;
 
     constructor(
         specificLearningOutcome: string,
@@ -14,14 +13,13 @@ export class MathLearningOutcome {
         id: number,
         strand: string
     ) {
-        this.specificLearningOutcome = specificLearningOutcome;
-        this.generalLearningOutcomes = generalLearningOutcomes;
+        super(specificLearningOutcome, generalLearningOutcomes, grade);
         this.skills = skills;
-        this.grade = grade;
-        this.id = id;
         this.strand = strand;
+        this.id = id;
     }
-    getID(): string{
+
+    getID(): string {
         return `${this.grade}.${this.strand}.${this.id}`;
     }
 }

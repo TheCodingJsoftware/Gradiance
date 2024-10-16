@@ -164,6 +164,20 @@ class ManitobaScienceCurriculumHandler(tornado.web.RequestHandler):
         self.write(rendered_template)
 
 
+class ManitobaBiologyCurriculumHandler(tornado.web.RequestHandler):
+    def get(self):
+        template = env.get_template("manitobaBiologyCurriculum.html")
+        rendered_template = template.render()
+        self.write(rendered_template)
+
+
+class ManitobaSocialStudiesCurriculum(tornado.web.RequestHandler):
+    def get(self):
+        template = env.get_template("manitobaSocialStudiesCurriculum.html")
+        rendered_template = template.render()
+        self.write(rendered_template)
+
+
 class LessonPlanHandler(tornado.web.RequestHandler):
     def get(self):
         template = env.get_template("lessonPlan.html")
@@ -189,6 +203,8 @@ def make_app():
             (r"/curriki.html", CurrikiHandler),
             (r"/manitobaMathematicsCurriculum.html", ManitobaMathematicsCurriculumHandler),
             (r"/manitobaScienceCurriculum.html", ManitobaScienceCurriculumHandler),
+            (r"/manitobaBiologyCurriculum.html", ManitobaBiologyCurriculumHandler),
+            (r"/manitobaSocialStudiesCurriculum.html", ManitobaSocialStudiesCurriculum),
             (r"/lessonPlan.html", LessonPlanHandler),
             (r"/version", VersionHandler),
             (r"/dist/(.*)", tornado.web.StaticFileHandler, {"path": "dist"}),

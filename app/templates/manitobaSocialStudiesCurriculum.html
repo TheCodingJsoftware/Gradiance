@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Jared Gross">
-    <meta name="description" content="A comprehensive web page for accessing the K-12 Manitoba Mathematics Curriculum.">
+    <meta name="description" content="A comprehensive web page for accessing the K-8 Manitoba Social Studies Curriculum.">
     <meta name="keywords"
         content="gradiance, education, grading, content, platform, curriki, wiki, curriculum, math, mathematics, science, ela, social studies, physics, chemistry, biology">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="/static/icons/curriki.png">
-    <title>K-12 Manitoba Mathematics Curriculum</title>
+    <title>K-8 Manitoba Social Studies Curriculum</title>
 </head>
 
 
@@ -19,14 +19,14 @@
         <button class="circle transparent " onclick='window.location.href="/curriki.html"'>
             <i class="mdi mdi-arrow-left"></i>
         </button>
-        <h5 class="max small">K-12 Manitoba Mathematics Curriculum</h5>
+        <h5 class="max small">K-8 Manitoba Social Studies Curriculum</h5>
         <button class="circle transparent" id="theme-toggle">
             <i id="theme-icon">dark_mode</i>
         </button>
     </nav>
     <div id="tabs-container">
         <div class="tabs scroll" id="tabs">
-            <a class="active" data-ui="#grade_k">
+            <a class="active" data-ui="#grade_0">
                 <span>Kindergarten</span>
             </a>
             <a data-ui="#grade_1">
@@ -53,33 +53,6 @@
             <a data-ui="#grade_8">
                 <span>Grade 8</span>
             </a>
-            <a data-ui="#grade_9">
-                <span>Grade 9</span>
-            </a>
-            <a data-ui="#grade_10E">
-                <span>Grade 10 Essential</span>
-            </a>
-            <a data-ui="#grade_10I">
-                <span>Grade 10 Introduction to Applied and Pre-Calculus</span>
-            </a>
-            <a data-ui="#grade_11A">
-                <span>Grade 11 Applied</span>
-            </a>
-            <a data-ui="#grade_11E">
-                <span>Grade 11 Essential</span>
-            </a>
-            <a data-ui="#grade_11P">
-                <span>Grade 11 Pre-Calculus</span>
-            </a>
-            <a data-ui="#grade_12A">
-                <span>Grade 12 Applied</span>
-            </a>
-            <a data-ui="#grade_12E">
-                <span>Grade 12 Essential</span>
-            </a>
-            <a data-ui="#grade_12P">
-                <span>Grade 12 Pre-Calculus</span>
-            </a>
         </div>
     </div>
 </header>
@@ -105,31 +78,21 @@
                 </div>
             </div>
             <div class="s12 m12 l4">
-                <fieldset>
-                    <legend>Select one or more settings</legend>
-                    <nav class="vertical">
-                        <label class="checkbox">
-                            <input type="checkbox" id="always-open-outcome">
-                            <span>Always open outcome</span>
-                        </label>
-                        <label class="checkbox">
-                            <input type="checkbox" id="always-open-specific-learning-outcome">
-                            <span>Always open specific learning outcome</span>
-                        </label>
-                        <label class="checkbox">
-                            <input type="checkbox" id="always-open-general-learning-outcomes">
-                            <span>Always open general learning outcomes</span>
-                        </label>
-                    </nav>
-                </fieldset>
-                <h6>Quick search</h6>
-                <div class="padding" style="max-height: 150px; overflow-y: auto;" id="quick-search-container"></div>
+                <label class="checkbox">
+                    <input type="checkbox" id="always-open-outcome">
+                    <span>Always open outcome</span>
+                </label>
+                <h6 class="top-padding">Choose distinctive learning outcome</h6>
+                <div class="padding" style="max-height: 150px; overflow-y: auto;" id="distinctive-learning-container"></div>
                 <hr>
-                <h6 class="top-padding">Choose strands</h6>
-                <div class="padding" style="max-height: 150px; overflow-y: auto;" id="strands-container"></div>
+                <h6 class="top-padding">Choose clusters</h6>
+                <div class="padding" style="max-height: 150px; overflow-y: auto;" id="clusters-container"></div>
                 <hr>
-                <h6 class="top-padding">Choose skills</h6>
-                <div class="padding" style="max-height: 150px; overflow-y: auto;" id="skills-container"></div>
+                <h6 class="top-padding">Choose general outcomes</h6>
+                <div class="padding" style="max-height: 150px; overflow-y: auto;" id="general-outcomes-container"></div>
+                <hr>
+                <h6 class="top-padding">Choose outcome types</h6>
+                <div class="padding" style="max-height: 150px; overflow-y: auto;" id="outcome-types-container"></div>
             </div>
         </div>
     </main>

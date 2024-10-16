@@ -1,7 +1,7 @@
 import { LearningOutcome } from './learningOutcome';
 
-export class ScienceLearningOutcome extends LearningOutcome {
-    cluster: string;
+export class BiologyLearningOutcome extends LearningOutcome {
+    unit: string;
     id: number;
 
     constructor(
@@ -9,14 +9,14 @@ export class ScienceLearningOutcome extends LearningOutcome {
         generalLearningOutcomes: string[],
         grade: string,
         id: number,
-        cluster: string
+        unit: string
     ) {
         super(specificLearningOutcome, generalLearningOutcomes, grade);
-        this.cluster = cluster;
+        this.unit = unit;
         this.id = id;
     }
 
     getID(): string{
-        return `${this.grade}.${this.cluster}.${this.id}`;
+        return `B${this.grade}.${this.unit}.${this.id}`;
     }
 }

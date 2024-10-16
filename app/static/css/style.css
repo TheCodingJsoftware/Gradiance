@@ -47,6 +47,38 @@ details {
     margin: 5px;
 }
 
+summary {
+    outline: none;
+    font-size: 1.15em;
+}
+
+details summary::-webkit-details-marker,
+details summary::marker {
+    display: none;
+    content: "";
+}
+
+summary:before {
+    content: "⯈";
+    color: var(--on-primary);
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 0.5em 0 0.25em;
+}
+
+details[open] > summary:before {
+    content: "⯆";
+    color: var(--primary);
+}
+
+details:not([open]) summary button{
+    color: var(--on-primary);
+}
+
+details[open] summary button{
+    color: var(--primary);
+}
+
 details.learning-outcome{
     padding: 8px;
 }

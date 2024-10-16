@@ -36,4 +36,3 @@ export default class UngardManager {
         return this.ungards.find(ungard => ungard.id === id);
     }
 }
-

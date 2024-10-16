@@ -1,27 +1,42 @@
 import { MathLearningOutcome } from './mathLearningOutcome';
+import { CurriculumManager } from './curriculumManager';
 
-export default class MathCurriculumManager {
+export default class MathCurriculumManager extends CurriculumManager {
     learningOutcomes: MathLearningOutcome[] = [];
-    strands: string[] = [];
-    skills: string[] = [];
+    strands: { [key: string]: string } = {};
+    skills: { [key: string]: string } = {}
 
     constructor() {
-        this.learningOutcomes = [];
-        this.strands = [];
-        this.skills = [];
+        super();
+        this.strands = {};
+        this.skills = {};
         this.loadCurriculum();
     }
 
-    private async loadCurriculum() {
+    async loadCurriculum() {
         try {
             const response = await fetch('/static/data/mathematics_curriculum.json');
             if (response.ok) {
                 const data = await response.json();
-                this.learningOutcomes = data.map((learningOutcome: { specific_learning_outcome: string, general_learning_outcomes: string[], skills: string[], grade: string, id: number, strand: string }) =>
-                    new MathLearningOutcome(learningOutcome.specific_learning_outcome, learningOutcome.general_learning_outcomes, learningOutcome.skills, learningOutcome.grade, learningOutcome.id, learningOutcome.strand)
+                this.learningOutcomes = data["learning_outcomes"].map((learningOutcome: {
+                    specific_learning_outcome: string,
+                    general_learning_outcomes: string[],
+                    skills: string[],
+                    grade: string,
+                    id: number,
+                    strand: string
+                }) =>
+                    new MathLearningOutcome(
+                        learningOutcome.specific_learning_outcome,
+                        learningOutcome.general_learning_outcomes,
+                        learningOutcome.skills,
+                        learningOutcome.grade,
+                        learningOutcome.id,
+                        learningOutcome.strand
+                    )
                 );
-                this.strands = this.learningOutcomes.map(learningOutcome => learningOutcome.strand);
-                this.skills = this.learningOutcomes.map(learningOutcome => learningOutcome.skills).flat();
+                this.strands = data["strands"];
+                this.skills = data["skills"];
             } else {
                 console.error('Failed to load learning outcomes:', response.statusText);
             }
@@ -86,6 +101,4 @@ export default class MathCurriculumManager {
     public getAllGrades(): string[] {
         return this.learningOutcomes.map(learningOutcome => learningOutcome.grade);
     }
-
 }
-

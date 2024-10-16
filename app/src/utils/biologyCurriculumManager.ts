@@ -1,19 +1,19 @@
-import { ScienceLearningOutcome } from './scienceLearningOutcome';
+import { BiologyLearningOutcome } from './biologyLearningOutcome';
 import { CurriculumManager } from './curriculumManager';
 
-export default class ScienceCurriculumManager extends CurriculumManager {
-    learningOutcomes: ScienceLearningOutcome[] = [];
-    clusters: { [grade: string]: { [cluster: string]: string } } = {};
+export default class BiologyCurriculumManager extends CurriculumManager {
+    learningOutcomes: BiologyLearningOutcome[] = [];
+    units: { [grade: string]: { [unit: string]: string } } = {};
 
     constructor() {
         super();
-        this.clusters = {};
+        this.units = {};
         this.loadCurriculum();
     }
 
     private async loadCurriculum() {
         try {
-            const response = await fetch('/static/data/science_curriculum.json');
+            const response = await fetch('/static/data/biology_curriculum.json');
             if (response.ok) {
                 const data = await response.json();
                 this.learningOutcomes = data['learning_outcomes'].map((learningOutcome: {
@@ -21,17 +21,18 @@ export default class ScienceCurriculumManager extends CurriculumManager {
                     general_learning_outcomes: string[],
                     grade: string,
                     id: number,
-                    cluster: string
+                    unit: string
                 }) =>
-                    new ScienceLearningOutcome(learningOutcome.specific_learning_outcome,
+                    new BiologyLearningOutcome(
+                        learningOutcome.specific_learning_outcome,
                         learningOutcome.general_learning_outcomes,
                         learningOutcome.grade,
                         learningOutcome.id,
-                        learningOutcome.cluster
+                        learningOutcome.unit
                     )
                 );
                 this.generalOutcomes = data['general_learning_outcomes'];
-                this.clusters = data['clusters']
+                this.units = data['units']
             } else {
                 console.error('Failed to load learning outcomes:', response.statusText);
             }
@@ -40,7 +41,7 @@ export default class ScienceCurriculumManager extends CurriculumManager {
         }
     }
 
-    filterData({ grade, searchQuery, clusters, }: { grade?: string, searchQuery?: string, clusters: string[] }): ScienceLearningOutcome[] {
+    filterData({ grade, searchQuery, units, }: { grade?: string, searchQuery?: string, units: string[] }): BiologyLearningOutcome[] {
         return this.learningOutcomes.filter(outcome => {
             grade = grade?.replace('grade_', '');
             grade = grade?.replace('#', '');
@@ -55,13 +56,13 @@ export default class ScienceCurriculumManager extends CurriculumManager {
                 }) ||
                 outcome.getID().toLowerCase().includes(searchQuery.toLowerCase())
                 : true;
-            const matchesClusters = clusters ? clusters.length > 0 ? clusters.includes(outcome.cluster) : true : true;
+            const matchesunits = units ? units.length > 0 ? units.includes(outcome.unit) : true : true;
 
-            return matchesGrade && matchesSearch && matchesClusters;
+            return matchesGrade && matchesSearch && matchesunits;
         });
     }
 
-    public getLearningOutcomeByID(id: string): ScienceLearningOutcome | undefined {
+    public getLearningOutcomeByID(id: string): BiologyLearningOutcome | undefined {
         return this.learningOutcomes.find(outcome => outcome.getID() === id) || undefined;
     }
 
@@ -69,19 +70,19 @@ export default class ScienceCurriculumManager extends CurriculumManager {
         return this.generalOutcomes[code];
     }
 
-    public getClusters(grade: string): string[] {
+    public getUnits(grade: string): string[] {
         grade = grade?.replace('grade_', '');
         grade = grade?.replace('#', '');
         grade = grade?.toUpperCase();
 
-        return [...new Set(this.learningOutcomes.filter(outcome => outcome.grade === grade).map(outcome => outcome.cluster).flat())];
+        return [...new Set(this.learningOutcomes.filter(outcome => outcome.grade === grade).map(outcome => outcome.unit).flat())];
     }
 
     public async load(): Promise<void> {
         await this.loadCurriculum();
     }
 
-    public getCurriculum(): ScienceLearningOutcome[] {
+    public getCurriculum(): BiologyLearningOutcome[] {
         return this.learningOutcomes;
     }
 
