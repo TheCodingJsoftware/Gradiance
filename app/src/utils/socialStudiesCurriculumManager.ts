@@ -1,6 +1,7 @@
 import { SocialStudiesLearningOutcome } from './socialStudiesLearningOutcome';
 import { SocialStudiesSkill } from './socialStudiesSkill';
 import { CurriculumManager } from './curriculumManager';
+import { LearningOutcome } from './learningOutcome';
 
 export default class SocialStudiesCurriculumManager extends CurriculumManager {
     learningOutcomes: SocialStudiesLearningOutcome[];
@@ -49,14 +50,12 @@ export default class SocialStudiesCurriculumManager extends CurriculumManager {
                 );
                 this.skills = data["skills"].map((skill: {
                     specific_learning_outcome: string,
-                    general_learning_outcome: string,
                     skill_type: string,
                     grades: string[],
                     id: string
                 }) =>
                     new SocialStudiesSkill(
                         skill.specific_learning_outcome,
-                        skill.general_learning_outcome,
                         skill.skill_type,
                         skill.grades,
                         skill.id
@@ -75,12 +74,23 @@ export default class SocialStudiesCurriculumManager extends CurriculumManager {
         }
     }
 
-    filterData(grade: string, searchQuery: string, clusters: string[], outComeTypes: string[], distinctiveLearningOutcomes: string[], generalOutcomes: string[]): SocialStudiesLearningOutcome[] {
-        return this.learningOutcomes.filter(outcome => {
-            grade = grade?.replace('grade_', '');
-            grade = grade?.replace('#', '');
-            grade = grade?.toUpperCase();
+    filterData(grade: string, searchQuery: string, clusters: string[], outComeTypes: string[], skillTypes: string[], distinctiveLearningOutcomes: string[], generalOutcomes: string[]): (SocialStudiesLearningOutcome | SocialStudiesSkill)[] {
+        grade = grade?.replace('grade_', '');
+        grade = grade?.replace('#', '');
+        grade = grade?.toUpperCase();
 
+        const skills = this.skills.filter(skill => {
+            const matchesOutcomeType = outComeTypes ? outComeTypes.length > 0 ? outComeTypes.includes(skill.outcomeType) : true : true;
+            const matchesSkillType = skillTypes ? skillTypes.length > 0 ? skillTypes.includes(skill.skillType) : true : true;
+            const matchesGrade = grade ? skill.grades.includes(grade) : true;
+            const matchesSearch = searchQuery ?
+                skill.specificLearningOutcome.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                skill.generalLearningOutcome.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                skill.getID(grade).toLowerCase().includes(searchQuery.toLowerCase()) : true;
+            return matchesOutcomeType && matchesGrade && matchesSearch && matchesSkillType;
+        });
+
+        const learningOutcomes =  this.learningOutcomes.filter(outcome => {
             const matchesGrade = grade ? outcome.grade === grade : true;
             const matchesSearch = searchQuery ?
                 outcome.specificLearningOutcome.toLowerCase().includes(searchQuery.toLowerCase()) ||
@@ -94,8 +104,8 @@ export default class SocialStudiesCurriculumManager extends CurriculumManager {
 
             return matchesGrade && matchesSearch && matchesclusters && matchesOutcomeType && matchesDistinctiveLearningOutcome && matchesGeneralOutcomes;
         });
+        return [  ...skills, ...learningOutcomes]
     }
-
 
     public getOutcomesByGrade(grade: string): SocialStudiesLearningOutcome[] {
         grade = grade?.replace('#grade_', '');
@@ -114,9 +124,12 @@ export default class SocialStudiesCurriculumManager extends CurriculumManager {
     }
 
     public getOutcomeTypes(grade: string): string[] {
-        grade = grade?.replace('#grade_', '');
+        return ["S", "K", "V"];
+    }
 
-        return [...new Set(this.learningOutcomes.filter(outcome => outcome.grade === grade).map(outcome => outcome.outcomeType).flat())].filter(Boolean);
+    public getSkillTypes(grade: string): string[] {
+        grade = grade?.replace('#grade_', '');
+        return [...new Set(this.skills.filter(outcome => outcome.grades.includes(grade)).map(outcome => outcome.skillType))].filter(Boolean);
     }
 
     public getGeneralOutcomes(grade: string): string[] {

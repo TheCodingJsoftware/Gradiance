@@ -24,6 +24,7 @@ class FilterManager {
     clustersContainer: HTMLDivElement;
     generalOutcomesContainer: HTMLDivElement;
     outcomeTypesContainer: HTMLDivElement;
+    skillTypesContainier: HTMLDivElement;
     distinctiveLearningOutcomesContainer: HTMLDivElement;
     curriculumManager: SocialStudiesCurriculumManager;
 
@@ -35,6 +36,7 @@ class FilterManager {
         this.generalOutcomesContainer = document.getElementById('general-outcomes-container') as HTMLDivElement;
         this.clustersContainer = document.getElementById('clusters-container') as HTMLDivElement;
         this.outcomeTypesContainer = document.getElementById('outcome-types-container') as HTMLDivElement;
+        this.skillTypesContainier = document.getElementById('skill-types-container') as HTMLDivElement;
         this.distinctiveLearningOutcomesContainer = document.getElementById('distinctive-learning-container') as HTMLDivElement;
         this.curriculumManager = new SocialStudiesCurriculumManager();
     }
@@ -160,6 +162,45 @@ class FilterManager {
         });
     }
 
+    async loadSkillTypes(tabId: string) {
+        const outcomes = this.curriculumManager.getSkillTypes(tabId);
+        const activeSkillTypes = this.getActiveSkillTypes(); // Always get active skills
+        this.skillTypesContainier.innerHTML = "";
+
+        // Merge active skills to ensure they are always visible
+        const mergedOutcomes = [...new Set([...outcomes, ...activeSkillTypes])];
+
+        mergedOutcomes.forEach(outcome => {
+            const button = document.createElement('button');
+            const outcomeName = this.curriculumManager.skillTypes[outcome];
+            button.classList.add('tiny-margin', 'surface', 'border', 'round');
+
+            const outcomeIcon = document.createElement('i');
+            outcomeIcon.innerText = skillTypesIconDictionary[outcomeName];
+            button.appendChild(outcomeIcon);
+
+            const span = document.createElement('span');
+            span.textContent = outcomeName;
+            button.appendChild(span);
+
+            const icon = document.createElement('i');
+            icon.classList.add('mdi', 'hidden'); // default icon
+            button.appendChild(icon);
+
+            // Check if this skill is active
+            if (activeSkillTypes.includes(outcome)) {
+                button.classList.add('fill');
+                icon.classList.replace('hidden', 'mdi-check-circle');
+            }
+
+            button.addEventListener('click', () => {
+                this.toggleSkillType(button, outcome);
+            });
+
+            this.skillTypesContainier.appendChild(button);
+        });
+    }
+
     async loadGeneralOutcomes(tabId: string){
         const outcomes = this.curriculumManager.getGeneralOutcomes(tabId);
         const activeGeneralOutcomes = this.getActiveGeneralOutcomes(); // Always get active skills
@@ -268,6 +309,21 @@ class FilterManager {
         this.filterContent();
     }
 
+    toggleSkillType(button: HTMLButtonElement, skillType: string) {
+        const icons = button.querySelectorAll('i');
+        const icon = icons[1]; // Get the second icon
+        if (button.classList.contains('fill')) {
+            button.classList.remove('fill');
+            icon?.classList.replace('mdi-check-circle', 'hidden');
+            this.removeSkillType(skillType);
+        } else {
+            button.classList.add('fill');
+            icon?.classList.replace('hidden', 'mdi-check-circle');
+            this.addSkillType(skillType);
+        }
+        this.filterContent();
+    }
+
     toggleGeneralOutcome(button: HTMLButtonElement, generalOutcome: string) {
         const icons = button.querySelectorAll('i');
         const icon = icons[1]; // Get the second icon
@@ -326,10 +382,10 @@ class FilterManager {
         CookieManager.setCookie('activeGeneralOutcomes', JSON.stringify(updateGeneralOutcomes), '/manitobaSocialStudiesCurriculum.html');
     }
 
-    addOutcomeType(skill: string) {
+    addOutcomeType(outcomeType: string) {
         const activeOutcomeTypes = this.getActiveOutcomeTypes();
-        if (!activeOutcomeTypes.includes(skill)) {
-            activeOutcomeTypes.push(skill);
+        if (!activeOutcomeTypes.includes(outcomeType)) {
+            activeOutcomeTypes.push(outcomeType);
             CookieManager.setCookie('activeOutcomeTypes', JSON.stringify(activeOutcomeTypes), '/manitobaSocialStudiesCurriculum.html');
         }
     }
@@ -338,6 +394,20 @@ class FilterManager {
         const activeOutcomeTypes = this.getActiveOutcomeTypes();
         const updateOutcomeTypes = activeOutcomeTypes.filter(s => s !== outcomeType);
         CookieManager.setCookie('activeOutcomeTypes', JSON.stringify(updateOutcomeTypes), '/manitobaSocialStudiesCurriculum.html');
+    }
+
+    addSkillType(skillType: string) {
+        const activeSkillTypes = this.getActiveSkillTypes();
+        if (!activeSkillTypes.includes(skillType)) {
+            activeSkillTypes.push(skillType);
+            CookieManager.setCookie('activeSkillTypes', JSON.stringify(activeSkillTypes), '/manitobaSocialStudiesCurriculum.html');
+        }
+    }
+
+    removeSkillType(skillType: string) {
+        const activeSkillTypes = this.getActiveSkillTypes();
+        const updateSkillTypes = activeSkillTypes.filter(s => s !== skillType);
+        CookieManager.setCookie('activeSkillTypes', JSON.stringify(updateSkillTypes), '/manitobaSocialStudiesCurriculum.html');
     }
 
     addDistinctiveLearningOutcome(skill: string) {
@@ -364,6 +434,11 @@ class FilterManager {
         return activeOutcomeTypes ? JSON.parse(activeOutcomeTypes) : [];
     }
 
+    getActiveSkillTypes(): string[] {
+        const activeSkillTypes = CookieManager.getCookie('activeSkillTypes');
+        return activeSkillTypes ? JSON.parse(activeSkillTypes) : [];
+    }
+
     getActiveGeneralOutcomes(): string[] {
         const activeGeneralOutcomes = CookieManager.getCookie('activeGeneralOutcomes');
         return activeGeneralOutcomes ? JSON.parse(activeGeneralOutcomes) : [];
@@ -387,6 +462,7 @@ class FilterManager {
         Promise.all([
             this.loadClusters(this.tabsNav.dataset.ui || '#grade_0'),
             this.loadOutcomeTypes(this.tabsNav.dataset.ui || '#grade_0'),
+            this.loadSkillTypes(this.tabsNav.dataset.ui || '#grade_0'),
             this.loadGeneralOutcomes(this.tabsNav.dataset.ui || '#grade_0'),
             this.loadDistinctiveLearningOutcomes(this.tabsNav.dataset.ui || '#grade_0'),
         ]).catch(console.error);
@@ -407,6 +483,7 @@ class FilterManager {
             this.filterContent(),
             this.loadClusters(tabId),
             this.loadOutcomeTypes(tabId),
+            this.loadSkillTypes(tabId),
             this.loadGeneralOutcomes(tabId),
             this.loadDistinctiveLearningOutcomes(tabId),
         ]).catch(console.error);
@@ -428,6 +505,7 @@ class FilterManager {
                 searchQuery,
                 this.getActiveClusters(),
                 this.getActiveOutcomeTypes(),
+                this.getActiveSkillTypes(),
                 this.getActiveDistinctiveLearningOutcomes(),
                 this.getActiveGeneralOutcomes()
             );
@@ -436,7 +514,7 @@ class FilterManager {
         }
     }
 
-    async renderContent(filteredOutcomes: SocialStudiesLearningOutcome[], activeGrade: string, searchQuery: string) {
+    async renderContent(filteredOutcomes: (SocialStudiesLearningOutcome | SocialStudiesSkill)[], activeGrade: string, searchQuery: string) {
         const contentDiv = document.getElementById('content');
         if (contentDiv) {
             contentDiv.innerHTML = '';
@@ -456,7 +534,7 @@ class FilterManager {
 
                 const summary = document.createElement('summary');
                 summary.classList.add('bold', 'row', 'no-space');
-                const title = learningOutcome.getID();
+                const title = learningOutcome.getID(activeGrade.replace("#grade_", ""));
 
                 const summaryText = document.createElement('span');
                 summaryText.classList.add('max');
@@ -473,7 +551,7 @@ class FilterManager {
                 copyOutcomeButton.appendChild(icon);
                 copyOutcomeButton.onclick = function () {
                     ui('#copy-outcome-snackbar', 2000);
-                    navigator.clipboard.writeText(`${learningOutcome.getID()} ${learningOutcome.specificLearningOutcome}`);
+                    navigator.clipboard.writeText(`${learningOutcome.getID(activeGrade.replace("#grade_", ""))} ${learningOutcome.specificLearningOutcome}`);
                 }
 
                 const shareButton = document.createElement('button');
@@ -486,7 +564,7 @@ class FilterManager {
                     if (navigator.share) {
                         navigator.share({
                             title: `Manitoba Social Studies Curriculum - Grade ${activeGrade.replace("#grade_", "")}`,
-                            url: `/manitobaSocialStudiesCurriculum.html?grade=${activeGrade.replace("#grade_", "")}&outcome=${learningOutcome.getID()}`
+                            url: `/manitobaSocialStudiesCurriculum.html?grade=${activeGrade.replace("#grade_", "")}&outcome=${learningOutcome.getID(activeGrade.replace("#grade_", ""))}`
                         })
                             .then(() => console.log('Shared successfully'))
                             .catch(error => console.error('Error sharing:', error));
@@ -500,27 +578,29 @@ class FilterManager {
 
                 const skillDiv = document.createElement('div');
 
-                const clusterButton = document.createElement('button');
-                const clusterName = this.curriculumManager.clusters[activeGrade.replace("#grade_", "")][learningOutcome.cluster]
-                clusterButton.classList.add('tiny-margin', 'chip');
-                if (this.getActiveClusters().includes(learningOutcome.cluster)) {
-                    clusterButton.classList.add('fill');
+                if ('cluster' in learningOutcome && learningOutcome.cluster){
+                    const clusterButton = document.createElement('button');
+                    const clusterName = this.curriculumManager.clusters[activeGrade.replace("#grade_", "")][learningOutcome.cluster]
+                    clusterButton.classList.add('tiny-margin', 'chip');
+                    if (this.getActiveClusters().includes(learningOutcome.cluster)) {
+                        clusterButton.classList.add('fill');
+                    }
+                    // button.onclick = function () {
+                    //     ui(`#${skill}-dialog`);
+                    // }
+
+                    const clusterIcon = document.createElement('i');
+                    clusterIcon.classList.add('primary-text');
+                    clusterIcon.textContent = socialStudiesClustersIconDictionary[clusterName];
+
+                    const clusterSpan = document.createElement('span');
+                    clusterSpan.textContent = clusterName;
+
+                    clusterButton.appendChild(clusterIcon);
+                    clusterButton.appendChild(clusterSpan);
+
+                    skillDiv.appendChild(clusterButton);
                 }
-                // button.onclick = function () {
-                //     ui(`#${skill}-dialog`);
-                // }
-
-                const clusterIcon = document.createElement('i');
-                clusterIcon.classList.add('primary-text');
-                clusterIcon.textContent = socialStudiesClustersIconDictionary[clusterName];
-
-                const clusterSpan = document.createElement('span');
-                clusterSpan.textContent = clusterName;
-
-                clusterButton.appendChild(clusterIcon);
-                clusterButton.appendChild(clusterSpan);
-
-                skillDiv.appendChild(clusterButton);
 
                 const outcomeTypeButton = document.createElement('button');
                 const outcomeTypeName = this.curriculumManager.outcomeTypes[learningOutcome.outcomeType]
@@ -544,38 +624,42 @@ class FilterManager {
 
                 skillDiv.appendChild(outcomeTypeButton);
 
-                const generalLearningOutcomeButton = document.createElement('button');
-                const generalLearningOutcomeName = this.curriculumManager.generalOutcomes[learningOutcome.generalLearningOutcome]
-                generalLearningOutcomeButton.classList.add('tiny-margin', 'chip');
-                if (this.getActiveGeneralOutcomes().includes(learningOutcome.generalLearningOutcome)) {
-                    generalLearningOutcomeButton.classList.add('fill');
+                if ('generalLearningOutcome' in learningOutcome && learningOutcome.generalLearningOutcome){
+                    const generalLearningOutcomeButton = document.createElement('button');
+                    const generalLearningOutcomeName = this.curriculumManager.generalOutcomes[learningOutcome.generalLearningOutcome]
+                    generalLearningOutcomeButton.classList.add('tiny-margin', 'chip');
+                    if (this.getActiveGeneralOutcomes().includes(learningOutcome.generalLearningOutcome)) {
+                        generalLearningOutcomeButton.classList.add('fill');
+                    }
+                    // button.onclick = function () {
+                    //     ui(`#${skill}-dialog`);
+                    // }
+
+                    const generalLearningOutcomeIcon = document.createElement('i');
+                    generalLearningOutcomeIcon.classList.add('primary-text');
+                    generalLearningOutcomeIcon.textContent = generalLearningOutcomesIconDictionary[generalLearningOutcomeName];
+
+                    const generalLearningOutcomeSpan = document.createElement('span');
+                    generalLearningOutcomeSpan.textContent = generalLearningOutcomeName;
+
+                    generalLearningOutcomeButton.appendChild(generalLearningOutcomeIcon);
+                    generalLearningOutcomeButton.appendChild(generalLearningOutcomeSpan);
+
+                    skillDiv.appendChild(generalLearningOutcomeButton);
                 }
-                // button.onclick = function () {
-                //     ui(`#${skill}-dialog`);
-                // }
 
-                const generalLearningOutcomeIcon = document.createElement('i');
-                generalLearningOutcomeIcon.classList.add('primary-text');
-                generalLearningOutcomeIcon.textContent = generalLearningOutcomesIconDictionary[generalLearningOutcomeName];
-
-                const generalLearningOutcomeSpan = document.createElement('span');
-                generalLearningOutcomeSpan.textContent = generalLearningOutcomeName;
-
-                generalLearningOutcomeButton.appendChild(generalLearningOutcomeIcon);
-                generalLearningOutcomeButton.appendChild(generalLearningOutcomeSpan);
-
-                skillDiv.appendChild(generalLearningOutcomeButton);
-
-                if (learningOutcome.distinctiveLearningOutcome){
+                if ('distinctiveLearningOutcome' in learningOutcome && learningOutcome.distinctiveLearningOutcome){
                     const distinctLearningOutcomeButton = document.createElement('button');
                     const distinctiveLearningOutcomeName = this.curriculumManager.distinctiveLearningOutcomes[learningOutcome.distinctiveLearningOutcome];
                     distinctLearningOutcomeButton.classList.add('tiny-margin', 'chip');
                     if (this.getActiveDistinctiveLearningOutcomes().includes(learningOutcome.distinctiveLearningOutcome)) {
                         distinctLearningOutcomeButton.classList.add('fill');
                     }
+
                     // button.onclick = function () {
                     //     ui(`#${skill}-dialog`);
                     // }
+
                     const distinctLearningOutcomeIcon = document.createElement('i');
                     distinctLearningOutcomeIcon.classList.add('primary-text');
                     distinctLearningOutcomeIcon.textContent = distinctiveLearningOutcomesIconDictionary[distinctiveLearningOutcomeName];
@@ -587,6 +671,31 @@ class FilterManager {
                     distinctLearningOutcomeButton.appendChild(distinctLearningOutcomeSpan);
 
                     skillDiv.appendChild(distinctLearningOutcomeButton);
+                }
+
+                if ('skillType' in learningOutcome && learningOutcome.skillType){
+                    const skillTypeButton = document.createElement('button');
+                    const skillTypeomeName = this.curriculumManager.skillTypes[learningOutcome.skillType];
+                    skillTypeButton.classList.add('tiny-margin', 'chip');
+                    if (this.getActiveSkillTypes().includes(learningOutcome.skillType)) {
+                        skillTypeButton.classList.add('fill');
+                    }
+
+                    // button.onclick = function () {
+                    //     ui(`#${skill}-dialog`);
+                    // }
+
+                    const skillTypeIcon = document.createElement('i');
+                    skillTypeIcon.classList.add('primary-text');
+                    skillTypeIcon.textContent = skillTypesIconDictionary[skillTypeomeName];
+
+                    const skillTypeSpan = document.createElement('span');
+                    skillTypeSpan.textContent = skillTypeomeName;
+
+                    skillTypeButton.appendChild(skillTypeIcon);
+                    skillTypeButton.appendChild(skillTypeSpan);
+
+                    skillDiv.appendChild(skillTypeButton);
                 }
 
                 details.appendChild(skillDiv);
@@ -605,7 +714,7 @@ class FilterManager {
                 createLessonPlanButton.classList.add('small-round');
                 createLessonPlanButton.textContent = 'Create Lesson Plan';
                 createLessonPlanButton.onclick = function () {
-                    window.open(`/lessonPlan.html?curriculum=math&outcome=${learningOutcome.getID()}`, '_blank');
+                    window.open(`/lessonPlan.html?curriculum=math&outcome=${learningOutcome.getID(activeGrade.replace("#grade_", ""))}`, '_blank');
                 }
                 buttonRowDiv.appendChild(createLessonPlanButton);
                 details.appendChild(buttonRowDiv);

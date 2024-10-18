@@ -11,12 +11,12 @@ export class SocialStudiesLearningOutcome extends LearningOutcome {
         specificLearningOutcome: string,
         generalLearningOutcome: string,
         outcomeType: string,
-        grade: string,
+        grades: string,
         id: string,
         distinctiveLearningOutcome: string,
         cluster: string
     ) {
-        super(specificLearningOutcome, [generalLearningOutcome], grade);
+        super(specificLearningOutcome, [generalLearningOutcome], grades);
         this.generalLearningOutcome = generalLearningOutcome;
         this.outcomeType = outcomeType;
         this.distinctiveLearningOutcome = distinctiveLearningOutcome;
@@ -24,7 +24,7 @@ export class SocialStudiesLearningOutcome extends LearningOutcome {
         this.id = id;
     }
 
-    getID(): string {
+    getID(_?: string): string {
         return `${this.grade}-${this.outcomeType}${this.generalLearningOutcome}-${this.id}${this.distinctiveLearningOutcome}`;
     }
 }
